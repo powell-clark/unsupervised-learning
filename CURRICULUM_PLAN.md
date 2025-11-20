@@ -145,20 +145,29 @@ This document outlines the comprehensive curriculum for the **unsupervised-machi
   - Threshold selection techniques
   - Real-world application: Fraud detection, system monitoring
 
-**Lesson 8: Matrix Factorization** - Decomposition techniques
-- **8a_matrix_factorization_theory.ipynb**
-  - Non-Negative Matrix Factorization (NMF)
-  - SVD for collaborative filtering
+**Lesson 8: Recommender Systems** - Collaborative and content-based filtering
+- **8a_recommender_systems_theory.ipynb**
+  - Collaborative filtering: user-based and item-based
+  - Matrix factorization for recommendations
+  - Cost function derivation
+  - Gradient descent for collaborative filtering
   - Alternating Least Squares (ALS)
-  - Regularization techniques
+  - Content-based filtering vs collaborative filtering
+  - Hybrid approaches
+  - Cold start problem
   - From-scratch implementation
   - Dataset: MovieLens ratings matrix
 
-- **8b_matrix_factorization_practical.ipynb**
-  - Scikit-learn NMF
+- **8b_recommender_systems_practical.ipynb**
   - Surprise library for collaborative filtering
+  - Matrix factorization with SVD, SVD++, NMF
   - Implicit library for implicit feedback
-  - Real-world application: Recommender systems, topic modeling
+  - TensorFlow/PyTorch implementation
+  - Mean normalization for bias handling
+  - Binary labels (likes/clicks)
+  - Evaluation metrics: RMSE, MAE, Precision@K, Recall@K
+  - Finding related items
+  - Real-world application: Movie recommendations, e-commerce
 
 **Lesson 9: Association Rule Learning** - Market basket analysis
 - **9a_association_rules_theory.ipynb**
