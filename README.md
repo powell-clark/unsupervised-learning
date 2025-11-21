@@ -13,40 +13,65 @@ This curriculum follows the proven pedagogical approach:
 
 ## 📚 Curriculum Status
 
-**Status**: 🚧 Under Development
+**Status**: 🚧 Under Development (2 of 40 notebooks complete - 5%)
+
+**2025-2026 Update**: Curriculum expanded to include modern generative AI and self-supervised learning topics, bringing total from 32 to 40 notebooks.
 
 See [CURRICULUM_PLAN.md](./CURRICULUM_PLAN.md) for the complete planned curriculum.
 
-### Planned Lessons (32 Notebooks)
+### Implementation Progress
 
-#### Foundation
-- **Lesson 0**: Clustering Introduction & Evaluation
+**Legend**: ✅ Complete | 🚧 In Progress | ⬜ Planned
 
-#### Core Algorithms
-- **Lesson 1**: K-Means Clustering
-- **Lesson 2**: Hierarchical Clustering
-- **Lesson 3**: DBSCAN (Density-Based Clustering)
-- **Lesson 4**: Gaussian Mixture Models (GMM)
+#### Foundation (0 of 2 complete)
+- ⬜ **Lesson 0a**: Clustering Introduction Theory
+- ⬜ **Lesson 0b**: Clustering Evaluation Practical
 
-#### Dimensionality Reduction
-- **Lesson 5**: Principal Component Analysis (PCA)
-- **Lesson 6**: Manifold Learning (t-SNE, UMAP)
+#### Core Algorithms (0 of 8 complete)
+- ⬜ **Lesson 1a**: K-Means Clustering Theory
+- ⬜ **Lesson 1b**: K-Means Clustering Practical
+- ⬜ **Lesson 2a**: Hierarchical Clustering Theory
+- ⬜ **Lesson 2b**: Hierarchical Clustering Practical
+- ⬜ **Lesson 3a**: DBSCAN Theory
+- ⬜ **Lesson 3b**: DBSCAN Practical
+- ⬜ **Lesson 4a**: Gaussian Mixture Models Theory
+- ⬜ **Lesson 4b**: Gaussian Mixture Models Practical
 
-#### Specialized Methods
-- **Lesson 7**: Anomaly Detection (Unsupervised)
-- **Lesson 8**: Matrix Factorization & Recommender Systems
-- **Lesson 9**: Association Rule Learning
+#### Dimensionality Reduction (0 of 4 complete)
+- ⬜ **Lesson 5a**: Principal Component Analysis Theory
+- ⬜ **Lesson 5b**: Principal Component Analysis Practical
+- ⬜ **Lesson 6a**: Manifold Learning Theory (t-SNE, UMAP)
+- ⬜ **Lesson 6b**: Manifold Learning Practical
 
-#### Advanced Topics
-- **Lesson 10**: Topic Modeling (LDA)
-- **Lesson 11**: Self-Organizing Maps
-- **Lesson 12**: Deep Unsupervised Learning (Autoencoders, VAE)
+#### Specialized Methods (2 of 6 complete)
+- ⬜ **Lesson 7a**: Anomaly Detection Theory
+- ⬜ **Lesson 7b**: Anomaly Detection Practical
+- ✅ **Lesson 8a**: Recommender Systems Theory
+- ✅ **Lesson 8b**: Recommender Systems Practical
+- ⬜ **Lesson 9a**: Association Rule Learning Theory
+- ⬜ **Lesson 9b**: Association Rule Learning Practical
 
-#### Professional Practice (X-Series)
-- **X1**: Clustering Comparison Framework
-- **X2**: Dimensionality Reduction Pipeline
-- **X3**: Unsupervised Preprocessing
-- **X4**: Semi-Supervised Learning
+#### Advanced Topics (0 of 16 complete)
+- ⬜ **Lesson 10a**: Topic Modeling (LDA) Theory
+- ⬜ **Lesson 10b**: Topic Modeling (LDA) Practical
+- ⬜ **Lesson 11a**: Self-Organizing Maps Theory
+- ⬜ **Lesson 11b**: Self-Organizing Maps Practical
+- ⬜ **Lesson 12a**: Autoencoders & VAE Theory
+- ⬜ **Lesson 12b**: Autoencoders & VAE Practical
+- ⬜ **Lesson 12c**: GANs Theory *(2025-2026 addition)*
+- ⬜ **Lesson 12d**: GANs Practical *(2025-2026 addition)*
+- ⬜ **Lesson 13a**: Diffusion Models Theory *(2025-2026 addition)*
+- ⬜ **Lesson 13b**: Diffusion Models Practical *(2025-2026 addition)*
+- ⬜ **Lesson 14a**: Self-Supervised & Contrastive Learning Theory *(2025-2026 addition)*
+- ⬜ **Lesson 14b**: Self-Supervised & Contrastive Learning Practical *(2025-2026 addition)*
+
+#### Professional Practice (0 of 4 complete)
+- ⬜ **X1**: Clustering Comparison Framework
+- ⬜ **X2**: Dimensionality Reduction Pipeline
+- ⬜ **X3**: Unsupervised Preprocessing
+- ⬜ **X4**: Semi-Supervised Learning
+
+**Next Priority**: Lessons 0, 1, and 5 (foundational content)
 
 ## 🛠️ Technical Stack
 
@@ -121,6 +146,7 @@ Questions or suggestions? Open an issue or reach out!
 
 ---
 
-**Status**: Planning complete, implementation in progress
-**Created**: 2025
+**Status**: Under active development (2/32 notebooks complete)
+**Last Updated**: 2025
 **Author**: Powell-Clark Limited
+**Implementation Priority**: Lessons 0 (Clustering Foundations), 1 (K-Means), 5 (PCA)

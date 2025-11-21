@@ -3,6 +3,13 @@
 ## Overview
 This document outlines the comprehensive curriculum for the **unsupervised-machine-learning** repository, which will complement the supervised learning series. The repository will teach unsupervised learning from first principles using Python, following the same pedagogical approach: story-driven introductions, mathematical derivations, from-scratch implementations, and production code.
 
+**2025-2026 Update**: Curriculum expanded to include modern topics emphasized in elite university programs:
+- **Lesson 12c-d**: GANs (still relevant alongside diffusion models)
+- **Lesson 13**: Diffusion Models (covered in 80% of advanced ML courses)
+- **Lesson 14**: Self-Supervised & Contrastive Learning (SimCLR, MoCo, CLIP)
+
+This brings total curriculum to **40 notebooks** (up from 32), aligning with cutting-edge unsupervised learning research and industry practices.
+
 ## Teaching Philosophy
 - **From First Principles**: Every algorithm derived mathematically from foundational concepts
 - **Dual Approach**: Each lesson has theory (a) and practical (b) notebooks
@@ -234,6 +241,69 @@ This document outlines the comprehensive curriculum for the **unsupervised-machi
   - Latent space visualization
   - Real-world application: Image denoising, feature learning
 
+- **12c_gans_theory.ipynb**
+  - Generative Adversarial Networks fundamentals
+  - Generator and Discriminator architecture
+  - Minimax game formulation
+  - Training dynamics and stability
+  - Mode collapse problem
+  - Wasserstein GAN and gradient penalty
+  - From-scratch PyTorch implementation
+  - Dataset: MNIST, CelebA
+
+- **12d_gans_practical.ipynb**
+  - Production GAN implementations
+  - Deep Convolutional GANs (DCGAN)
+  - StyleGAN basics
+  - Conditional GANs (cGAN)
+  - CycleGAN for unpaired translation
+  - Evaluation metrics: Inception Score, FID
+  - Real-world application: Image synthesis, data augmentation
+
+**Lesson 13: Diffusion Models** - State-of-the-art generative modeling (2025-2026)
+- **13a_diffusion_theory.ipynb**
+  - Forward diffusion process
+  - Reverse diffusion process
+  - Denoising Diffusion Probabilistic Models (DDPM)
+  - Score-based generative models
+  - Noise schedules (linear, cosine)
+  - Connection to VAEs and energy-based models
+  - From-scratch PyTorch implementation
+  - Dataset: MNIST, CIFAR-10
+
+- **13b_diffusion_practical.ipynb**
+  - Production diffusion model implementations
+  - Classifier-free guidance
+  - DDIM for faster sampling
+  - Conditional generation
+  - Latent diffusion models basics
+  - Stable Diffusion components overview
+  - Real-world application: Image generation, inpainting
+
+**Lesson 14: Self-Supervised & Contrastive Learning** - Modern unsupervised representation learning
+- **14a_self_supervised_theory.ipynb**
+  - Self-supervised learning paradigm
+  - Pretext tasks (rotation, jigsaw, colorization)
+  - Contrastive learning principles
+  - SimCLR: Simple framework for contrastive learning
+    - NT-Xent loss derivation
+    - Data augmentation strategies
+  - MoCo: Momentum Contrast
+    - Queue-based approach
+    - Momentum encoder
+  - Alignment and uniformity principles
+  - From-scratch PyTorch implementation
+  - Dataset: CIFAR-10, STL-10
+
+- **14b_self_supervised_practical.ipynb**
+  - Production SimCLR and MoCo implementations
+  - CLIP: Contrastive Language-Image Pre-training
+  - Vision-language models basics
+  - DINO: Self-distillation with no labels
+  - Transfer learning with self-supervised features
+  - Fine-tuning on downstream tasks
+  - Real-world application: Pre-training for limited labeled data, zero-shot classification
+
 ### Professional Practice (X-Series)
 
 **X1_clustering_comparison.ipynb**
@@ -289,7 +359,7 @@ This document outlines the comprehensive curriculum for the **unsupervised-machi
 
 ### MNIST Handwritten Digits
 - 70,000 samples × 784 features
-- Used in: Lesson 6 (Manifold Learning), Lesson 12 (Autoencoders)
+- Used in: Lesson 6 (Manifold Learning), Lesson 12 (Autoencoders), Lesson 13 (Diffusion)
 
 ### Credit Card Transactions
 - Fraud detection dataset
@@ -306,6 +376,22 @@ This document outlines the comprehensive curriculum for the **unsupervised-machi
 ### 20 Newsgroups / Wikipedia Articles
 - Text corpus for topic modeling
 - Used in: Lesson 10 (Topic Modeling)
+
+### CelebA (Celebrities Faces)
+- 200K+ celebrity images
+- Used in: Lesson 12 (GANs)
+
+### CIFAR-10/100
+- 60,000 32x32 color images in 10/100 classes
+- Used in: Lesson 13 (Diffusion Models), Lesson 14 (Self-Supervised Learning)
+
+### STL-10
+- 10 classes with limited labeled data (designed for unsupervised learning)
+- Used in: Lesson 14 (Self-Supervised & Contrastive Learning)
+
+### ImageNet Subset
+- Subset of ImageNet for pre-training experiments
+- Used in: Lesson 14 (Self-Supervised Learning)
 
 ## Technical Stack
 - **Core Libraries**: NumPy, Pandas, Scikit-learn
