@@ -44,3 +44,7 @@ logs/
 dist/
 build/
 *.egg-info/
+
+# Claude Code local settings (excluded); settings.json is tracked
+.claude/settings.local.json
+!.claude/settings.json
