@@ -1,5 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL14|p3|Manifold learning practical: tuning t-SNE and UMAP visualisations|DIRECT-UL7|FEAT-UL1,FEAT-UL2|TASK-UL13||14|1d|3
 TASK-UL15|p3|Anomaly detection theory: Isolation Forest, LOF, one-class SVM|DIRECT-UL8|FEAT-UL1,FEAT-UL2|TASK-UL2||15|1d|3
 TASK-UL16|p3|Anomaly detection practical: PyTorch autoencoder fraud detection|DIRECT-UL8|FEAT-UL1,FEAT-UL2|TASK-UL15||16|1d|3
 TASK-UL19|p3|Association rules theory: support, confidence, lift, and Apriori|DIRECT-UL9|FEAT-UL1,FEAT-UL2|TASK-UL2||19|1d|3

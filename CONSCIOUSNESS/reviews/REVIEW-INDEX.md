@@ -22,3 +22,5 @@ REVIEW-UL15|task|TASK-UL11|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T1
 REVIEW-CCC024|task|TASK-UL11|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:32:10.995 gmt|
 REVIEW-UL16|task|TASK-UL12|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:34:00Z|auto-close: reversible task, gate is auto-approve; PCA practical notebook (5b) complete with standardization, scree plots, eigenfaces, kernel PCA, Swiss roll nonlinear example, reconstruction analysis, and PCA as preprocessing for classification
 REVIEW-CCC026|task|TASK-UL12|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:34:27.156 gmt|
+REVIEW-UL17|task|TASK-UL13|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T17:10:40Z|auto-close: reversible task, gate is auto-approve; manifold learning theory notebook (6a) complete with Swiss roll example, t-SNE derivation, UMAP introduction, visualization artifacts, and comparison table
+REVIEW-CCC028|task|TASK-UL13|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 16:11:03.027 gmt|
