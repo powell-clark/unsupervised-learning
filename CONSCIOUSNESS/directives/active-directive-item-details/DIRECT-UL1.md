@@ -1,28 +1,25 @@
-# DIRECT-UL1: Ship complete unsupervised learning curriculum
+# DIRECT-UL1: Clustering Foundations
 
 ## Context
-The unsupervised-learning repository is the natural companion to the supervised
-series. Its mission is to teach clustering, dimensionality reduction, density
-estimation, and representation learning from first principles — deriving the
-mathematics, implementing from scratch in NumPy, then applying production
-Scikit-learn/PyTorch. CURRICULUM_PLAN.md lays out 13 lessons (0–12) plus an
-X-series of professional-practice notebooks. Lesson 8 (Recommender Systems) is
-already built; the rest are planned.
+
+Lesson 0 is the entry point to unsupervised learning. It establishes the mathematical and conceptual groundwork every clustering algorithm depends on: what is unsupervised learning, how do we measure distance between points, why does distance become meaningless in high dimensions, and how can we evaluate clusters without ground-truth labels?
+
+TASK-UL1 covers theory (unsupervised vs supervised, distance metrics, curse of dimensionality, Iris visualization). TASK-UL2 covers evaluation (silhouette, Davies-Bouldin, Calinski-Harabasz, elbow method, gap statistic).
 
 ## Acceptance Criteria
-- [x] Curriculum carded into PGPS as stories and tasks (STORY-UL1–UL14, TASK-UL1–UL30)
-- [x] Lesson 8 (Recommender Systems) shipped — 8a theory + 8b practical
-- [ ] Lesson 0 (Clustering Foundations) shipped as the true starting point
-- [ ] Lessons 1–7, 9–12 shipped in curriculum sequence
-- [ ] X-series (X1–X4) professional-practice notebooks shipped
-- [ ] Every notebook runs in Google Colab (FEAT-UL1) with dual implementation (FEAT-UL2)
+
+- [x] TASK-UL1 (0a theory) complete — notebook shipped and runs in Colab
+- [ ] TASK-UL2 (0b evaluation) complete — notebook shipped and runs in Colab
+- [ ] Both use from-scratch NumPy implementations verified against scikit-learn
+- [ ] FEAT-UL1 (Colab compatibility) satisfied
+- [ ] FEAT-UL2 (dual implementation) satisfied
+- [ ] DIRECT-UL2 (K-Means Clustering) unblocked
 
 ## Technical Notes
-Each lesson is one story; each notebook is one task (a = theory, b = practical).
-Execution follows curriculum order: Lesson 0 first, then Core Algorithms
-(1–5), Dimensionality Reduction (6), Specialized Methods (7, 9), Advanced
-Topics (10–12), and the X-series last. Lesson 8 shipped out of order.
+
+Dataset: Iris (unlabeled). Libraries: NumPy, Matplotlib, Pandas, SciPy, scikit-learn. Story-driven pedagogy: introduce the problem, derive the solution, implement from scratch, validate with production libraries.
 
 ## Dependencies
+
 - Blocked by: none
-- Blocks: none
+- Blocks: DIRECT-UL2 (K-Means), DIRECT-UL3 (Hierarchical), DIRECT-UL4 (DBSCAN), all downstream clustering directives
