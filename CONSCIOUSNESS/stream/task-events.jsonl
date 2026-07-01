@@ -1,0 +1,2 @@
+{"task_id":"TASK-UL1","event":"claimed","timestamp":"2026-07-01 11:31:02.991 bst","session_id":"ul-main-0ca427cb","branch":"main","id":"TEVT-UL001"}
+{"schema_version":1,"event":"status-change","task_id":"TASK-UL1","from":"upcoming","to":"in_progress","timestamp":"2026-07-01 11:31:03.009 bst","session_id":"ul-main-0ca427cb","branch":"main","id":"TEVT-UL002"}

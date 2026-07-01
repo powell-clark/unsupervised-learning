@@ -1,0 +1,5 @@
+{"timestamp":"2026-07-01 09:07:22.311 bst","session_id":"ul-main-c56419a3","hook_name":"session-init","latency_ms":65}
+{"timestamp":"2026-07-01 09:15:05.479 bst","session_id":"ul-main-c56419a3","hook_name":"message-end","latency_ms":4}
+{"timestamp":"2026-07-01 11:23:48.324 bst","session_id":"ul-main-0ca427cb","hook_name":"session-init","latency_ms":55}
+{"timestamp":"2026-07-01 11:24:44.051 bst","session_id":"ul-main-0ca427cb","hook_name":"message-end","latency_ms":4}
+{"timestamp":"2026-07-01 11:31:02.954 bst","session_id":"ul-main-0ca427cb","hook_name":"message-end","latency_ms":8}

@@ -1,1 +1,13 @@
 id|priority|title|directive_id|task_ids|feature_ids|doc
+STORY-UL2|p2|As a learner I want a from-first-principles K-Means lesson deriving Lloyd's algorithm and K-Means++ so that I can segment data into meaningful groups with confidence|DIRECT-UL1|TASK-UL3,TASK-UL4|FEAT-UL1,FEAT-UL2|
+STORY-UL3|p2|As a learner I want a hierarchical clustering lesson on linkage methods and dendrograms so that I can reveal nested structure without fixing the cluster count upfront|DIRECT-UL1|TASK-UL5,TASK-UL6|FEAT-UL1,FEAT-UL2|
+STORY-UL4|p2|As a learner I want a density-based clustering lesson on DBSCAN and HDBSCAN so that I can find arbitrarily shaped clusters and isolate noise points|DIRECT-UL1|TASK-UL7,TASK-UL8|FEAT-UL1,FEAT-UL2|
+STORY-UL5|p2|As a learner I want a Gaussian Mixture Model lesson deriving the EM algorithm so that I can model soft, probabilistic cluster membership|DIRECT-UL1|TASK-UL9,TASK-UL10|FEAT-UL1,FEAT-UL2|
+STORY-UL6|p2|As a learner I want a PCA lesson grounded in eigendecomposition and SVD so that I can reduce dimensionality while retaining the most variance|DIRECT-UL1|TASK-UL11,TASK-UL12|FEAT-UL1,FEAT-UL2|
+STORY-UL7|p3|As a learner I want a manifold-learning lesson on t-SNE and UMAP so that I can visualise high-dimensional data in two dimensions faithfully|DIRECT-UL1|TASK-UL13,TASK-UL14|FEAT-UL1,FEAT-UL2|
+STORY-UL8|p3|As a learner I want an anomaly-detection lesson on Isolation Forest, LOF, and autoencoders so that I can flag rare outliers in unlabelled data|DIRECT-UL1|TASK-UL15,TASK-UL16|FEAT-UL1,FEAT-UL2|
+STORY-UL10|p3|As a learner I want an association-rule lesson on Apriori and FP-Growth so that I can mine frequent itemsets and basket relationships from transactions|DIRECT-UL1|TASK-UL19,TASK-UL20|FEAT-UL1,FEAT-UL2|
+STORY-UL11|p3|As a learner I want a topic-modeling lesson on Latent Dirichlet Allocation so that I can discover latent themes across a document corpus|DIRECT-UL1|TASK-UL21,TASK-UL22|FEAT-UL1,FEAT-UL2|
+STORY-UL12|p4|As a learner I want a self-organizing-map lesson on competitive learning so that I can project data onto a topology-preserving grid|DIRECT-UL1|TASK-UL23,TASK-UL24|FEAT-UL1,FEAT-UL2|
+STORY-UL13|p3|As a learner I want a deep unsupervised lesson on autoencoders and variational autoencoders so that I can learn compressed latent representations of images|DIRECT-UL1|TASK-UL25,TASK-UL26|FEAT-UL1,FEAT-UL2|
+STORY-UL14|p4|As a learner I want a professional-practice series comparing clustering, reduction, preprocessing, and semi-supervised methods so that I can choose the right unsupervised approach for a real project|DIRECT-UL1|TASK-UL27,TASK-UL28,TASK-UL29,TASK-UL30|FEAT-UL1,FEAT-UL2|
