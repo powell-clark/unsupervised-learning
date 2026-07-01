@@ -14,3 +14,5 @@ REVIEW-UL11|task|TASK-UL8|agent|ul-main-25d57c19|bypass-approved|1|2026-07-01T12
 REVIEW-CCC016|task|TASK-UL8|agent|ul-main-25d57c19|auto-approved|1|2026-07-01 11:03:19.908 gmt|
 REVIEW-UL12|task|TASK-UL33|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T11:21:59Z|auto-close: reversible task, gate is auto-approve; 12 lesson feature cards created (FEAT-UL2-UL13) with acceptance criteria and story/task linkages
 REVIEW-CCC019|task|TASK-UL33|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:23:10.443 gmt|
+REVIEW-UL13|task|TASK-UL9|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:26:00Z|auto-close: reversible task, gate is auto-approve; GMM theory notebook (4a) complete with Gaussian distributions, mixture models, responsibilities, EM derivation, convergence analysis, covariance types, GMM vs K-Means, and from-scratch NumPy implementation
+REVIEW-CCC020|task|TASK-UL9|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:26:42.306 gmt|
