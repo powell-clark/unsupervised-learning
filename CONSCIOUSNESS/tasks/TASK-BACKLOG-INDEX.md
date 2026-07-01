@@ -1,6 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL7|p2|DBSCAN theory: density-reachability, core and noise points|DIRECT-UL4|FEAT-UL1,FEAT-UL2|TASK-UL2||7|1d|3
-TASK-UL8|p2|DBSCAN practical: parameter selection and HDBSCAN|DIRECT-UL4|FEAT-UL1,FEAT-UL2|TASK-UL7||8|1d|3
 TASK-UL9|p2|GMM theory: EM algorithm derivation and covariance types|DIRECT-UL5|FEAT-UL1,FEAT-UL2|TASK-UL2||9|1d|3
 TASK-UL10|p2|GMM practical: BIC and AIC model selection with image segmentation|DIRECT-UL5|FEAT-UL1,FEAT-UL2|TASK-UL9||10|1d|3
 TASK-UL11|p2|PCA theory: eigendecomposition and SVD from scratch|DIRECT-UL6|FEAT-UL1,FEAT-UL2|TASK-UL2||11|1d|3
