@@ -8,3 +8,4 @@ TASK-UL7|DBSCAN theory: density-reachability, core and noise points|STORY-UL4|DI
 TASK-UL8|DBSCAN practical: parameter selection and HDBSCAN|STORY-UL4|DIRECT-UL4|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL8.md|1d|3
 TASK-UL17|Recommender systems theory: collaborative filtering and matrix factorization|STORY-UL9||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL17.md|1d|5
 TASK-UL18|Recommender systems practical: Surprise, Implicit, and PyTorch|STORY-UL9||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL18.md|1d|5
+TASK-UL33|Create lesson feature cards (one per active story)||DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL33.md|3h|8
