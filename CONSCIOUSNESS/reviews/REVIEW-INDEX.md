@@ -16,3 +16,5 @@ REVIEW-UL12|task|TASK-UL33|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T1
 REVIEW-CCC019|task|TASK-UL33|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:23:10.443 gmt|
 REVIEW-UL13|task|TASK-UL9|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:26:00Z|auto-close: reversible task, gate is auto-approve; GMM theory notebook (4a) complete with Gaussian distributions, mixture models, responsibilities, EM derivation, convergence analysis, covariance types, GMM vs K-Means, and from-scratch NumPy implementation
 REVIEW-CCC020|task|TASK-UL9|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:26:42.306 gmt|
+REVIEW-UL14|task|TASK-UL10|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:28:30Z|auto-close: reversible task, gate is auto-approve; GMM practical notebook (4b) complete with BIC/AIC model selection, soft vs hard assignments, covariance type comparison, image segmentation, GMM vs K-Means metrics, parameter extraction, and practical exercises
+REVIEW-CCC022|task|TASK-UL10|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:29:16.462 gmt|
