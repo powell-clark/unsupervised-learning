@@ -1,5 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL11|p2|PCA theory: eigendecomposition and SVD from scratch|DIRECT-UL6|FEAT-UL1,FEAT-UL2|TASK-UL2||11|1d|3
 TASK-UL12|p2|PCA practical: kernel PCA and Eigenfaces recognition|DIRECT-UL6|FEAT-UL1,FEAT-UL2|TASK-UL11||12|1d|3
 TASK-UL13|p3|Manifold learning theory: t-SNE and UMAP foundations|DIRECT-UL7|FEAT-UL1,FEAT-UL2|TASK-UL2||13|1d|3
 TASK-UL14|p3|Manifold learning practical: tuning t-SNE and UMAP visualisations|DIRECT-UL7|FEAT-UL1,FEAT-UL2|TASK-UL13||14|1d|3
