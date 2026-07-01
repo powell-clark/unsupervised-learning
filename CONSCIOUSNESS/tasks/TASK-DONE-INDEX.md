@@ -12,3 +12,4 @@ TASK-UL33|Create lesson feature cards (one per active story)||DIRECT-UL1|FEAT-UL
 TASK-UL9|GMM theory: EM algorithm derivation and covariance types|STORY-UL5|DIRECT-UL5|FEAT-UL1,FEAT-UL2,FEAT-UL5|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL9.md|1d|3
 TASK-UL10|GMM practical: BIC and AIC model selection with image segmentation|STORY-UL5|DIRECT-UL5|FEAT-UL1,FEAT-UL2,FEAT-UL5|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL10.md|1d|3
 TASK-UL11|PCA theory: eigendecomposition and SVD from scratch|STORY-UL6|DIRECT-UL6|FEAT-UL1,FEAT-UL2,FEAT-UL6|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL11.md|1d|3
+TASK-UL12|PCA practical: kernel PCA and Eigenfaces recognition|STORY-UL6|DIRECT-UL6|FEAT-UL1,FEAT-UL2,FEAT-UL6|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL12.md|1d|3

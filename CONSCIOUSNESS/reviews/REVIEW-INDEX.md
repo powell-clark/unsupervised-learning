@@ -20,3 +20,5 @@ REVIEW-UL14|task|TASK-UL10|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T1
 REVIEW-CCC022|task|TASK-UL10|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:29:16.462 gmt|
 REVIEW-UL15|task|TASK-UL11|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:31:00Z|auto-close: reversible task, gate is auto-approve; PCA theory notebook (5a) complete with covariance matrices, variance maximization, eigendecomposition, SVD connection, explained variance, component selection (scree/elbow), numerical stability, condition numbers, and from-scratch implementation with scaling discussion
 REVIEW-CCC024|task|TASK-UL11|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:32:10.995 gmt|
+REVIEW-UL16|task|TASK-UL12|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:34:00Z|auto-close: reversible task, gate is auto-approve; PCA practical notebook (5b) complete with standardization, scree plots, eigenfaces, kernel PCA, Swiss roll nonlinear example, reconstruction analysis, and PCA as preprocessing for classification
+REVIEW-CCC026|task|TASK-UL12|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:34:27.156 gmt|
