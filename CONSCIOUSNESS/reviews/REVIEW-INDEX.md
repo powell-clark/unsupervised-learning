@@ -24,3 +24,5 @@ REVIEW-UL16|task|TASK-UL12|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T1
 REVIEW-CCC026|task|TASK-UL12|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:34:27.156 gmt|
 REVIEW-UL17|task|TASK-UL13|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T17:10:40Z|auto-close: reversible task, gate is auto-approve; manifold learning theory notebook (6a) complete with Swiss roll example, t-SNE derivation, UMAP introduction, visualization artifacts, and comparison table
 REVIEW-CCC028|task|TASK-UL13|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 16:11:03.027 gmt|
+REVIEW-UL18|task|TASK-UL14|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T17:12:00Z|auto-close: reversible task, gate is auto-approve; manifold learning practical notebook (6b) complete with perplexity tuning, UMAP parameter selection, speed comparison, artifact detection, and verification strategies
+REVIEW-CCC030|task|TASK-UL14|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 16:12:47.232 gmt|
