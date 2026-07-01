@@ -18,3 +18,5 @@ REVIEW-UL13|task|TASK-UL9|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12
 REVIEW-CCC020|task|TASK-UL9|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:26:42.306 gmt|
 REVIEW-UL14|task|TASK-UL10|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:28:30Z|auto-close: reversible task, gate is auto-approve; GMM practical notebook (4b) complete with BIC/AIC model selection, soft vs hard assignments, covariance type comparison, image segmentation, GMM vs K-Means metrics, parameter extraction, and practical exercises
 REVIEW-CCC022|task|TASK-UL10|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:29:16.462 gmt|
+REVIEW-UL15|task|TASK-UL11|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T12:31:00Z|auto-close: reversible task, gate is auto-approve; PCA theory notebook (5a) complete with covariance matrices, variance maximization, eigendecomposition, SVD connection, explained variance, component selection (scree/elbow), numerical stability, condition numbers, and from-scratch implementation with scaling discussion
+REVIEW-CCC024|task|TASK-UL11|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 11:32:10.995 gmt|
