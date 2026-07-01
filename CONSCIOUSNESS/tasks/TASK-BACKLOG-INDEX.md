@@ -1,8 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL3|p2|K-Means theory: Lloyd's algorithm and K-Means++ from scratch|DIRECT-UL2|FEAT-UL1,FEAT-UL2|TASK-UL2||3|1d|3
-TASK-UL4|p2|K-Means practical: scikit-learn and mini-batch segmentation|DIRECT-UL2|FEAT-UL1,FEAT-UL2|TASK-UL3||4|1d|3
-TASK-UL5|p2|Hierarchical clustering theory: linkage methods and dendrograms|DIRECT-UL3|FEAT-UL1,FEAT-UL2|TASK-UL2||5|1d|3
-TASK-UL6|p2|Hierarchical clustering practical: cutting dendrograms in scikit-learn|DIRECT-UL3|FEAT-UL1,FEAT-UL2|TASK-UL5||6|1d|3
 TASK-UL7|p2|DBSCAN theory: density-reachability, core and noise points|DIRECT-UL4|FEAT-UL1,FEAT-UL2|TASK-UL2||7|1d|3
 TASK-UL8|p2|DBSCAN practical: parameter selection and HDBSCAN|DIRECT-UL4|FEAT-UL1,FEAT-UL2|TASK-UL7||8|1d|3
 TASK-UL9|p2|GMM theory: EM algorithm derivation and covariance types|DIRECT-UL5|FEAT-UL1,FEAT-UL2|TASK-UL2||9|1d|3
@@ -25,3 +21,4 @@ TASK-UL27|p4|Clustering comparison: choosing algorithms and complexity trade-off
 TASK-UL28|p4|Dimensionality reduction pipeline: feature selection versus extraction|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||28|1d|3
 TASK-UL29|p4|Unsupervised preprocessing: scaling, encoding, distance metrics|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||29|1d|3
 TASK-UL30|p4|Semi-supervised learning: label propagation, self-training, co-training|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||30|1d|3
+TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||TASK-UL031.md|||||a0||

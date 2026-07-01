@@ -11,10 +11,10 @@ what unsupervised learning is, how distance/similarity is measured, the curse of
 dimensionality, and — critically — how to evaluate clusters without labels.
 
 ## Acceptance Criteria
-- [ ] 0a: unsupervised vs supervised framing; Euclidean/Manhattan/Cosine metrics; curse of dimensionality; Iris (unlabelled) visualisation
-- [ ] 0b: internal metrics (silhouette, Davies-Bouldin, Calinski-Harabasz); external metrics (ARI, NMI); elbow and gap statistic for choosing K
-- [ ] Both notebooks run in Colab (FEAT-UL1)
-- [ ] From-scratch metric implementations plus scikit-learn cross-check (FEAT-UL2)
+- [x] 0a: unsupervised vs supervised framing; Euclidean/Manhattan/Cosine metrics; curse of dimensionality; Iris (unlabelled) visualisation
+- [x] 0b: internal metrics (silhouette, Davies-Bouldin, Calinski-Harabasz); external metrics (ARI, NMI); elbow and gap statistic for choosing K
+- [x] Both notebooks run in Colab (FEAT-UL1)
+- [x] From-scratch metric implementations plus scikit-learn cross-check (FEAT-UL2)
 
 ## Tasks
 - TASK-UL1 — 0a clustering foundations theory
