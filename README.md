@@ -1,54 +1,71 @@
-# 📊 Unsupervised Machine Learning
+# Unsupervised Machine Learning
 
 A comprehensive, hands-on curriculum for learning unsupervised machine learning from first principles using Python. This repository teaches clustering, dimensionality reduction, anomaly detection, and advanced unsupervised methods through theory and practical implementation.
 
-## 🎯 Overview
+## Overview
 
-This curriculum follows the proven pedagogical approach:
+This curriculum follows a rigorous pedagogical approach:
 - **From First Principles**: Mathematical derivations from foundational concepts
-- **Dual Approach**: Theory (a) + Practical (b) notebooks for each lesson
+- **Dual Structure**: Theory (a) + Practical (b) notebooks for each lesson
 - **Story-Driven**: Real-world motivations before diving into mathematics
 - **Complete Implementations**: From-scratch NumPy code + production Scikit-learn/PyTorch
 - **Google Colab Compatible**: Run everything in your browser, no setup required
 
-## 📚 Curriculum Status
+## Curriculum Progress
 
-**Status**: 🚧 Under Development
+**Status**: 43% complete (13 of 30 lessons)
 
-See [CURRICULUM_PLAN.md](./CURRICULUM_PLAN.md) for the complete planned curriculum.
-
-### Planned Lessons (32 Notebooks)
+### Completed Lessons
 
 #### Foundation
 - **Lesson 0**: Clustering Introduction & Evaluation
+  - `0a_clustering_foundations.ipynb` — Cluster structure, k selection basics
+  - `0b_cluster_evaluation.ipynb` — Internal/external metrics, silhouette analysis
 
 #### Core Algorithms
 - **Lesson 1**: K-Means Clustering
+  - `1a_kmeans_theory.ipynb` — Lloyd's algorithm, initialization, convergence
+  - `1b_kmeans_practical.ipynb` — RFM segmentation, image compression, scalability
+  
 - **Lesson 2**: Hierarchical Clustering
+  - `2a_hierarchical_theory.ipynb` — Agglomerative algorithm, linkage methods
+  - `2b_hierarchical_practical.ipynb` — Dendrogram cutting, scalability analysis
+  
 - **Lesson 3**: DBSCAN (Density-Based Clustering)
+  - `3a_dbscan_theory.ipynb` — Epsilon-neighborhoods, core/border/noise classification
+  - `3b_dbscan_practical.ipynb` — K-distance graphs, HDBSCAN introduction
+  
 - **Lesson 4**: Gaussian Mixture Models (GMM)
+  - `4a_gmm_theory.ipynb` — EM algorithm, responsibilities, covariance types
+  - `4b_gmm_practical.ipynb` — BIC/AIC selection, image segmentation
 
 #### Dimensionality Reduction
 - **Lesson 5**: Principal Component Analysis (PCA)
+  - `5a_pca_theory.ipynb` — Eigendecomposition, SVD, numerical stability
+  - `5b_pca_practical.ipynb` — Eigenfaces, kernel PCA, preprocessing benefits
+  
 - **Lesson 6**: Manifold Learning (t-SNE, UMAP)
+  - `6a_manifold_learning_theory.ipynb` — t-SNE derivation, UMAP, visualization artifacts
+
+### Planned Lessons (17 remaining)
 
 #### Specialized Methods
-- **Lesson 7**: Anomaly Detection (Unsupervised)
+- **Lesson 7**: Anomaly Detection (Isolation Forest, LOF, one-class SVM)
 - **Lesson 8**: Matrix Factorization & Recommender Systems
-- **Lesson 9**: Association Rule Learning
+- **Lesson 9**: Association Rule Learning (Apriori, market-basket mining)
 
 #### Advanced Topics
-- **Lesson 10**: Topic Modeling (LDA)
-- **Lesson 11**: Self-Organizing Maps
+- **Lesson 10**: Topic Modeling (LDA, Gibbs sampling)
+- **Lesson 11**: Self-Organizing Maps (competitive learning)
 - **Lesson 12**: Deep Unsupervised Learning (Autoencoders, VAE)
 
-#### Professional Practice (X-Series)
-- **X1**: Clustering Comparison Framework
-- **X2**: Dimensionality Reduction Pipeline
-- **X3**: Unsupervised Preprocessing
-- **X4**: Semi-Supervised Learning
+#### Professional Practice
+- **Lesson 13**: Clustering Comparison Framework
+- **Lesson 14**: Dimensionality Reduction Pipeline
+- **Lesson 15**: Unsupervised Preprocessing (scaling, encoding, metrics)
+- **Lesson 16**: Semi-Supervised Learning (label propagation, co-training)
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Core**: NumPy, Pandas, Scikit-learn
 - **Deep Learning**: PyTorch
@@ -60,67 +77,72 @@ See [CURRICULUM_PLAN.md](./CURRICULUM_PLAN.md) for the complete planned curricul
   - UMAP-learn (dimensionality reduction)
   - pyLDAvis (topic model visualization)
 
-## 📊 Datasets
+## Datasets
 
-Datasets will include:
-- Iris (unlabeled for clustering)
-- Customer segmentation data
-- Gene expression data
-- MNIST (for dimensionality reduction)
-- Credit card transactions (anomaly detection)
-- MovieLens (recommender systems)
-- 20 Newsgroups (topic modeling)
+Datasets included and used:
+- Iris (unlabeled for clustering examples)
+- Synthetic data (demonstrations)
+- Customer segmentation (RFM analysis)
+- MNIST samples (dimensionality reduction)
+- Face images (eigenfaces)
+- Gene expression data (advanced examples)
 
-## 🚀 Getting Started
+Additional datasets will be integrated for later lessons.
+
+## Getting Started
 
 ### Prerequisites
-Complete the [supervised-machine-learning](https://github.com/powell-clark/supervised-machine-learning) curriculum first to understand:
-- Gradient descent
-- Neural networks basics
-- Model evaluation
+No formal prerequisites, but familiarity with Python, NumPy, and basic machine learning concepts is helpful.
 
 ### Installation
 
 ```bash
-git clone https://github.com/powell-clark/unsupervised-machine-learning.git
-cd unsupervised-machine-learning
+git clone https://github.com/powell-clark/unsupervised-learning.git
+cd unsupervised-learning
 pip install -r requirements.txt
 ```
 
 ### Running Notebooks
 
-All notebooks are Google Colab compatible. Click the Colab badge in any notebook to run it immediately in your browser.
+All notebooks are Google Colab compatible. Click the "Open in Colab" badge in any notebook to run it immediately in your browser (no local setup required).
 
-## 📖 Learning Path
+## Learning Path
 
-1. **Start with Foundation**: Lesson 0 introduces clustering concepts
-2. **Master Core Algorithms**: Lessons 1-4 teach essential clustering methods
-3. **Learn Dimensionality Reduction**: Lessons 5-6 for high-dimensional data
-4. **Explore Specialized Methods**: Lessons 7-9 for specific use cases
-5. **Dive into Advanced Topics**: Lessons 10-12 for modern techniques
-6. **Apply Professional Skills**: X-Series for production-ready practices
+1. **Start with Foundation** (Lesson 0): Core clustering concepts and evaluation
+2. **Master Core Algorithms** (Lessons 1-4): Essential clustering methods (K-Means, Hierarchical, DBSCAN, GMM)
+3. **Learn Dimensionality Reduction** (Lessons 5-6): PCA and manifold learning for high-dimensional data
+4. **Explore Specialized Methods** (Lessons 7-9): Anomaly detection, matrix factorization, association rules
+5. **Advance to Modern Techniques** (Lessons 10-12): Topic modeling, self-organizing maps, deep unsupervised learning
+6. **Apply Professional Skills** (Lessons 13-16): Production-ready pipelines and practical frameworks
 
-## 🔗 Related Repositories
+## Architecture
+
+This curriculum uses the consciousness system for task management and feature-driven development:
+- **PGPS**: Roadmap tracking with feature cards and task specifications
+- **Review System**: Verdicts recorded for all completed work
+- **Autonomous Loop**: Continuous work cycle with status tracking
+
+## Related Repositories
 
 This is part of a comprehensive machine learning curriculum:
-- **[supervised-machine-learning](https://github.com/powell-clark/supervised-machine-learning)** - Foundation (complete)
-- **unsupervised-machine-learning** - This repository (in development)
-- **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** - Sequential decision-making (planned)
+- **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
+- **unsupervised-learning** — This repository (43% complete)
+- **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
 
-## 📄 License
+## License
 
-Apache License 2.0 - See LICENSE.md file for details
+Apache License 2.0 — See LICENSE.md file for details
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read CONTRIBUTING.md for guidelines.
 
-## 📧 Contact
+## Contact
 
-Questions or suggestions? Open an issue or reach out!
+Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status**: Planning complete, implementation in progress
-**Created**: 2025
+**Status**: 43% complete (13 of 30 lessons)
+**Last Updated**: 2026-07-01
 **Author**: Powell-Clark Limited
