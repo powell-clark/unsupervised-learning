@@ -1,2 +1,3 @@
 id|status|priority|title|directive_id|task_ids|feature_ids|doc
+STORY-UL1|fulfilled|p1|As a learner I want a foundations lesson on unsupervised learning, distance metrics, and cluster evaluation so that I can judge cluster quality without ground-truth labels|DIRECT-UL1|TASK-UL1,TASK-UL2|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/stories/fulfilled-rejected-story-item-details/STORY-UL1.md
 STORY-UL9|fulfilled|p2|As a learner I want a recommender-systems lesson on collaborative filtering and matrix factorization so that I can predict user preferences from a sparse ratings matrix|DIRECT-UL1|TASK-UL17,TASK-UL18|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/stories/fulfilled-rejected-story-item-details/STORY-UL9.md
