@@ -18,6 +18,8 @@ ENV/
 *.parquet
 data/raw/
 data/processed/
+data/MNIST/
+notebooks/data/
 
 # Exclude model files
 *.pkl
