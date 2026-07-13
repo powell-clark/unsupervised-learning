@@ -7,13 +7,18 @@ and co-training, for the common real-world case where a little labeled data exis
 a lot of unlabeled data.
 
 ## Acceptance Criteria
-- [ ] Framing: why semi-supervised learning exists (labeling cost vs abundant unlabeled data)
-- [ ] Label propagation: graph-based spread of labels through unlabeled data via similarity
-- [ ] Self-training: train on labeled data, iteratively add confidently-predicted unlabeled points
-- [ ] Empirical comparison: supervised-only (few labels) vs label propagation vs self-training, at varying labeled-fraction levels
-- [ ] Co-training: two views/feature-subsets teaching each other, with the assumption it requires (conditionally independent, sufficient views)
-- [ ] Decision guide: when semi-supervised methods help vs when they don't (or actively hurt)
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Framing: why semi-supervised learning exists (labeling cost vs abundant unlabeled data)
+- [x] Label propagation: graph-based spread of labels through unlabeled data via similarity
+- [x] Self-training: train on labeled data, iteratively add confidently-predicted unlabeled points
+- [x] Empirical comparison: supervised-only (few labels) vs label propagation vs self-training, at varying labeled-fraction levels
+- [x] Co-training: two views/feature-subsets teaching each other, with the assumption it requires (conditionally independent, sufficient views) — implemented from scratch (no production library), including the naive version's class-imbalance collapse and the balanced fix
+- [x] Decision guide: when semi-supervised methods help vs when they don't (or actively hurt)
+- [x] Runs top-to-bottom in Google Colab
+
+Note: FEAT-UL13 also listed "active learning strategies" (choosing which points to label
+next) under this lesson — a distinct topic from what's covered here (working with a fixed,
+already-drawn labeled set). Deferred honestly as backlog TASK-UL039 rather than folded in
+under a checked box for work not done.
 
 ## Technical Notes
 The central risk this lesson must show honestly: semi-supervised methods can hurt as well as

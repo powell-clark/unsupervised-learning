@@ -6,12 +6,12 @@ These tasks synthesize the entire curriculum into practical decision-making and 
 
 ## Acceptance Criteria
 
-- [ ] TASK-UL27 complete — algorithm comparison matrix, when to use each method
-- [ ] TASK-UL28 complete — pipeline design, feature selection vs extraction
-- [ ] TASK-UL29 complete — standardization, normalization, categorical encoding, distance choices
-- [ ] TASK-UL30 complete — label propagation, self-training, co-training
-- [ ] All notebooks run in Colab
-- [ ] FEAT-UL1 and FEAT-UL2 satisfied
+- [x] TASK-UL27 complete — algorithm comparison matrix, when to use each method
+- [x] TASK-UL28 complete — pipeline design, feature selection vs extraction
+- [x] TASK-UL29 complete — standardization, normalization, categorical encoding, distance choices
+- [x] TASK-UL30 complete — label propagation, self-training, co-training
+- [x] All notebooks run in Colab
+- [x] FEAT-UL1 and FEAT-UL2 satisfied
 
 ## Technical Notes
 
