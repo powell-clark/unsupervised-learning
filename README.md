@@ -13,7 +13,7 @@ This curriculum follows a rigorous pedagogical approach:
 
 ## Curriculum Progress
 
-**Status**: 43% complete (13 of 30 lessons)
+**Status**: 65% complete (11 of 17 lessons, 22 notebooks)
 
 ### Completed Lessons
 
@@ -46,16 +46,29 @@ This curriculum follows a rigorous pedagogical approach:
   
 - **Lesson 6**: Manifold Learning (t-SNE, UMAP)
   - `6a_manifold_learning_theory.ipynb` — t-SNE derivation, UMAP, visualization artifacts
-
-### Planned Lessons (17 remaining)
+  - `6b_manifold_learning_practical.ipynb` — Perplexity tuning, UMAP parameters, artifact detection
 
 #### Specialized Methods
 - **Lesson 7**: Anomaly Detection (Isolation Forest, LOF, one-class SVM)
+  - `7a_anomaly_detection_theory.ipynb` — Isolation-based, density-based, and boundary-based paradigms from scratch
+  - `7b_anomaly_detection_practical.ipynb` — Fraud-style imbalance, PyTorch autoencoder, PR-AUC comparison
+
 - **Lesson 8**: Matrix Factorization & Recommender Systems
+  - `8a_recommender_systems_theory.ipynb` — Collaborative filtering and matrix factorization
+  - `8b_recommender_systems_practical.ipynb` — Surprise, Implicit, and PyTorch implementations
+
 - **Lesson 9**: Association Rule Learning (Apriori, market-basket mining)
+  - `9a_association_rules_theory.ipynb` — Support/confidence/lift, Apriori downward closure, from-scratch mining
+  - `9b_association_rules_practical.ipynb` — mlxtend Apriori vs FP-Growth, threshold trade-offs, ranked rules
 
 #### Advanced Topics
 - **Lesson 10**: Topic Modeling (LDA, Gibbs sampling)
+  - `10a_topic_modeling_theory.ipynb` — LDA generative model, collapsed Gibbs sampling from scratch
+  - `10b_topic_modeling_practical.ipynb` — Gensim, scikit-learn, coherence-based K selection, pyLDAvis
+
+### Planned Lessons (6 remaining)
+
+#### Advanced Topics
 - **Lesson 11**: Self-Organizing Maps (competitive learning)
 - **Lesson 12**: Deep Unsupervised Learning (Autoencoders, VAE)
 
@@ -126,7 +139,7 @@ This curriculum uses the consciousness system for task management and feature-dr
 
 This is part of a comprehensive machine learning curriculum:
 - **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
-- **unsupervised-learning** — This repository (43% complete)
+- **unsupervised-learning** — This repository (65% complete)
 - **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
 
 ## License
@@ -143,6 +156,6 @@ Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status**: 43% complete (13 of 30 lessons)
-**Last Updated**: 2026-07-01
+**Status**: 65% complete (11 of 17 lessons, 22 notebooks)
+**Last Updated**: 2026-07-13
 **Author**: Powell-Clark Limited
