@@ -13,7 +13,7 @@ This curriculum follows a rigorous pedagogical approach:
 
 ## Curriculum Progress
 
-**Status**: 65% complete (11 of 17 lessons, 22 notebooks)
+**Status**: 76% complete (13 of 17 lessons, 26 notebooks)
 
 ### Completed Lessons
 
@@ -66,11 +66,15 @@ This curriculum follows a rigorous pedagogical approach:
   - `10a_topic_modeling_theory.ipynb` — LDA generative model, collapsed Gibbs sampling from scratch
   - `10b_topic_modeling_practical.ipynb` — Gensim, scikit-learn, coherence-based K selection, pyLDAvis
 
-### Planned Lessons (6 remaining)
-
-#### Advanced Topics
 - **Lesson 11**: Self-Organizing Maps (competitive learning)
+  - `11a_self_organizing_maps_theory.ipynb` — BMU, neighborhood decay, grid unfolding from scratch
+  - `11b_self_organizing_maps_practical.ipynb` — MiniSom, U-Matrix, component planes on the Wine dataset
+
 - **Lesson 12**: Deep Unsupervised Learning (Autoencoders, VAE)
+  - `12a_deep_unsupervised_theory.ipynb` — Autoencoder-PCA connection, VAE, ELBO, reparameterization trick
+  - `12b_deep_unsupervised_practical.ipynb` — Convolutional and denoising autoencoders in PyTorch
+
+### Planned Lessons (4 remaining)
 
 #### Professional Practice
 - **Lesson 13**: Clustering Comparison Framework
@@ -139,7 +143,7 @@ This curriculum uses the consciousness system for task management and feature-dr
 
 This is part of a comprehensive machine learning curriculum:
 - **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
-- **unsupervised-learning** — This repository (65% complete)
+- **unsupervised-learning** — This repository (76% complete)
 - **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
 
 ## License
@@ -156,6 +160,6 @@ Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status**: 65% complete (11 of 17 lessons, 22 notebooks)
+**Status**: 76% complete (13 of 17 lessons, 26 notebooks)
 **Last Updated**: 2026-07-13
 **Author**: Powell-Clark Limited
