@@ -22,3 +22,4 @@ TASK-UL20|Association rules practical: mlxtend market-basket mining|STORY-UL10|D
 TASK-UL21|Topic modeling theory: Latent Dirichlet Allocation and Gibbs sampling|STORY-UL11|DIRECT-UL10|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL21.md|1d|3
 TASK-UL22|Topic modeling practical: Gensim, scikit-learn, and pyLDAvis|STORY-UL11|DIRECT-UL10|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL22.md|1d|3
 TASK-UL036|Sync README progress after Lessons 7, 9, 10||DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL036.md|15m|1
+TASK-UL23|Self-organizing maps theory: competitive learning and neighborhoods|STORY-UL12|DIRECT-UL11|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL23.md|1d|3

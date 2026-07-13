@@ -7,15 +7,15 @@ data onto a low-dimensional (typically 2D) grid while preserving topology: point
 close in the original space end up on nearby grid cells.
 
 ## Acceptance Criteria
-- [ ] Competitive learning framing: neurons as a grid of weight vectors, winner-take-all
-- [ ] Best Matching Unit (BMU): finding the winner neuron for an input
-- [ ] Neighborhood function and its decay over training (Gaussian neighborhood, shrinking radius)
-- [ ] Learning rate decay over training
-- [ ] The SOM update rule: how the BMU and its neighbors move toward the input
-- [ ] From-scratch NumPy implementation of SOM training
-- [ ] Cross-check against a reference implementation
-- [ ] Visualization: grid evolution over training, topology preservation on a known 2D/3D shape
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Competitive learning framing: neurons as a grid of weight vectors, winner-take-all
+- [x] Best Matching Unit (BMU): finding the winner neuron for an input
+- [x] Neighborhood function and its decay over training (Gaussian neighborhood, shrinking radius)
+- [x] Learning rate decay over training
+- [x] The SOM update rule: how the BMU and its neighbors move toward the input
+- [x] From-scratch NumPy implementation of SOM training
+- [x] Cross-check against a reference implementation
+- [x] Visualization: grid evolution over training, topology preservation on a known 2D/3D shape
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Unlike every clustering method so far, a SOM's neurons have a fixed spatial relationship to
