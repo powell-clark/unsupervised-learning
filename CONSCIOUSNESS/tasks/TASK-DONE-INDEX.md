@@ -18,3 +18,4 @@ TASK-UL14|Manifold learning practical: tuning t-SNE and UMAP visualisations|STOR
 TASK-UL15|Anomaly detection theory: Isolation Forest, LOF, one-class SVM|STORY-UL8|DIRECT-UL8|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL15.md|1d|3
 TASK-UL16|Anomaly detection practical: PyTorch autoencoder fraud detection|STORY-UL8|DIRECT-UL8|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL16.md|1d|3
 TASK-UL19|Association rules theory: support, confidence, lift, and Apriori|STORY-UL10|DIRECT-UL9|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL19.md|1d|3
+TASK-UL20|Association rules practical: mlxtend market-basket mining|STORY-UL10|DIRECT-UL9|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL20.md|1d|3

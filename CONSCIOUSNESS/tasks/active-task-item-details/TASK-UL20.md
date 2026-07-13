@@ -6,14 +6,14 @@ to a larger, more realistic market-basket dataset, explores the minimum support/
 trade-off at scale, and extracts ranked, actionable business rules.
 
 ## Acceptance Criteria
-- [ ] Larger, realistic market-basket dataset (more items, more transactions than 9A)
-- [ ] mlxtend Apriori applied end to end: encoding, mining, rule extraction
-- [ ] FP-Growth applied to the same dataset for comparison
-- [ ] Apriori vs FP-Growth: runtime comparison as min_support shrinks (repeated scans vs FP-tree)
-- [ ] Minimum support/confidence trade-off: how threshold choice changes rule count and quality
-- [ ] Ranked, actionable business rules (e.g., top rules by lift with a support floor)
-- [ ] Visualization: rule count vs threshold, runtime comparison
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Larger, realistic market-basket dataset (more items, more transactions than 9A)
+- [x] mlxtend Apriori applied end to end: encoding, mining, rule extraction
+- [x] FP-Growth applied to the same dataset for comparison
+- [x] Apriori vs FP-Growth: runtime comparison as min_support shrinks (repeated scans vs FP-tree)
+- [x] Minimum support/confidence trade-off: how threshold choice changes rule count and quality
+- [x] Ranked, actionable business rules (e.g., top rules by lift with a support floor)
+- [x] Visualization: rule count vs threshold, runtime comparison
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Builds on TASK-UL19's metrics and Apriori derivation. FP-Growth avoids Apriori's repeated
