@@ -7,14 +7,14 @@ reconstruction-based paradigm: a PyTorch autoencoder trained only on normal tran
 flagged by reconstruction error.
 
 ## Acceptance Criteria
-- [ ] Fraud-style dataset: realistic class imbalance (rare positive class)
-- [ ] Apply Isolation Forest, LOF, and One-Class SVM from 7A to the dataset
-- [ ] PyTorch autoencoder: architecture, training on normal-only data
-- [ ] Reconstruction error as the anomaly score
-- [ ] Precision/recall/PR-AUC comparison across all four methods
-- [ ] Threshold selection without a labeled validation set
-- [ ] Visualization: reconstruction error distribution, precision-recall curves
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Fraud-style dataset: realistic class imbalance (rare positive class)
+- [x] Apply Isolation Forest, LOF, and One-Class SVM from 7A to the dataset
+- [x] PyTorch autoencoder: architecture, training on normal-only data
+- [x] Reconstruction error as the anomaly score
+- [x] Precision/recall/PR-AUC comparison across all four methods
+- [x] Threshold selection without a labeled validation set
+- [x] Visualization: reconstruction error distribution, precision-recall curves
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Builds directly on TASK-UL15's three methods and dataset framing. The autoencoder is trained
