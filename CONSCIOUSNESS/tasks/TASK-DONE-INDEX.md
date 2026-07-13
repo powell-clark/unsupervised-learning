@@ -31,3 +31,4 @@ TASK-UL27|Clustering comparison: choosing algorithms and complexity trade-offs|S
 TASK-UL28|Dimensionality reduction pipeline: feature selection versus extraction|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL28.md|1d|3
 TASK-UL29|Unsupervised preprocessing: scaling, encoding, distance metrics|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL29.md|1d|3
 TASK-UL30|Semi-supervised learning: label propagation, self-training, co-training|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL30.md|1d|3
+TASK-UL034|Fix FEAT-UL2 ID collision across active and backlog indices|||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL034.md|30m|1
