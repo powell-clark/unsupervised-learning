@@ -6,13 +6,13 @@ fully-connected) autoencoder better suited to image data, and extends it to deno
 train on corrupted inputs, reconstruct the clean original.
 
 ## Acceptance Criteria
-- [ ] Convolutional autoencoder architecture (Conv2d encoder, ConvTranspose2d decoder)
-- [ ] Comparison against 12A's fully-connected autoencoder: parameter count, reconstruction quality
-- [ ] Denoising: inject noise into inputs, train to reconstruct the clean original
-- [ ] Visualization: noisy input, clean target, and denoised reconstruction side by side
-- [ ] Quantitative comparison: denoising reconstruction error vs a naive (no-denoising) baseline
-- [ ] Training dynamics comparison against the fully-connected models from 12A
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Convolutional autoencoder architecture (Conv2d encoder, ConvTranspose2d decoder)
+- [x] Comparison against 12A's fully-connected autoencoder: parameter count, reconstruction quality
+- [x] Denoising: inject noise into inputs, train to reconstruct the clean original
+- [x] Visualization: noisy input, clean target, and denoised reconstruction side by side
+- [x] Quantitative comparison: denoising reconstruction error vs a naive (no-denoising) baseline
+- [x] Training dynamics comparison against the fully-connected models from 12A
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Builds directly on TASK-UL25's autoencoder and training loop. Convolutional layers exploit
