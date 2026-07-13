@@ -29,3 +29,4 @@ TASK-UL25|Autoencoders theory: vanilla, VAE, ELBO, and reparameterization|STORY-
 TASK-UL26|Autoencoders practical: convolutional denoising in PyTorch|STORY-UL13|DIRECT-UL12|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL26.md|1d|3
 TASK-UL27|Clustering comparison: choosing algorithms and complexity trade-offs|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL27.md|1d|3
 TASK-UL28|Dimensionality reduction pipeline: feature selection versus extraction|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL28.md|1d|3
+TASK-UL29|Unsupervised preprocessing: scaling, encoding, distance metrics|STORY-UL14|DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL29.md|1d|3
