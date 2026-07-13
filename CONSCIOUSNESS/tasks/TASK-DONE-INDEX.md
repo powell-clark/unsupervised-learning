@@ -21,3 +21,4 @@ TASK-UL19|Association rules theory: support, confidence, lift, and Apriori|STORY
 TASK-UL20|Association rules practical: mlxtend market-basket mining|STORY-UL10|DIRECT-UL9|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL20.md|1d|3
 TASK-UL21|Topic modeling theory: Latent Dirichlet Allocation and Gibbs sampling|STORY-UL11|DIRECT-UL10|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL21.md|1d|3
 TASK-UL22|Topic modeling practical: Gensim, scikit-learn, and pyLDAvis|STORY-UL11|DIRECT-UL10|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL22.md|1d|3
+TASK-UL036|Sync README progress after Lessons 7, 9, 10||DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL036.md|15m|1
