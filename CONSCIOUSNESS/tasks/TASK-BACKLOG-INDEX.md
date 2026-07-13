@@ -1,5 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL27|p4|Clustering comparison: choosing algorithms and complexity trade-offs|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||27|1d|3
 TASK-UL28|p4|Dimensionality reduction pipeline: feature selection versus extraction|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||28|1d|3
 TASK-UL29|p4|Unsupervised preprocessing: scaling, encoding, distance metrics|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||29|1d|3
 TASK-UL30|p4|Semi-supervised learning: label propagation, self-training, co-training|DIRECT-UL13|FEAT-UL1,FEAT-UL2|||30|1d|3
