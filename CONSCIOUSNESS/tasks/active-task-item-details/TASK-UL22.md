@@ -7,13 +7,13 @@ coherence to choose the number of topics without ground truth, and visualizes th
 model interactively with pyLDAvis.
 
 ## Acceptance Criteria
-- [ ] Larger, richer corpus (more topics, more documents than 10A)
-- [ ] Gensim LdaModel workflow: Dictionary, doc2bow, fit, inspect topics
-- [ ] scikit-learn LatentDirichletAllocation workflow on the same corpus
-- [ ] Topic coherence (c_v) computed across a range of candidate K values
-- [ ] Coherence-vs-K plot with the selected K identified
-- [ ] pyLDAvis interactive visualization of the fitted model
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Larger, richer corpus (more topics, more documents than 10A)
+- [x] Gensim LdaModel workflow: Dictionary, doc2bow, fit, inspect topics
+- [x] scikit-learn LatentDirichletAllocation workflow on the same corpus
+- [x] Topic coherence (c_v) computed across a range of candidate K values
+- [x] Coherence-vs-K plot with the selected K identified
+- [x] pyLDAvis interactive visualization of the fitted model
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Builds directly on TASK-UL21's generative model and inference derivation. Topic coherence
