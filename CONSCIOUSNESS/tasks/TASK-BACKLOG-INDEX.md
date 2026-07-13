@@ -1,5 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL19|p3|Association rules theory: support, confidence, lift, and Apriori|DIRECT-UL9|FEAT-UL1,FEAT-UL2|TASK-UL2||19|1d|3
 TASK-UL20|p3|Association rules practical: mlxtend market-basket mining|DIRECT-UL9|FEAT-UL1,FEAT-UL2|TASK-UL19||20|1d|3
 TASK-UL21|p3|Topic modeling theory: Latent Dirichlet Allocation and Gibbs sampling|DIRECT-UL10|FEAT-UL1,FEAT-UL2|TASK-UL2||21|1d|3
 TASK-UL22|p3|Topic modeling practical: Gensim, scikit-learn, and pyLDAvis|DIRECT-UL10|FEAT-UL1,FEAT-UL2|TASK-UL21||22|1d|3
