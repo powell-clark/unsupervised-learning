@@ -1,5 +1,4 @@
 id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL23|p4|Self-organizing maps theory: competitive learning and neighborhoods|DIRECT-UL11|FEAT-UL1,FEAT-UL2|TASK-UL2||23|1d|3
 TASK-UL24|p4|Self-organizing maps practical: MiniSom and U-Matrix visualisation|DIRECT-UL11|FEAT-UL1,FEAT-UL2|TASK-UL23||24|1d|3
 TASK-UL25|p3|Autoencoders theory: vanilla, VAE, ELBO, and reparameterization|DIRECT-UL12|FEAT-UL1,FEAT-UL2|TASK-UL2||25|1d|3
 TASK-UL26|p3|Autoencoders practical: convolutional denoising in PyTorch|DIRECT-UL12|FEAT-UL1,FEAT-UL2|TASK-UL25||26|1d|3
