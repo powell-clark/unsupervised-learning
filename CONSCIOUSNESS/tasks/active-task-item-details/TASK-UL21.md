@@ -6,14 +6,14 @@ First notebook of Lesson 10 (STORY-UL11, DIRECT-UL10). Introduces Latent Dirichl
 the generative model and the Gibbs sampling inference procedure used to fit it.
 
 ## Acceptance Criteria
-- [ ] Bag-of-words framing and the document-term matrix
-- [ ] LDA's generative story: document-topic and topic-word Dirichlet priors
-- [ ] Why exact inference is intractable and approximate inference is required
-- [ ] Collapsed Gibbs sampling: derivation and update equation
-- [ ] From-scratch NumPy implementation of collapsed Gibbs sampling for LDA
-- [ ] Cross-check against a reference implementation
-- [ ] Visualization: topic-word distributions, document-topic assignments
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Bag-of-words framing and the document-term matrix
+- [x] LDA's generative story: document-topic and topic-word Dirichlet priors
+- [x] Why exact inference is intractable and approximate inference is required
+- [x] Collapsed Gibbs sampling: derivation and update equation
+- [x] From-scratch NumPy implementation of collapsed Gibbs sampling for LDA
+- [x] Cross-check against a reference implementation
+- [x] Visualization: topic-word distributions, document-topic assignments
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 LDA models each document as a mixture of topics and each topic as a distribution over words,
