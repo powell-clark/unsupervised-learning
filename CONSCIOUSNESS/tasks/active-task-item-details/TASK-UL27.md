@@ -7,12 +7,12 @@ scalability, assumptions, hyperparameter sensitivity, and a decision guide for w
 algorithm fits which problem shape.
 
 ## Acceptance Criteria
-- [ ] Comparison matrix: K-Means, Hierarchical, DBSCAN, GMM across assumptions, scalability, hyperparameter sensitivity, cluster shape handling
-- [ ] Empirical speed/scalability benchmark across dataset sizes for all four algorithms
-- [ ] Empirical comparison on multiple synthetic dataset shapes (blobs, moons, varying density, elongated clusters) with quality metrics
-- [ ] Decision guide: which algorithm to reach for given problem characteristics (shape, noise, K known/unknown, scale)
-- [ ] Hyperparameter sensitivity demonstration for at least two algorithms
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Comparison matrix: K-Means, Hierarchical, DBSCAN, GMM across assumptions, scalability, hyperparameter sensitivity, cluster shape handling
+- [x] Empirical speed/scalability benchmark across dataset sizes for all four algorithms
+- [x] Empirical comparison on multiple synthetic dataset shapes (blobs, moons, circles, varying density) with quality metrics — circles substituted for elongated clusters, an equally standard centroid-defeating shape
+- [x] Decision guide: which algorithm to reach for given problem characteristics (shape, noise, K known/unknown, scale)
+- [x] Hyperparameter sensitivity demonstration for at least two algorithms
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Not a new algorithm — a synthesis lesson bringing together Lessons 1-4. Benchmarks should be
