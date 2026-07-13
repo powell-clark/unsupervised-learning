@@ -1,20 +1,22 @@
-# TASK-UL19: Association Rules Theory (8a)
+# TASK-UL19: Association Rules Theory (9a)
 
 ## Context
-First notebook of Lesson 8 (STORY-UL10, DIRECT-UL9). Introduces association rule mining —
+First notebook of Lesson 9 (STORY-UL10, DIRECT-UL9) — Lesson 8 is Recommender Systems
+(STORY-UL9), so Association Rules takes the next slot per README's lesson numbering.
+Introduces association rule mining —
 discovering frequent itemsets and "if you bought X, you're likely to buy Y" relationships in
 unlabeled transaction data. Derives the Apriori algorithm and its supporting metrics.
 
 ## Acceptance Criteria
-- [ ] Itemsets, transactions, and the frequent-itemset framing
-- [ ] Support, confidence, and lift: definitions and interpretation
-- [ ] The Apriori principle (downward closure) and why it makes enumeration tractable
-- [ ] Apriori algorithm: candidate generation, pruning, frequent itemset mining
-- [ ] Rule generation from frequent itemsets
-- [ ] From-scratch NumPy/Python implementation of Apriori
-- [ ] Cross-check against a reference implementation
-- [ ] Visualization: support/confidence/lift for generated rules
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Itemsets, transactions, and the frequent-itemset framing
+- [x] Support, confidence, and lift: definitions and interpretation
+- [x] The Apriori principle (downward closure) and why it makes enumeration tractable
+- [x] Apriori algorithm: candidate generation, pruning, frequent itemset mining
+- [x] Rule generation from frequent itemsets
+- [x] From-scratch NumPy/Python implementation of Apriori
+- [x] Cross-check against a reference implementation
+- [x] Visualization: support/confidence/lift for generated rules
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Unlike every other lesson so far, association rules operate on categorical/binary
