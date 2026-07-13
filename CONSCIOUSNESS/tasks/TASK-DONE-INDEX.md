@@ -24,3 +24,4 @@ TASK-UL22|Topic modeling practical: Gensim, scikit-learn, and pyLDAvis|STORY-UL1
 TASK-UL036|Sync README progress after Lessons 7, 9, 10||DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL036.md|15m|1
 TASK-UL23|Self-organizing maps theory: competitive learning and neighborhoods|STORY-UL12|DIRECT-UL11|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL23.md|1d|3
 TASK-UL037|Session-hygiene commits lack task traceability||DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL037.md|10m|1
+TASK-UL24|Self-organizing maps practical: MiniSom and U-Matrix visualisation|STORY-UL12|DIRECT-UL11|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL24.md|1d|3
