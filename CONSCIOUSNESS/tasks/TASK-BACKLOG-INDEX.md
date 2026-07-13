@@ -4,5 +4,4 @@ TASK-UL039|p4|Active learning strategies addendum to Lesson 16|DIRECT-UL13|FEAT-
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||TASK-UL031.md|||||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||TASK-UL032.md|||||a1||
 TASK-UL035|p3|Fix stale DIRECT-UL1 placeholder across story backlog||||||||
-TASK-UL040|p1|Notebooks ship without execution evidence — re-execute in place|||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL040.md|||||3h|3
 TASK-UL041|p4|Resolve stale per-lesson features sitting in backlog|||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL041.md|||||2h|2
