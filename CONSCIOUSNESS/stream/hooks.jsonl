@@ -76,3 +76,13 @@
 {"timestamp":"2026-07-03 05:09:59.739 bst","session_id":"ul-main-29d19afe","hook_name":"session-init","latency_ms":134}
 {"timestamp":"2026-07-03 05:11:56.527 bst","session_id":"ul-main-15b79081","hook_name":"session-init","latency_ms":67}
 {"timestamp":"2026-07-03 05:11:57.034 bst","session_id":"ul-main-f07949c1","hook_name":"session-init","latency_ms":63}
+{"timestamp":"2026-07-03 07:49:26.498 bst","session_id":"ul-main-f07949c1","hook_name":"message-end","latency_ms":18}
+{"timestamp":"2026-07-06 00:57:24.513 bst","session_id":"ul-main-b23bf5a7","hook_name":"session-init","latency_ms":190}
+{"timestamp":"2026-07-07 02:27:38.481 bst","session_id":"ul-main-16386b5b","hook_name":"session-init","latency_ms":125}
+{"timestamp":"2026-07-07 03:21:38.030 bst","session_id":"ul-main-88f12609","hook_name":"session-init","latency_ms":129}
+{"timestamp":"2026-07-07 16:10:14.433 bst","session_id":"ul-main-2014be46","hook_name":"session-init","latency_ms":176}
+{"timestamp":"2026-07-08 02:25:24.717 bst","session_id":"ul-main-bd6f62c9","hook_name":"session-init","latency_ms":247}
+{"timestamp":"2026-07-10 04:22:17.189 bst","session_id":"ul-main-6fcf4df1","hook_name":"session-init","latency_ms":179}
+{"timestamp":"2026-07-10 04:27:18.568 bst","session_id":"ul-main-bd06224d","hook_name":"session-init","latency_ms":126}
+{"timestamp":"2026-07-13 11:50:11.447 bst","session_id":"ul-main-f0c73de9","hook_name":"session-init","latency_ms":183}
+{"timestamp":"2026-07-13 13:34:24.924 bst","session_id":"ul-main-f0c73de9","hook_name":"message-end","latency_ms":50}
