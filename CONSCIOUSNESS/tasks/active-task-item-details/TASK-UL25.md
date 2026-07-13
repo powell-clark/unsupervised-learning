@@ -7,15 +7,15 @@ extends to Variational Autoencoders (VAE), deriving the ELBO objective and the r
 trick that makes it trainable by backpropagation.
 
 ## Acceptance Criteria
-- [ ] Vanilla autoencoder: encoder-decoder architecture, bottleneck, reconstruction loss
-- [ ] Connection to PCA: linear autoencoder recovers the PCA subspace
-- [ ] Why a vanilla autoencoder's latent space isn't generative (no way to sample new, valid points)
-- [ ] VAE generative story: latent prior, encoder outputs a distribution not a point
-- [ ] ELBO derivation: reconstruction term plus KL-divergence regularization term
-- [ ] The reparameterization trick: why direct sampling blocks backpropagation, and how it's fixed
-- [ ] From-scratch PyTorch implementation of both a vanilla AE and a VAE
-- [ ] Visualization: latent space structure, reconstruction quality, sampling from the VAE prior
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Vanilla autoencoder: encoder-decoder architecture, bottleneck, reconstruction loss
+- [x] Connection to PCA: linear autoencoder recovers the PCA subspace
+- [x] Why a vanilla autoencoder's latent space isn't generative (no way to sample new, valid points)
+- [x] VAE generative story: latent prior, encoder outputs a distribution not a point
+- [x] ELBO derivation: reconstruction term plus KL-divergence regularization term
+- [x] The reparameterization trick: why direct sampling blocks backpropagation, and how it's fixed
+- [x] From-scratch PyTorch implementation of both a vanilla AE and a VAE
+- [x] Visualization: latent space structure, reconstruction quality, sampling from the VAE prior
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 A linear autoencoder (no nonlinearities, squared error loss) provably recovers the same subspace
