@@ -13,7 +13,7 @@ This curriculum follows a rigorous pedagogical approach:
 
 ## Curriculum Progress
 
-**Status**: 76% complete (13 of 17 lessons, 26 notebooks)
+**Status**: 100% complete (17 of 17 lessons, 31 notebooks)
 
 ### Completed Lessons
 
@@ -74,13 +74,15 @@ This curriculum follows a rigorous pedagogical approach:
   - `12a_deep_unsupervised_theory.ipynb` — Autoencoder-PCA connection, VAE, ELBO, reparameterization trick
   - `12b_deep_unsupervised_practical.ipynb` — Convolutional and denoising autoencoders in PyTorch
 
-### Planned Lessons (4 remaining)
-
 #### Professional Practice
 - **Lesson 13**: Clustering Comparison Framework
+  - `13_clustering_comparison.ipynb` — Runtime/quality benchmarks across K-Means, Hierarchical, DBSCAN, GMM; K/eps sensitivity sweeps
 - **Lesson 14**: Dimensionality Reduction Pipeline
+  - `14_dimensionality_reduction_pipeline.ipynb` — Feature selection vs PCA extraction, leakage-safe pipelines
 - **Lesson 15**: Unsupervised Preprocessing (scaling, encoding, metrics)
+  - `15_unsupervised_preprocessing.ipynb` — Scaling, categorical encoding, distance metrics, imputation, each measured by downstream clustering quality
 - **Lesson 16**: Semi-Supervised Learning (label propagation, co-training)
+  - `16_semi_supervised_learning.ipynb` — Label spreading, self-training, from-scratch co-training with the naive-collapse vs balanced-fix contrast
 
 ## Technical Stack
 
@@ -130,7 +132,7 @@ All notebooks are Google Colab compatible. Click the "Open in Colab" badge in an
 3. **Learn Dimensionality Reduction** (Lessons 5-6): PCA and manifold learning for high-dimensional data
 4. **Explore Specialized Methods** (Lessons 7-9): Anomaly detection, matrix factorization, association rules
 5. **Advance to Modern Techniques** (Lessons 10-12): Topic modeling, self-organizing maps, deep unsupervised learning
-6. **Apply Professional Skills** (Lessons 13-16): Production-ready pipelines and practical frameworks
+6. **Apply Professional Skills** (Lessons 13-16): Production-ready pipelines and practical frameworks, synthesizing every prior lesson into decision frameworks for real projects
 
 ## Architecture
 
@@ -143,7 +145,7 @@ This curriculum uses the consciousness system for task management and feature-dr
 
 This is part of a comprehensive machine learning curriculum:
 - **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
-- **unsupervised-learning** — This repository (76% complete)
+- **unsupervised-learning** — This repository (100% complete)
 - **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
 
 ## License
@@ -160,6 +162,6 @@ Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status**: 76% complete (13 of 17 lessons, 26 notebooks)
+**Status**: 100% complete (17 of 17 lessons, 31 notebooks)
 **Last Updated**: 2026-07-13
 **Author**: Powell-Clark Limited
