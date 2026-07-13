@@ -7,14 +7,14 @@ distinct paradigms: isolation-based (Isolation Forest), density-based (Local Out
 Factor), and boundary-based (One-Class SVM).
 
 ## Acceptance Criteria
-- [ ] Isolation Forest: random partitioning intuition, path length, anomaly score formula
-- [ ] Local Outlier Factor: k-distance, reachability distance, local reachability density, LOF score
-- [ ] One-Class SVM: kernel trick, separating hyperplane from the origin, nu parameter
-- [ ] From-scratch NumPy implementations for all three methods
-- [ ] Cross-check against scikit-learn equivalents
-- [ ] Visualization: synthetic data with injected outliers, decision boundaries/scores
-- [ ] Comparison table across the three paradigms (assumptions, complexity, strengths, weaknesses)
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Isolation Forest: random partitioning intuition, path length, anomaly score formula
+- [x] Local Outlier Factor: k-distance, reachability distance, local reachability density, LOF score
+- [x] One-Class SVM: kernel trick, separating hyperplane from the origin, nu parameter
+- [x] From-scratch NumPy implementations for all three methods
+- [x] Cross-check against scikit-learn equivalents
+- [x] Visualization: synthetic data with injected outliers, decision boundaries/scores
+- [x] Comparison table across the three paradigms (assumptions, complexity, strengths, weaknesses)
+- [x] Runs top-to-bottom in Google Colab
 
 ## Technical Notes
 Builds on distance metrics (Lesson 0a) and density concepts (Lesson 3, DBSCAN). Isolation

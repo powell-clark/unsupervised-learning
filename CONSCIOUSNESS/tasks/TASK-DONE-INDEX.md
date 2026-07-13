@@ -15,3 +15,4 @@ TASK-UL11|PCA theory: eigendecomposition and SVD from scratch|STORY-UL6|DIRECT-U
 TASK-UL12|PCA practical: kernel PCA and Eigenfaces recognition|STORY-UL6|DIRECT-UL6|FEAT-UL1,FEAT-UL2,FEAT-UL6|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL12.md|1d|3
 TASK-UL13|Manifold learning theory: t-SNE and UMAP foundations|STORY-UL7|DIRECT-UL7|FEAT-UL1,FEAT-UL2,FEAT-UL7|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL13.md|1d|3
 TASK-UL14|Manifold learning practical: tuning t-SNE and UMAP visualisations|STORY-UL7|DIRECT-UL7|FEAT-UL1,FEAT-UL2,FEAT-UL7|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL14.md|1d|3
+TASK-UL15|Anomaly detection theory: Isolation Forest, LOF, one-class SVM|STORY-UL8|DIRECT-UL8|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/active-task-item-details/TASK-UL15.md|1d|3

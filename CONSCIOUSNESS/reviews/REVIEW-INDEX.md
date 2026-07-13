@@ -26,3 +26,5 @@ REVIEW-UL17|task|TASK-UL13|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T1
 REVIEW-CCC028|task|TASK-UL13|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 16:11:03.027 gmt|
 REVIEW-UL18|task|TASK-UL14|agent|ul-main-026db8ed|bypass-approved|1|2026-07-01T17:12:00Z|auto-close: reversible task, gate is auto-approve; manifold learning practical notebook (6b) complete with perplexity tuning, UMAP parameter selection, speed comparison, artifact detection, and verification strategies
 REVIEW-CCC030|task|TASK-UL14|agent|ul-main-026db8ed|auto-approved|1|2026-07-01 16:12:47.232 gmt|
+REVIEW-UL19|task|TASK-UL15|agent|ul-main-f0c73de9|bypass-approved|1|2026-07-13T11:53:15Z|auto-close: reversible task, gate is auto-approve; anomaly detection theory notebook (7a) complete with Isolation Forest, LOF, and One-Class SVM from-scratch implementations, all cross-checked against scikit-learn (ROC-AUC 0.996-0.999, correlation 1.000), executed end-to-end with jupyter execute with zero errors/warnings
+REVIEW-CCC032|task|TASK-UL15|agent|ul-main-f0c73de9|auto-approved|1|2026-07-13 11:53:10.677 gmt|
