@@ -10,5 +10,5 @@ DIRECT-UL8|in_progress|p2|Anomaly Detection|2026-06-08||||TASK-UL15,TASK-UL16|FE
 DIRECT-UL9|in_progress|p3|Association Rules & Apriori|2026-06-08||||TASK-UL19,TASK-UL20|FEAT-UL1,FEAT-UL2
 DIRECT-UL10|in_progress|p3|Topic Modeling (LDA)|2026-06-08||||TASK-UL21,TASK-UL22|FEAT-UL1,FEAT-UL2
 DIRECT-UL11|in_progress|p3|Self-Organizing Maps|2026-06-08||||TASK-UL23,TASK-UL24|FEAT-UL1,FEAT-UL2
-DIRECT-UL12|pending|p3|Deep Unsupervised Learning (Autoencoders/VAE)|2026-06-08||||TASK-UL25,TASK-UL26,TASK-UL043|FEAT-UL1,FEAT-UL2
+DIRECT-UL12|in_progress|p3|Deep Unsupervised Learning (Autoencoders/VAE)|2026-06-08||||TASK-UL25,TASK-UL26,TASK-UL043|FEAT-UL1,FEAT-UL2
 DIRECT-UL13|in_progress|p1|Professional Practice (Comparison, Selection, Preprocessing)|2026-06-08||||TASK-UL27,TASK-UL28,TASK-UL29,TASK-UL30,TASK-UL038,TASK-UL039|FEAT-UL1,FEAT-UL2

@@ -1,5 +1,6 @@
 id|title|story_ids|directive_id|feature_ids|doc|expected_duration|story_points
 TASK-UL035|Fix stale DIRECT-UL1 placeholder across story backlog||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL035.md||
+TASK-UL043|Extend Lesson 12 practical: latent interpolation, reconstruction-based anomaly detection, VAE-vs-GAN note|STORY-UL13|DIRECT-UL12|FEAT-UL1,FEAT-UL2,FEAT-UL12|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL043.md|1h|1
 TASK-UL041|Resolve stale per-lesson features sitting in backlog||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL041.md|2h|2
 TASK-UL040|Notebooks ship without execution evidence — re-execute in place||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL040.md|3h|3
 TASK-UL1|Clustering foundations theory (0a)|STORY-UL1|DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL1.md|1d|3
