@@ -84,6 +84,10 @@ This curriculum follows a rigorous pedagogical approach:
 - **Lesson 16**: Semi-Supervised Learning (label propagation, co-training)
   - `16_semi_supervised_learning.ipynb` — Label spreading, self-training, from-scratch co-training with the naive-collapse vs balanced-fix contrast
 
+## Part II — Advanced Topics (in progress, built autonomously)
+
+Lessons 17-28 extend the course into density estimation, flows and diffusion, NMF/ICA, general EM and variational inference, Dirichlet-process clustering, HMMs, time-series clustering, embeddings, contrastive learning, clustering stability, and a capstone. The syllabus, per-lesson plans and live status are in `CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md`; this section is replaced with the finished lesson list when the corpus close-out task runs.
+
 ## Technical Stack
 
 - **Core**: NumPy, Pandas, Scikit-learn
