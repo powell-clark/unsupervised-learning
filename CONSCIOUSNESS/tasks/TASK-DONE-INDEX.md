@@ -1,4 +1,5 @@
 id|title|story_ids|directive_id|feature_ids|doc|expected_duration|story_points
+TASK-UL035|Fix stale DIRECT-UL1 placeholder across story backlog||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL035.md||
 TASK-UL040|Notebooks ship without execution evidence — re-execute in place||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL040.md|3h|3
 TASK-UL1|Clustering foundations theory (0a)|STORY-UL1|DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL1.md|1d|3
 TASK-UL2|Cluster evaluation: silhouette, Davies-Bouldin, and choosing K|STORY-UL1|DIRECT-UL1|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL2.md|1d|3
