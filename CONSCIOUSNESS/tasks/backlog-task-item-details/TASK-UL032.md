@@ -14,4 +14,6 @@ Transcript: chats/claude-code/2026-07-01/session-25d57c19.jsonl
 
 ## Acceptance criteria
 
-- [ ] _(to be filled in)_
+- [ ] Root cause identified for why the goal hook keeps firing after a session reports 'consciousness:suspended'
+- [ ] Fix verified: the goal hook respects the suspended/complete end state and does not re-fire on subsequent turns
+- [ ] Regression check: legitimate goal re-activation cases (e.g. a new directive arriving) still fire correctly

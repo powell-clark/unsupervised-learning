@@ -22,10 +22,10 @@ lesson in the browser and run it immediately, with zero environment setup. This
 is a cross-cutting capability that every lesson notebook must satisfy.
 
 ## Acceptance Criteria
-- [ ] Each notebook opens and runs top-to-bottom in Google Colab with no local setup
-- [ ] All dependencies install from the first cell
-- [ ] Datasets download or generate inline; no manual file placement
-- [ ] Plots and outputs render inline in the Colab runtime
+- [ ] **AC-1** — Each notebook opens and runs top-to-bottom in Google Colab with no local setup
+- [ ] **AC-2** — All dependencies install from the first cell
+- [ ] **AC-3** — Datasets download or generate inline; no manual file placement
+- [ ] **AC-4** — Plots and outputs render inline in the Colab runtime
 
 ## Notes
 Realised and demonstrated by the shipped Lesson 8 notebooks; maintained as a

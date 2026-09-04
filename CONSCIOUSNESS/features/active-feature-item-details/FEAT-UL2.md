@@ -23,10 +23,10 @@ production library (Scikit-learn or PyTorch) that practitioners actually use.
 Every lesson carries both halves.
 
 ## Acceptance Criteria
-- [ ] Each lesson has a theory notebook implementing the algorithm from scratch in NumPy
-- [ ] Each lesson has a practical notebook using production Scikit-learn or PyTorch
-- [ ] From-scratch results are cross-checked against the production library
-- [ ] Mathematical derivation precedes code in the theory notebook
+- [ ] **AC-1** — Each lesson has a theory notebook implementing the algorithm from scratch in NumPy
+- [ ] **AC-2** — Each lesson has a practical notebook using production Scikit-learn or PyTorch
+- [ ] **AC-3** — From-scratch results are cross-checked against the production library
+- [ ] **AC-4** — Mathematical derivation precedes code in the theory notebook
 
 ## Notes
 Realised and demonstrated by the shipped Lesson 8 notebooks (8a from-scratch

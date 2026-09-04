@@ -6,18 +6,18 @@
 Comprehensive lesson on topic modeling: Latent Dirichlet Allocation (LDA), document-topic and topic-word distributions, Gibbs sampling, and visualization. Covers theory of generative models alongside practical text analysis.
 
 ## Acceptance Criteria
-- [ ] Theory notebook: Generative model concept and plate notation
-- [ ] Theory notebook: LDA graphical model and Dirichlet priors
-- [ ] Theory notebook: Gibbs sampling for inference
-- [ ] Theory notebook: Document-topic and topic-word probability distributions
-- [ ] Practical notebook: Gensim LDA implementation and workflow
-- [ ] Practical notebook: scikit-learn LDA (alternative implementation)
-- [ ] Practical notebook: pyLDAvis for topic visualization and interpretation
-- [ ] Practical notebook: Text preprocessing (tokenization, stop words, stemming)
-- [ ] Practical notebook: Document corpus case study (news, research papers)
-- [ ] Both notebooks run end-to-end in Google Colab
-- [ ] Choosing number of topics (perplexity, coherence metrics)
-- [ ] Completed task pair: TASK-UL21 (theory) and TASK-UL22 (practical)
+- [ ] **AC-1** — Theory notebook: Generative model concept and plate notation
+- [ ] **AC-2** — Theory notebook: LDA graphical model and Dirichlet priors
+- [ ] **AC-3** — Theory notebook: Gibbs sampling for inference
+- [ ] **AC-4** — Theory notebook: Document-topic and topic-word probability distributions
+- [ ] **AC-5** — Practical notebook: Gensim LDA implementation and workflow
+- [ ] **AC-6** — Practical notebook: scikit-learn LDA (alternative implementation)
+- [ ] **AC-7** — Practical notebook: pyLDAvis for topic visualization and interpretation
+- [ ] **AC-8** — Practical notebook: Text preprocessing (tokenization, stop words, stemming)
+- [ ] **AC-9** — Practical notebook: Document corpus case study (news, research papers)
+- [ ] **AC-10** — Both notebooks run end-to-end in Google Colab
+- [ ] **AC-11** — Choosing number of topics (perplexity, coherence metrics)
+- [ ] **AC-12** — Completed task pair: TASK-UL21 (theory) and TASK-UL22 (practical)
 
 ## Linked Entities
 - Story: STORY-UL11 (Topic modeling learner story)

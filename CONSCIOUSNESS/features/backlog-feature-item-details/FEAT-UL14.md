@@ -21,17 +21,17 @@ actually been run before: a matplotlib `boxplot(labels=...)` API removal in
 notebook via the same process.
 
 ## Acceptance Criteria
-- [x] Theory notebook: Lloyd's algorithm derivation (vector form, convergence proof)
-- [x] Theory notebook: K-Means++ initialization (why it matters, implementation)
-- [x] Theory notebook: soft K-Means and probabilistic interpretation — added: softmax responsibilities over negative squared distances, hard-K-means limit as β→∞, explicit connection to GMM's E-step
-- [x] Practical notebook: scikit-learn KMeans usage and fit patterns
-- [x] Practical notebook: Elbow method for choosing K — added: inertia-vs-K plot with automatic second-derivative elbow detection, contrasted against silhouette's choice (elbow=3 vs silhouette=2 on the RFM data — an honest disagreement, not hidden)
-- [x] Practical notebook: Silhouette analysis for cluster validation
-- [x] Practical notebook: Real data segmentation case study (e.g., customer clustering)
-- [x] Both notebooks run end-to-end in Google Colab without local setup — verified via jupyter execute, 10/10 and 13/13 cells, zero errors, outputs committed in place
-- [x] Theory notebook includes NumPy-only derivation
-- [x] Practical notebook contrasts multiple initializations and their impact — added: random vs k-means++ on a 6-cluster dataset engineered to actually show the effect (random spread=248.1 vs k-means++ spread=3.0 across 50 seeds, 82.9x tighter)
-- [x] Completed task pair: TASK-UL3 (theory) and TASK-UL4 (practical) — closure now genuinely verified against every criterion above, not assumed
+- [x] **AC-1** — Theory notebook: Lloyd's algorithm derivation (vector form, convergence proof)
+- [x] **AC-2** — Theory notebook: K-Means++ initialization (why it matters, implementation)
+- [x] **AC-3** — Theory notebook: soft K-Means and probabilistic interpretation — added: softmax responsibilities over negative squared distances, hard-K-means limit as β→∞, explicit connection to GMM's E-step
+- [x] **AC-4** — Practical notebook: scikit-learn KMeans usage and fit patterns
+- [x] **AC-5** — Practical notebook: Elbow method for choosing K — added: inertia-vs-K plot with automatic second-derivative elbow detection, contrasted against silhouette's choice (elbow=3 vs silhouette=2 on the RFM data — an honest disagreement, not hidden)
+- [x] **AC-6** — Practical notebook: Silhouette analysis for cluster validation
+- [x] **AC-7** — Practical notebook: Real data segmentation case study (e.g., customer clustering)
+- [x] **AC-8** — Both notebooks run end-to-end in Google Colab without local setup — verified via jupyter execute, 10/10 and 13/13 cells, zero errors, outputs committed in place
+- [x] **AC-9** — Theory notebook includes NumPy-only derivation
+- [x] **AC-10** — Practical notebook contrasts multiple initializations and their impact — added: random vs k-means++ on a 6-cluster dataset engineered to actually show the effect (random spread=248.1 vs k-means++ spread=3.0 across 50 seeds, 82.9x tighter)
+- [x] **AC-11** — Completed task pair: TASK-UL3 (theory) and TASK-UL4 (practical) — closure now genuinely verified against every criterion above, not assumed
 
 ## Status: agent-approved, awaiting human verdict (TASK-UL040)
 
