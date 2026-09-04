@@ -38,3 +38,7 @@ notebook>=6.5.0
 
 # Utilities
 tqdm>=4.65.0
+
+# Sequence and time-series (Part II)
+hmmlearn>=0.3.0
+tslearn>=0.6.0

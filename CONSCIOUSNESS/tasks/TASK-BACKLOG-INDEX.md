@@ -1,5 +1,42 @@
-id|priority|title|directive_id|feature_ids|blocked_by|blocks|sequence|expected_duration|story_points
-TASK-UL038|p4|Extend Lesson 15 preprocessing depth|DIRECT-UL13|FEAT-UL1,FEAT-UL2|TASK-UL29|||1h|1
-TASK-UL039|p4|Active learning strategies addendum to Lesson 16|DIRECT-UL13|FEAT-UL1,FEAT-UL2|TASK-UL30|||2h|1
-TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete|||||a0||
-TASK-UL032|p3|Goal hook re-activation stall on consciousness session end|||||a1||
+id|priority|title|story_ids|directive_id|feature_ids|doc|blocked_by|blocks|assignee|parent_task_id|sequence|expected_duration|story_points
+TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL038.md|TASK-UL29|||||1h|1
+TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
+TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
+TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
+TASK-UL044|p1|Install and smoke-test Part II dependencies (hmmlearn, tslearn)|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL044.md|||||a2VQT|30m|1
+TASK-UL045|p2|Lesson 17a theory: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL045.md|||||a3IE9|2h|3
+TASK-UL046|p2|Lesson 17b practical: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL046.md|TASK-UL045||||a4QZt|2h|3
+TASK-UL047|p2|Verify lesson 17: independent review and close FEAT-UL15|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL047.md|TASK-UL045,TASK-UL046||||a583X|1h|2
+TASK-UL048|p2|Lesson 18a theory: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL048.md|||||a6DKG|2h|3
+TASK-UL049|p2|Lesson 18b practical: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL049.md|TASK-UL048||||a7EM8|2h|3
+TASK-UL050|p2|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL050.md|TASK-UL048,TASK-UL049||||a8wkx|1h|2
+TASK-UL051|p2|Lesson 19a theory: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL051.md|||||a9er2|2h|3
+TASK-UL052|p2|Lesson 19b practical: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL052.md|TASK-UL051||||aAYgS|2h|3
+TASK-UL053|p2|Verify lesson 19: independent review and close FEAT-UL17|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL053.md|TASK-UL051,TASK-UL052||||aBwa9|1h|2
+TASK-UL054|p2|Lesson 20a theory: Matrix Factorisation Family: NMF and ICA|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL054.md|||||aC2wY|2h|3
+TASK-UL055|p2|Lesson 20b practical: Matrix Factorisation Family: NMF and ICA|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL055.md|TASK-UL054||||aDDKT|2h|3
+TASK-UL056|p2|Verify lesson 20: independent review and close FEAT-UL18|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL056.md|TASK-UL054,TASK-UL055||||aEbBM|1h|2
+TASK-UL057|p2|Lesson 21a theory: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL057.md|||||aFRKN|2h|3
+TASK-UL058|p2|Lesson 21b practical: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL058.md|TASK-UL057||||aGceg|2h|3
+TASK-UL059|p2|Verify lesson 21: independent review and close FEAT-UL19|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL059.md|TASK-UL057,TASK-UL058||||aHjfe|1h|2
+TASK-UL060|p2|Lesson 22a theory: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL060.md|||||aIyc3|2h|3
+TASK-UL061|p2|Lesson 22b practical: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL061.md|TASK-UL060||||aJ955|2h|3
+TASK-UL062|p2|Verify lesson 22: independent review and close FEAT-UL20|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL062.md|TASK-UL060,TASK-UL061||||aKhSX|1h|2
+TASK-UL063|p2|Lesson 23a theory: Hidden Markov Models and Unsupervised Sequence Learning|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL063.md|TASK-UL044||||aL3tD|2h|3
+TASK-UL064|p2|Lesson 23b practical: Hidden Markov Models and Unsupervised Sequence Learning|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL064.md|TASK-UL063||||aMGG6|2h|3
+TASK-UL065|p2|Verify lesson 23: independent review and close FEAT-UL21|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL065.md|TASK-UL063,TASK-UL064||||aN7Pm|1h|2
+TASK-UL066|p2|Lesson 24a theory: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL066.md|TASK-UL044||||aOwgn|2h|3
+TASK-UL067|p2|Lesson 24b practical: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL067.md|TASK-UL066||||aPmQs|2h|3
+TASK-UL068|p2|Verify lesson 24: independent review and close FEAT-UL22|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL068.md|TASK-UL066,TASK-UL067||||aQ9u9|1h|2
+TASK-UL069|p3|Lesson 25a theory: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL069.md|||||aR4HO|2h|3
+TASK-UL070|p3|Lesson 25b practical: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL070.md|TASK-UL069||||aSGFT|2h|3
+TASK-UL071|p3|Verify lesson 25: independent review and close FEAT-UL23|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL071.md|TASK-UL069,TASK-UL070||||aTy6D|1h|2
+TASK-UL072|p3|Lesson 26a theory: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL072.md|||||aUsbW|2h|3
+TASK-UL073|p3|Lesson 26b practical: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL073.md|TASK-UL072||||aVmFF|2h|3
+TASK-UL074|p3|Verify lesson 26: independent review and close FEAT-UL24|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL074.md|TASK-UL072,TASK-UL073||||aWFFa|1h|2
+TASK-UL075|p3|Lesson 27a theory: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL075.md|||||aXkIl|2h|3
+TASK-UL076|p3|Lesson 27b practical: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL076.md|TASK-UL075||||aY0Vu|2h|3
+TASK-UL077|p3|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL077.md|TASK-UL075,TASK-UL076||||aZcld|1h|2
+TASK-UL078|p3|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL078.md|||||aawiz|3h|3
+TASK-UL079|p3|Verify lesson 28: independent review and close FEAT-UL26|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL079.md|TASK-UL078||||abibT|1h|2
+TASK-UL080|p3|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL080.md|TASK-UL047,TASK-UL050,TASK-UL053,TASK-UL056,TASK-UL059,TASK-UL062,TASK-UL065,TASK-UL068,TASK-UL071,TASK-UL074,TASK-UL077,TASK-UL079||||ackUP|2h|3

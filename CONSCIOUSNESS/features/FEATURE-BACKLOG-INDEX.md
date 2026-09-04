@@ -11,3 +11,15 @@ FEAT-UL10|p3|performance|Topic Modeling (LDA) Lesson|STORY-UL11|TASK-UL21,TASK-U
 FEAT-UL11|p4|performance|Self-Organizing Maps Lesson|STORY-UL12|TASK-UL23,TASK-UL24|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL11.md
 FEAT-UL12|p3|performance|Autoencoders and Deep Unsupervised Learning Lesson|STORY-UL13|TASK-UL25,TASK-UL26,TASK-UL043|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL12.md
 FEAT-UL13|p4|performance|Professional Practice Lesson|STORY-UL14|TASK-UL27,TASK-UL28,TASK-UL29,TASK-UL30|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL13.md
+FEAT-UL15|p2|performance|Spectral Clustering and Graph Laplacians Lesson|STORY-UL15|TASK-UL045,TASK-UL046,TASK-UL047|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL15.md
+FEAT-UL16|p2|performance|Kernel Density Estimation and Nonparametric Density Lesson|STORY-UL16|TASK-UL048,TASK-UL049,TASK-UL050|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL16.md
+FEAT-UL17|p2|performance|Normalizing Flows and Modern Density Models Lesson|STORY-UL17|TASK-UL051,TASK-UL052,TASK-UL053|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL17.md
+FEAT-UL18|p2|performance|Matrix Factorisation Family: NMF and ICA Lesson|STORY-UL18|TASK-UL054,TASK-UL055,TASK-UL056|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL18.md
+FEAT-UL19|p2|performance|Expectation-Maximisation and Variational Inference Lesson|STORY-UL19|TASK-UL057,TASK-UL058,TASK-UL059|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL19.md
+FEAT-UL20|p2|performance|Bayesian Nonparametric Clustering: Dirichlet Process Mixtures Lesson|STORY-UL20|TASK-UL060,TASK-UL061,TASK-UL062|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL20.md
+FEAT-UL21|p2|performance|Hidden Markov Models and Unsupervised Sequence Learning Lesson|STORY-UL21|TASK-UL063,TASK-UL064,TASK-UL065|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL21.md
+FEAT-UL22|p2|performance|Time-Series Clustering and Dynamic Time Warping Lesson|STORY-UL22|TASK-UL066,TASK-UL067,TASK-UL068|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL22.md
+FEAT-UL23|p3|performance|Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling Lesson|STORY-UL23|TASK-UL069,TASK-UL070,TASK-UL071|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL23.md
+FEAT-UL24|p3|performance|Self-Supervised Contrastive Representation Learning Lesson|STORY-UL24|TASK-UL072,TASK-UL073,TASK-UL074|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL24.md
+FEAT-UL25|p3|performance|Clustering Stability, Consensus and Choosing K Honestly Lesson|STORY-UL25|TASK-UL075,TASK-UL076,TASK-UL077|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL25.md
+FEAT-UL26|p3|performance|Capstone: An End-to-End Unsupervised Analysis Lesson|STORY-UL26|TASK-UL078,TASK-UL079|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL26.md
