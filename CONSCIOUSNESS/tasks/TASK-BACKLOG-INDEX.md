@@ -36,3 +36,4 @@ TASK-UL077|p3|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL2
 TASK-UL078|p3|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL078.md|||||aawiz|3h|3
 TASK-UL079|p3|Verify lesson 28: independent review and close FEAT-UL26|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL079.md|TASK-UL078||||abibT|1h|2
 TASK-UL080|p3|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL080.md|TASK-UL047,TASK-UL050,TASK-UL053,TASK-UL056,TASK-UL059,TASK-UL062,TASK-UL065,TASK-UL068,TASK-UL071,TASK-UL074,TASK-UL077,TASK-UL079||||ackUP|2h|3
+TASK-UL081|p2|Re-verify FEAT-UL15 AC-11 and close lesson 17|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|TASK-UL081.md|||||adfje||
