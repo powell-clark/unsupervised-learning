@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL044|p1|Install and smoke-test Part II dependencies (hmmlearn, tslearn)|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL044.md|||||a2VQT|30m|1
 TASK-UL045|p2|Lesson 17a theory: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL045.md|||||a3IE9|2h|3
 TASK-UL046|p2|Lesson 17b practical: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL046.md|TASK-UL045||||a4QZt|2h|3
 TASK-UL047|p2|Verify lesson 17: independent review and close FEAT-UL15|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL047.md|TASK-UL045,TASK-UL046||||a583X|1h|2
