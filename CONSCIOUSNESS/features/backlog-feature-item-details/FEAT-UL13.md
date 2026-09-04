@@ -25,3 +25,13 @@ Comprehensive lesson on applying unsupervised learning in practice: algorithm co
 - Directive: DIRECT-UL13 (Professional Practice)
 - Tasks: TASK-UL27, TASK-UL28, TASK-UL29, TASK-UL30
 - Feature set: FEAT-UL1 (Colab-runnable), FEAT-UL2 (NumPy-production)
+
+## Review (TASK-UL041)
+Re-confirmed by independent agent review against
+notebooks/13_clustering_comparison.ipynb, 14_dimensionality_reduction_pipeline.ipynb,
+15_unsupervised_preprocessing.ipynb, and 16_semi_supervised_learning.ipynb:
+12 of 13 criteria already verified met by prior review work on this card;
+AC-11 already honestly disclosed as deferred to TASK-UL039 rather than
+hidden. All four notebooks re-executed clean under TASK-UL040 (5/5, 5/5,
+5/5, 6/6 cells, zero errors) this session. agent-approved — stays in
+backlog pending human sign-off per the FEAT-UL14 precedent.
