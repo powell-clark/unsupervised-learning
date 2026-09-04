@@ -15,11 +15,21 @@ Part II, lesson 17, theory notebook `notebooks/17a_spectral_clustering_theory.ip
 **Data:** make_moons, make_circles, make_blobs (sklearn.datasets) — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present as a titled section with working code where the plan names an implementation
-- [ ] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library)
-- [ ] All theory-notebook criteria on FEAT-UL15 are satisfiable from this notebook's content (read the card before writing)
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no local files outside the repo, no network downloads
+- [x] Every section above present as a titled section with working code where the plan names an implementation — 19 cells (8 code), sections 1-6 of the plan plus a motivation section and conclusion
+- [x] The from-scratch implementation is validated numerically inside the notebook — `spectral_clustering()` scores ARI 1.000 against ground truth on moons, circles and blobs, **and ARI 1.000 against `sklearn.cluster.SpectralClustering`** on all three; K-Means scores 0.247 and -0.003 on the two non-convex sets
+- [x] All theory-notebook criteria on FEAT-UL15 are satisfiable from this notebook's content
+- [x] `jupyter execute` passes: 8/8 code cells executed, zero errors, 6 figures, outputs committed
+- [x] Colab-runnable: sklearn-generated data only, no downloads, no local file reads
+
+## Outcome
+Every mathematical claim is checked numerically rather than asserted:
+- **Quadratic-form identity** $f^\top L f = \tfrac12\sum w_{ij}(f_i-f_j)^2$ — both sides 2887.50917759, exact agreement; smallest eigenvalue -1.78e-14 confirms PSD.
+- **Component-counting theorem** — BFS finds 3 components, exactly 3 eigenvalues below 1e-8, and $L_{sym}$/$L_{rw}$ agree.
+- **Relaxation tightness measured, not assumed** — brute force over all 8191 bipartitions of a 14-node graph gives optimal RatioCut 0.065541; thresholding the Fiedler vector gives 0.065541, the identical partition (ratio 1.0000). $\lambda_2 n = 0.860 \le 0.918 = n\cdot\text{RatioCut}$, the required lower bound.
+- **Eigengap** picks K=3 and K=5 correctly on separated blobs and *fails honestly* (picks 2, true 3) on heavy overlap, where the eigenvalue curve is smooth — reported as information, not hidden.
+- **Failure modes** — σ sweep shows ARI 1.000 → 0.228 across two orders of magnitude; the k < components case merges two blobs (sizes [100, 50] against true [50, 50, 50]).
+
+One defect caught and fixed during verification: the σ=0.02 row was labelled "graph shattered" while scoring ARI 1.000 — a note contradicting its own number. Corrected to report the genuinely interesting fact (the shattering is *within* each moon, so the moon/moon split survives in the leading eigenvectors) rather than the tidy-sounding wrong one.
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
