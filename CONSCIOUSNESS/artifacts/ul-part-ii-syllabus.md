@@ -38,4 +38,12 @@ claude --bg --model sonnet --permission-mode bypassPermissions "/consciousness:o
 Then `claude agents` to watch, `claude logs <id>` to read, `claude stop <id>` to halt. The loop pauses itself (`STATUS: paused`) when nothing claimable remains; `cat .claude/loop-exit.*.json` says why.
 
 ## Environment
-(the environment task appends installed versions here)
+
+Verified by TASK-UL044 on 2026-09-04 (Python 3.12.8):
+
+| Package | Version | Note |
+|---|---|---|
+| hmmlearn | 0.3.3 | `GaussianHMM(n_components=2).fit()` on simulated 2-regime data recovers means [-0.02, 4.87] and uses both states — lesson 23 is unblocked |
+| tslearn | 0.9.0 | `TimeSeriesKMeans(metric="dtw")` fits; `CachedDatasets().load_dataset("Trace")` returns (100, 275, 1) with 4 classes **offline** — the dataset ships inside the package, so lesson 24b uses it directly and the synthetic fallback named on its card is not needed |
+
+Everything else Part II needs (numpy, scipy, scikit-learn 1.9.0, torch 2.13.0, gensim 4.4.0, networkx 3.6.1, matplotlib, seaborn) was already installed for Part I. No lesson requires a network download at runtime.

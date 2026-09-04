@@ -4,14 +4,14 @@
 Part II, lesson 24, practical notebook `notebooks/24b_time_series_clustering_practical.ipynb`. Builds on `24a_time_series_clustering_theory.ipynb` (TASK-UL066) — read it first and reuse its from-scratch functions where the plan compares them with the library. Feature card: FEAT-UL22.
 
 ## Notebook plan (sections, in order)
-1. tslearn: TimeSeriesScalerMeanVariance, TimeSeriesKMeans with metric euclidean / dtw / softdtw on the bundled CachedDatasets "Trace" set (falls back to the synthetic generator if the cached data is unavailable)
+1. tslearn: TimeSeriesScalerMeanVariance, TimeSeriesKMeans with metric euclidean / dtw / softdtw on the bundled CachedDatasets "Trace" set — TASK-UL044 confirmed this loads offline, shape (100, 275, 1), 4 classes, so use it directly; no fallback branch needed
 2. Cluster barycenters plotted per metric; ARI against the known Trace classes
 3. Silhouette with a DTW distance matrix (tslearn.metrics.cdist_dtw) to choose K
 4. Runtime comparison: unconstrained DTW vs Sakoe-Chiba vs Euclidean as series length grows
 5. Feature-based alternative: summary statistics + K-Means from lesson 1, compared honestly
 
 **Library:** tslearn (added to requirements by the environment task)
-**Data:** tslearn CachedDatasets (bundled with the package) with an in-notebook synthetic fallback — no network
+**Data:** tslearn CachedDatasets "Trace" (ships inside the tslearn wheel; verified offline by TASK-UL044) — no network
 
 ## Acceptance Criteria
 - [ ] Every section above present with working code and at least one figure or table per section
