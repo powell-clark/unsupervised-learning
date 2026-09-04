@@ -3,4 +3,3 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth|DIRECT-UL13|FEAT-UL1,FEAT-UL2
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16|DIRECT-UL13|FEAT-UL1,FEAT-UL2|TASK-UL30|||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete|||||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end|||||a1||
-TASK-UL043|p4|Extend Lesson 12 practical: latent interpolation, reconstruction-based anomaly detection, VAE-vs-GAN note|DIRECT-UL12|FEAT-UL1,FEAT-UL2,FEAT-UL12||||1h|1
