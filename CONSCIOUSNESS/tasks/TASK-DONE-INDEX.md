@@ -40,3 +40,4 @@ TASK-UL034|Fix FEAT-UL2 ID collision across active and backlog indices||||CONSCI
 TASK-UL042|Remove duplicated inline advisor discipline||||TASK-UL042.md||
 TASK-UL044|Install and smoke-test Part II dependencies (hmmlearn, tslearn)|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL044.md|30m|1
 TASK-UL045|Lesson 17a theory: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL045.md|2h|3
+TASK-UL046|Lesson 17b practical: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL046.md|2h|3
