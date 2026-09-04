@@ -27,3 +27,30 @@ Kano `performance` resolves to an agent gate with one independent review (DEFAUL
 - Tasks: TASK-UL045, TASK-UL046, TASK-UL047
 - Feature set: FEAT-UL1 (Colab-runnable), FEAT-UL2 (NumPy-production)
 - Syllabus: CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md
+
+## Review (TASK-UL047, 2026-09-05)
+
+Independent agent review (Sonnet, fresh context, judging raw notebook JSON cell-by-cell
+rather than section headers) returned **agent-rejected**: 10 of 11 criteria met with cited
+cell evidence, **AC-11 NOT MET** — it requires an explicit contrast with both lesson 1
+(K-Means) and lesson 3 (DBSCAN) on non-convex clusters, and a grep for "dbscan" / "lesson 3"
+returned zero hits in either notebook. K-Means was contrasted throughout; DBSCAN was absent.
+
+The reviewer additionally cleared two things on independent scrutiny: the sigma=0.02 /
+13-components case in 17a is correctly explained rather than self-contradictory, and the
+RatioCut relaxation derivation matches von Luxburg's standard argument with no maths errors.
+
+**Gap closed, awaiting re-review.** 17a now carries a dedicated "The Other Non-Convex Method:
+Spectral vs DBSCAN" section — a comparison table (what a cluster is, what you must supply,
+noise labelling, behaviour under unequal density, cost) plus a three-dataset three-algorithm
+cell. Measured: moons and circles give DBSCAN and spectral ARI 1.000 each against K-Means
+0.247 / -0.003, so non-convexity alone does not choose between them; a purpose-built
+unequal-density pair drops DBSCAN to 0.889 with 16.0% of points marked noise while spectral
+holds 1.000. That is the discriminating case, and it makes the choice rule concrete: supply k
+(spectral) or a single density scale (DBSCAN), and note only DBSCAN labels outliers.
+
+17a re-executed: 9/9 code cells, zero errors, 7 figures.
+
+**This feature is NOT closed.** The fix was authored by the same session that built the
+notebooks, so it has not been independently verified. TASK-UL047 remains open for a fresh
+reviewer to re-run the procedure against AC-11 and close on approval.
