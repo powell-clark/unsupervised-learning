@@ -41,8 +41,18 @@ Verification task for Part II lesson 18 (Kernel Density Estimation and Nonparame
 5. Commit and push with the task id in the subject. Then auto-close this task per the
    review-gates auto-close path (tasks are auto-approve).
 
+## Execution evidence (step 1, verified against the COMMITTED artefacts at HEAD, not scratch copies)
+Checked by extracting each notebook from git (`git show HEAD:notebooks/<nb>`) and asserting every code cell carries a non-null `execution_count` and no output has `output_type == "error"`:
+
+| notebook | cells | code cells | execution_count sequence | errors | figures |
+|---|---|---|---|---|---|
+| `18a_kernel_density_estimation_theory.ipynb` | 21 | 9 | 1..9, sequential | 0 | 8 |
+| `18b_kernel_density_estimation_practical.ipynb` | 15 | 6 | 1..6, sequential | 0 | 5 |
+
+Figure counts cross-checked against `plt.show()` call counts in the cell sources (8 and 5) and they agree. **Correction to the build commits:** `9b88536` described 18a as having six figures and `3f4bd4f` described 18b as having seven; the measured counts are 8 and 5 respectively. The commit messages are wrong on that detail and this table supersedes them.
+
 ## Acceptance Criteria
-- [ ] Execution evidence confirmed for every notebook of this lesson (all code cells executed, zero errors, outputs committed)
+- [x] Execution evidence confirmed for every notebook of this lesson — table above; both notebooks executed without `--allow-errors`, outputs committed
 - [ ] Independent review performed by a fresh-context opus subagent against every criterion on FEAT-UL16, with per-criterion evidence recorded on the card
 - [ ] Verdict fragment appended (agent-approved or agent-rejected) with the evidence summary
 - [ ] On approval: FEAT-UL16 moved to maintained, STORY-UL16 to fulfilled, DIRECT-UL15 to done — indexes and cards both moved
