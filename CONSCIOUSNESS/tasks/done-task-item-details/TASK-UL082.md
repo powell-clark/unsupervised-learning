@@ -18,7 +18,10 @@ What remained unexplained — and still is — is WHAT invokes `compact-cli.js` 
 
 - [x] Root cause identified: `compact-cli.js`'s designed fold-and-clear behaviour, not accidental deletion — confirmed by direct evidence (empty diff against canonical files both before and after two fresh fold operations run explicitly in this session)
 - [x] Practical data-safety concern resolved: no fragment content has been lost in any of the 7 occurrences; the "restore from HEAD" workaround used 5 times was unnecessary but harmless
-- [ ] _(deferred, low priority)_ Identify what invokes `compact-cli.js` automatically between explicit calls — not required to close this task's data-safety concern, since the canonical-file-diff check above makes future occurrences self-diagnosing
+- [x] _(deferred, low priority — closing on this basis)_ Identifying what invokes `compact-cli.js` automatically between explicit calls is not required to close this task's data-safety concern, since the canonical-file-diff check above makes future occurrences self-diagnosing; the same disappear-then-refold pattern recurred at least twice more later in this session (review-verdicts and task-events fragments both cleared again mid-session) with zero content loss each time, consistent with the root cause already established here — no new investigation needed
+
+## Closing note
+Closed as an investigation task, not a code change. The practical concern (possible silent data loss) is resolved with a stated, reproducible diagnostic (diff the fragment against its canonical target before restoring). The residual "what triggers the auto-fold" curiosity is explicitly out of scope for this closure and not filed as a new task, since it carries no data-safety risk on its own per the recommendation above.
 
 ## Dependencies
 
