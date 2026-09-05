@@ -6,4 +6,3 @@ TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONS
 TASK-UL080|p3|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL080.md|TASK-UL047,TASK-UL071,TASK-UL079||||ackUP|2h|3
 TASK-UL082|p3|Stream fragment files deleted from working tree while tracked||||TASK-UL082.md|||||adnVD||
 TASK-UL083|p3|Soften two unmeasured claims in lesson 18b|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|TASK-UL083.md|||||aeKCU||
-TASK-UL086|p2|Fix lesson 28 capstone: honest K-selection rationale and report|STORY-UL26|DIRECT-UL25|FEAT-UL26|TASK-UL086.md|||||afy8U||
