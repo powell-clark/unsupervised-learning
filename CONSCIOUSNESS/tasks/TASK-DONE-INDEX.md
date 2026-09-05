@@ -54,3 +54,4 @@ TASK-UL055|Lesson 20b practical: Matrix Factorisation Family: NMF and ICA|STORY-
 TASK-UL056|Verify lesson 20: independent review and close FEAT-UL18|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL056.md|1h|2
 TASK-UL057|Lesson 21a theory: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL057.md|2h|3
 TASK-UL058|Lesson 21b practical: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL058.md|2h|3
+TASK-UL059|Verify lesson 21: independent review and close FEAT-UL19|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL059.md|1h|2
