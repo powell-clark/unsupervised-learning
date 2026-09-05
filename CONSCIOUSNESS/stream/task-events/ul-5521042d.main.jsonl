@@ -8,3 +8,6 @@
 {"schema_version":1,"event":"status-change","task_id":"TASK-UL038","from":"backlog","to":"in_progress","note":"auto-claim by ul-5521042d","timestamp":"2026-09-05 23:24:37.756 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
 {"task_id":"TASK-UL083","event":"released","reason":"displaced","timestamp":"2026-09-05 23:24:37.811 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
 {"task_id":"TASK-UL038","event":"claimed","timestamp":"2026-09-05 23:24:37.843 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
+{"schema_version":1,"event":"status-change","task_id":"TASK-UL039","from":"backlog","to":"in_progress","note":"auto-claim by ul-5521042d","timestamp":"2026-09-05 23:34:59.551 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
+{"task_id":"TASK-UL038","event":"released","reason":"displaced","timestamp":"2026-09-05 23:34:59.601 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
+{"task_id":"TASK-UL039","event":"claimed","timestamp":"2026-09-05 23:34:59.636 bst","session_id":"ul-5521042d","canonical_id":"5521042d-94c9-451d-a3c9-682674902ad5","branch":"main"}
