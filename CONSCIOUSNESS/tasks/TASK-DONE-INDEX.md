@@ -82,3 +82,4 @@ TASK-UL080|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-
 TASK-UL082|Stream fragment files deleted from working tree while tracked||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL082.md||
 TASK-UL083|Soften two unmeasured claims in lesson 18b|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL083.md||
 TASK-UL038|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL038.md|1h|1
+TASK-UL039|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL039.md|2h|1
