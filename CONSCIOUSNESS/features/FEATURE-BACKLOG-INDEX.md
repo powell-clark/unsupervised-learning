@@ -11,7 +11,6 @@ FEAT-UL10|p3|performance|Topic Modeling (LDA) Lesson|STORY-UL11|TASK-UL21,TASK-U
 FEAT-UL11|p4|performance|Self-Organizing Maps Lesson|STORY-UL12|TASK-UL23,TASK-UL24|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL11.md
 FEAT-UL12|p3|performance|Autoencoders and Deep Unsupervised Learning Lesson|STORY-UL13|TASK-UL25,TASK-UL26,TASK-UL043|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL12.md
 FEAT-UL13|p4|performance|Professional Practice Lesson|STORY-UL14|TASK-UL27,TASK-UL28,TASK-UL29,TASK-UL30|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL13.md
-FEAT-UL15|p2|performance|Spectral Clustering and Graph Laplacians Lesson|STORY-UL15|TASK-UL045,TASK-UL046,TASK-UL047,TASK-UL081|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL15.md
 FEAT-UL16|p2|performance|Kernel Density Estimation and Nonparametric Density Lesson|STORY-UL16|TASK-UL048,TASK-UL049,TASK-UL050|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL16.md
 FEAT-UL17|p2|performance|Normalizing Flows and Modern Density Models Lesson|STORY-UL17|TASK-UL051,TASK-UL052,TASK-UL053|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL17.md
 FEAT-UL18|p2|performance|Matrix Factorisation Family: NMF and ICA Lesson|STORY-UL18|TASK-UL054,TASK-UL055,TASK-UL056|CONSCIOUSNESS/features/backlog-feature-item-details/FEAT-UL18.md

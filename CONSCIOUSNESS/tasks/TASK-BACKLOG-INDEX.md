@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL048|p2|Lesson 18a theory: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL048.md|||||a6DKG|2h|3
 TASK-UL049|p2|Lesson 18b practical: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL049.md|TASK-UL048||||a7EM8|2h|3
 TASK-UL050|p2|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL050.md|TASK-UL048,TASK-UL049||||a8wkx|1h|2
 TASK-UL051|p2|Lesson 19a theory: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL051.md|||||a9er2|2h|3
@@ -36,4 +35,3 @@ TASK-UL077|p3|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL2
 TASK-UL078|p3|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL078.md|||||aawiz|3h|3
 TASK-UL079|p3|Verify lesson 28: independent review and close FEAT-UL26|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL079.md|TASK-UL078||||abibT|1h|2
 TASK-UL080|p3|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL080.md|TASK-UL047,TASK-UL050,TASK-UL053,TASK-UL056,TASK-UL059,TASK-UL062,TASK-UL065,TASK-UL068,TASK-UL071,TASK-UL074,TASK-UL077,TASK-UL079||||ackUP|2h|3
-TASK-UL081|p2|Re-verify FEAT-UL15 AC-11 and close lesson 17|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|TASK-UL081.md|||||adfje||
