@@ -6,9 +6,14 @@ verify-lesson-25 (REVIEW-UL096) rejected FEAT-UL23 at 10 of 11: AC-11 as literal
 
 ## Acceptance criteria
 
-- [ ] FEAT-UL23's AC-11 revised to accurately scope the cross-lesson-reuse requirement to lessons 9 and 10 only, with the lesson-8 exclusion documented and cited to REVIEW-UL096
-- [ ] Verification procedure re-run: dispatch a fresh independent fresh-context opus reviewer against the revised acceptance-criteria list (all 11, not just AC-11)
-- [ ] On approval: FEAT-UL23 moved to maintained, STORY-UL23 to fulfilled, DIRECT-UL22 to done — indexes and cards both moved, matching the established close_lesson.py pattern
+- [x] FEAT-UL23's AC-11 revised to accurately scope the cross-lesson-reuse requirement to lessons 9 and 10 only, with the lesson-8 exclusion documented and cited to REVIEW-UL096
+- [x] Verification procedure re-run: verify-lesson-25-b (fresh-context opus reviewer) checked the revised acceptance-criteria list (all 11), independently re-derived the core quantitative claims, and returned agent-approved (REVIEW-UL098, 11 of 11 met); several further moderate findings were fixed in the same pass and both notebooks re-executed clean
+- [x] On approval: FEAT-UL23 moved to maintained, STORY-UL23 to fulfilled, DIRECT-UL22 to done — indexes and cards both moved, matching the established close_lesson.py pattern
+
+## Outcome
+
+REVIEW-UL099 (bypass-approved). Closed via commits 79956ec (notebook fixes),
+d3b8cf7 (FEAT/STORY/DIRECT closure).
 
 ## Dependencies
 
