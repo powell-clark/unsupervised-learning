@@ -5,3 +5,4 @@ FEAT-UL17|performance|maintained|Normalizing Flows and Modern Density Models Les
 FEAT-UL18|performance|maintained|Matrix Factorisation Family: NMF and ICA Lesson|STORY-UL18|TASK-UL054,TASK-UL055,TASK-UL056|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL18.md|2026-09-05
 FEAT-UL19|performance|maintained|Expectation-Maximisation and Variational Inference Lesson|STORY-UL19|TASK-UL057,TASK-UL058,TASK-UL059|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL19.md|2026-09-05
 FEAT-UL20|performance|maintained|Bayesian Nonparametric Clustering: Dirichlet Process Mixtures Lesson|STORY-UL20|TASK-UL060,TASK-UL061,TASK-UL062|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL20.md|2026-09-05
+FEAT-UL21|performance|maintained|Hidden Markov Models and Unsupervised Sequence Learning Lesson|STORY-UL21|TASK-UL063,TASK-UL064,TASK-UL065|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL21.md|2026-09-05
