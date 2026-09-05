@@ -45,3 +45,4 @@ TASK-UL047|Verify lesson 17: independent review and close FEAT-UL15|STORY-UL15|D
 TASK-UL081|Re-verify FEAT-UL15 AC-11 and close lesson 17|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL081.md|1h|2
 TASK-UL048|Lesson 18a theory: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL048.md|2h|3
 TASK-UL049|Lesson 18b practical: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL049.md|2h|3
+TASK-UL050|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL050.md|1h|2
