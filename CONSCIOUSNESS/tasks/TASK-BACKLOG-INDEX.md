@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL059|p2|Verify lesson 21: independent review and close FEAT-UL19|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL059.md|||||aHjfe|1h|2
 TASK-UL060|p2|Lesson 22a theory: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL060.md|||||aIyc3|2h|3
 TASK-UL061|p2|Lesson 22b practical: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL061.md|TASK-UL060||||aJ955|2h|3
 TASK-UL062|p2|Verify lesson 22: independent review and close FEAT-UL20|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL062.md|TASK-UL060,TASK-UL061||||aKhSX|1h|2
