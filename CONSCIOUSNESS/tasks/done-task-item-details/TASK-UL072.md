@@ -15,11 +15,11 @@ Part II, lesson 26, theory notebook `notebooks/26a_contrastive_learning_theory.i
 **Data:** cached MNIST under notebooks/data — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present as a titled section with working code where the plan names an implementation
-- [ ] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library)
-- [ ] All theory-notebook criteria on FEAT-UL24 are satisfiable from this notebook's content (read the card before writing)
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no local files outside the repo, no network downloads
+- [x] Every section above present as a titled section with working code where the plan names an implementation — 28 cells (12 code, 16 markdown), all six planned sections present
+- [x] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library) — NT-Xent implemented three independent ways (plain Python, hand-written log-sum-exp tensors, `F.cross_entropy`), agreeing to float32 round-off (worst spread 1.01e-6) and matching a hand-derived closed form ($\log(1+2/e)$) to 6.42e-8; InfoNCE's MI lower bound checked against a closed-form joint distribution across M=2..1024 with standard errors quoted throughout
+- [x] All theory-notebook criteria on FEAT-UL24 are satisfiable from this notebook's content — AC-1 through AC-5 covered with cell-level evidence; AC-11's cross-lesson references (5, 6, 12, 25) integrated substantively, not as footnotes
+- [x] `jupyter execute` passes: every code cell executed, zero errors, outputs committed — 12/12 code cells, zero errors
+- [x] Colab-runnable: no local files outside the repo, no network downloads — MNIST loaded from the repo's cached `notebooks/data/MNIST`, confirmed no network calls
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.

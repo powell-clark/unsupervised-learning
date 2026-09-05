@@ -69,3 +69,4 @@ TASK-UL069|Lesson 25a theory: Word and Item Embeddings: word2vec and Skip-Gram w
 TASK-UL070|Lesson 25b practical: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL070.md|2h|3
 TASK-UL071|Verify lesson 25: independent review and close FEAT-UL23|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL071.md|1h|2
 TASK-UL085|Fix FEAT-UL23 AC-11 wording: lesson 8 generator unreusable|STORY-UL23|DIRECT-UL22|FEAT-UL23|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL085.md||
+TASK-UL072|Lesson 26a theory: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL072.md|2h|3
