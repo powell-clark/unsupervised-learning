@@ -42,11 +42,16 @@ Verification task for Part II lesson 26 (Self-Supervised Contrastive Representat
    review-gates auto-close path (tasks are auto-approve).
 
 ## Acceptance Criteria
-- [ ] Execution evidence confirmed for every notebook of this lesson (all code cells executed, zero errors, outputs committed)
-- [ ] Independent review performed by a fresh-context opus subagent against every criterion on FEAT-UL24, with per-criterion evidence recorded on the card
-- [ ] Verdict fragment appended (agent-approved or agent-rejected) with the evidence summary
-- [ ] On approval: FEAT-UL24 moved to maintained, STORY-UL24 to fulfilled, DIRECT-UL23 to done — indexes and cards both moved
-- [ ] On rejection: one fix task filed with the exact unmet criteria; feature left in backlog with gaps documented
+- [x] Execution evidence confirmed for every notebook of this lesson (all code cells executed, zero errors, outputs committed) — 26a 12/12, 26b 7/7, confirmed independently by both this session and the reviewer from output-cleared copies
+- [x] Independent review performed by a fresh-context opus subagent against every criterion on FEAT-UL24, with per-criterion evidence recorded on the card — verify-lesson-26 (REVIEW-UL102), all 11 criteria met, 4 substantive defects found and fixed (with two indexing bugs introduced during the fix, self-caught before shipping)
+- [x] Verdict fragment appended (agent-approved or agent-rejected) with the evidence summary — REVIEW-UL102 (feature, agent-approved)
+- [x] On approval: FEAT-UL24 moved to maintained, STORY-UL24 to fulfilled, DIRECT-UL23 to done — indexes and cards both moved
+- [x] On rejection: one fix task filed with the exact unmet criteria; feature left in backlog with gaps documented — N/A, approved on first review
+
+## Outcome
+
+REVIEW-UL103 (bypass-approved). Closed via commits ad16be6 (notebook fixes),
+2c2bd07 (FEAT/STORY/DIRECT closure).
 
 ## Execution
 - Reviewer model: opus (fresh-context subagent). Do not review your own build in the same context — the point is independence.
