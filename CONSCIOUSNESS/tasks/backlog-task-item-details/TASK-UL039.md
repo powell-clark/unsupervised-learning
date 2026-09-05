@@ -9,11 +9,11 @@ given a labeling budget) rather than making the most of an already-fixed labeled
 Deferred honestly rather than checked off under existing work.
 
 ## Acceptance Criteria
-- [ ] Framing: active learning as budget-constrained label acquisition, distinct from semi-supervised learning
-- [ ] Uncertainty sampling: query the point the current model is least confident about
-- [ ] Query-by-committee: query the point where an ensemble of models disagrees most
-- [ ] Empirical comparison: active learning query strategies vs random sampling, at a fixed labeling budget
-- [ ] Runs top-to-bottom in Google Colab
+- [x] Framing: active learning as budget-constrained label acquisition, distinct from semi-supervised learning — new markdown section explicitly distinguishes "given a labeled set that is already fixed" (semi-supervised, sections above) from "given a labeling budget still to spend" (active learning)
+- [x] Uncertainty sampling: query the point the current model is least confident about — implemented via smallest margin between top-two predicted class probabilities
+- [x] Query-by-committee: query the point where an ensemble of models disagrees most — implemented via a 5-member bootstrap-resampled committee, querying highest vote entropy
+- [x] Empirical comparison: active learning query strategies vs random sampling, at a fixed labeling budget — 15 rounds, 10 labels/round, 20 initial, same digits dataset as the semi-supervised comparison above; verified with a standalone script BEFORE writing any notebook prose (see Pre-mortem note): uncertainty sampling final accuracy 0.948 vs random's 0.924 (mean across 5 seeds: 0.943 vs 0.917, with lower variance), query-by-committee intermediate at 0.920
+- [x] Runs top-to-bottom in Google Colab — no new dependency added (LogisticRegression, StratifiedShuffleSplit, train_test_split, StandardScaler, accuracy_score are all already imported and used elsewhere in this same notebook); re-executed locally, 7/7 code cells zero errors, zero repr leaks
 
 ## Technical Notes
 Low priority — this extends an already-complete, already-shipped Lesson 16
@@ -25,3 +25,6 @@ before committing to it).
 ## Dependencies
 - Blocked by: TASK-UL30 (shipped)
 - Blocks: none
+
+## Pre-mortem note
+Having just caught two wrong first-draft predictions in TASK-UL038 (writing a confident explanation before checking the actual output), this task's active-learning comparison was verified in a standalone script BEFORE any notebook prose was written, across 5 random seeds, to confirm the uncertainty-sampling-beats-random result was real and not a single lucky seed. It held up consistently (uncertainty mean 0.943 vs random mean 0.917, uncertainty's own variance actually lower). No wrong claim was written this time.
