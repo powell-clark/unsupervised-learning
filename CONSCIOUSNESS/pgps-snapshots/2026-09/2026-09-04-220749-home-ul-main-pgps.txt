@@ -1,0 +1,166 @@
+PGPS START: 2026-09-04 22:07:49.059, SESSION ID: ul-5521042d | VERSION: v0.45.47 | SCHEMA: 20260813091041256
+
+IDENTITY:
+  A university-grade unsupervised machine-learning curriculum that teaches clustering, dimensionality reduction, density estimation, and representation learning from first principles.
+
+VISION:
+  A complete unsupervised learning curriculum — the natural companion to the supervised series, same rigour, same pedagogy, same production standards.
+
+MISSION:
+  Derives the mathematics, implements from scratch in NumPy, and applies production Scikit-learn/PyTorch — from K-means through autoencoders.
+
+IVM FILE:
+  CONSCIOUSNESS/identity-vision-mission.md
+
+ROADMAP:
+
+DIRECTIVES.ACTIVE:
+  [DIRECT-UL1] [in_progress] [p1] Clustering Foundations [TASK-UL1] [TASK-UL2] [TASK-UL33] [TASK-UL036] [TASK-UL037] (unknown)
+  [DIRECT-UL2] [pending] [p2] K-Means Clustering [TASK-UL3] [TASK-UL4]
+  [DIRECT-UL3] [pending] [p2] Hierarchical Clustering [TASK-UL5] [TASK-UL6]
+  [DIRECT-UL4] [pending] [p2] Density-Based Clustering (DBSCAN/HDBSCAN) [TASK-UL7] [TASK-UL8]
+  [DIRECT-UL5] [pending] [p2] Gaussian Mixture Models [TASK-UL9] [TASK-UL10]
+  [DIRECT-UL6] [pending] [p2] Dimensionality Reduction (PCA) [TASK-UL11] [TASK-UL12]
+  [DIRECT-UL7] [pending] [p2] Manifold Learning (t-SNE/UMAP) [TASK-UL13] [TASK-UL14]
+  [DIRECT-UL8] [pending] [p2] Anomaly Detection [TASK-UL15] [TASK-UL16]
+  [DIRECT-UL9] [pending] [p3] Association Rules & Apriori [TASK-UL19] [TASK-UL20]
+  [DIRECT-UL10] [pending] [p3] Topic Modeling (LDA) [TASK-UL21] [TASK-UL22]
+  [DIRECT-UL11] [pending] [p3] Self-Organizing Maps [TASK-UL23] [TASK-UL24]
+  [DIRECT-UL12] [pending] [p3] Deep Unsupervised Learning (Autoencoders/VAE) [TASK-UL25] [TASK-UL26]
+  [DIRECT-UL13] [pending] [p1] Professional Practice (Comparison, Selection, Preprocessing) [TASK-UL27] [TASK-UL28] [TASK-UL29] [TASK-UL30] [TASK-UL038] [TASK-UL039]
+
+DIRECTIVES.MAINTAINED:
+  [Empty DIRECT-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/directives/DIRECT-MAINTAINED-DONE-INDEX.md]
+
+DIRECTIVES.DONE:
+  [Empty DIRECT-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/directives/DIRECT-MAINTAINED-DONE-INDEX.md]
+
+DIRECTIVES.BACKLOG:
+  [Empty DIRECT-BACKLOG-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/directives/DIRECT-BACKLOG-INDEX.md]
+
+STORIES.ACTIVE:
+  [Empty STORY-ACTIVE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/stories/STORY-ACTIVE-INDEX.md]
+
+STORIES.FULFILLED:
+  [STORY-UL1] [fulfilled] As a learner I want a foundations lesson on unsupervised learning, distance metrics, and cluster evaluation so that I can judge cluster quality without ground-truth labels [DIRECT-UL1] [TASK-UL1] [TASK-UL2] [FEAT-UL1] [FEAT-UL2]
+  [STORY-UL9] [fulfilled] As a learner I want a recommender-systems lesson on collaborative filtering and matrix factorization so that I can predict user preferences from a sparse ratings matrix [DIRECT-UL1] [TASK-UL17] [TASK-UL18] [FEAT-UL1] [FEAT-UL2]
+
+STORIES.REJECTED:
+  [Empty STORY-FULFILLED-REJECTED-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/stories/STORY-FULFILLED-REJECTED-INDEX.md]
+
+STORIES.BACKLOG:
+  [STORY-UL2] [p2] As a learner I want a from-first-principles K-Means lesson deriving Lloyd's algorithm and K-Means++ so that I can segment data into meaningful groups with confidence [DIRECT-UL2] [TASK-UL3] [TASK-UL4] [FEAT-UL1] [FEAT-UL2] [FEAT-UL14]
+  [STORY-UL3] [p2] As a learner I want a hierarchical clustering lesson on linkage methods and dendrograms so that I can reveal nested structure without fixing the cluster count upfront [DIRECT-UL3] [TASK-UL5] [TASK-UL6] [FEAT-UL1] [FEAT-UL2] [FEAT-UL3]
+  [STORY-UL4] [p2] As a learner I want a density-based clustering lesson on DBSCAN and HDBSCAN so that I can find arbitrarily shaped clusters and isolate noise points [DIRECT-UL4] [TASK-UL7] [TASK-UL8] [FEAT-UL1] [FEAT-UL2] [FEAT-UL4]
+  [STORY-UL5] [p2] As a learner I want a Gaussian Mixture Model lesson deriving the EM algorithm so that I can model soft, probabilistic cluster membership [DIRECT-UL5] [TASK-UL9] [TASK-UL10] [FEAT-UL1] [FEAT-UL2] [FEAT-UL5]
+  [STORY-UL6] [p2] As a learner I want a PCA lesson grounded in eigendecomposition and SVD so that I can reduce dimensionality while retaining the most variance [DIRECT-UL6] [TASK-UL11] [TASK-UL12] [FEAT-UL1] [FEAT-UL2] [FEAT-UL6]
+  [STORY-UL7] [p3] As a learner I want a manifold-learning lesson on t-SNE and UMAP so that I can visualise high-dimensional data in two dimensions faithfully [DIRECT-UL7] [TASK-UL13] [TASK-UL14] [FEAT-UL1] [FEAT-UL2] [FEAT-UL7]
+  [STORY-UL8] [p3] As a learner I want an anomaly-detection lesson on Isolation Forest, LOF, and autoencoders so that I can flag rare outliers in unlabelled data [DIRECT-UL8] [TASK-UL15] [TASK-UL16] [FEAT-UL1] [FEAT-UL2] [FEAT-UL8]
+  [STORY-UL10] [p3] As a learner I want an association-rule lesson on Apriori and FP-Growth so that I can mine frequent itemsets and basket relationships from transactions [DIRECT-UL9] [TASK-UL19] [TASK-UL20] [FEAT-UL1] [FEAT-UL2] [FEAT-UL9]
+  [STORY-UL11] [p3] As a learner I want a topic-modeling lesson on Latent Dirichlet Allocation so that I can discover latent themes across a document corpus [DIRECT-UL10] [TASK-UL21] [TASK-UL22] [FEAT-UL1] [FEAT-UL2] [FEAT-UL10]
+  [STORY-UL13] [p3] As a learner I want a deep unsupervised lesson on autoencoders and variational autoencoders so that I can learn compressed latent representations of images [DIRECT-UL12] [TASK-UL25] [TASK-UL26] [FEAT-UL1] [FEAT-UL2] [FEAT-UL12]
+  [STORY-UL12] [p4] As a learner I want a self-organizing-map lesson on competitive learning so that I can project data onto a topology-preserving grid [DIRECT-UL11] [TASK-UL23] [TASK-UL24] [FEAT-UL1] [FEAT-UL2] [FEAT-UL11]
+  [STORY-UL14] [p4] As a learner I want a professional-practice series comparing clustering, reduction, preprocessing, and semi-supervised methods so that I can choose the right unsupervised approach for a real project [DIRECT-UL13] [TASK-UL27] [TASK-UL28] [TASK-UL29] [TASK-UL30] [FEAT-UL1] [FEAT-UL2] [FEAT-UL13]
+
+TASKS.ACTIVE:
+  [Empty TASK-ACTIVE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/tasks/TASK-ACTIVE-INDEX.md]
+
+TASKS.DONE:
+  [TASK-UL035] Fix stale DIRECT-UL1 placeholder across story backlog
+  [TASK-UL041] Resolve stale per-lesson features sitting in backlog
+  [TASK-UL040] Notebooks ship without execution evidence — re-execute in place
+  [TASK-UL1] Clustering foundations theory (0a) [STORY-UL1] [DIRECT-UL1] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL2] Cluster evaluation: silhouette, Davies-Bouldin, and choosing K [STORY-UL1] [DIRECT-UL1] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL3] K-Means theory: Lloyd's algorithm and K-Means++ from scratch [STORY-UL2] [DIRECT-UL2] [FEAT-UL1] [FEAT-UL2] [FEAT-UL14]
+  [TASK-UL4] K-Means practical: scikit-learn and mini-batch segmentation [STORY-UL2] [DIRECT-UL2] [FEAT-UL1] [FEAT-UL2] [FEAT-UL14]
+  [TASK-UL5] Hierarchical clustering theory: linkage methods and dendrograms [STORY-UL3] [DIRECT-UL3] [FEAT-UL1] [FEAT-UL2] [FEAT-UL3]
+  [TASK-UL6] Hierarchical clustering practical: cutting dendrograms in scikit-learn [STORY-UL3] [DIRECT-UL3] [FEAT-UL1] [FEAT-UL2] [FEAT-UL3]
+  [TASK-UL7] DBSCAN theory: density-reachability, core and noise points [STORY-UL4] [DIRECT-UL4] [FEAT-UL1] [FEAT-UL2] [FEAT-UL4]
+  [TASK-UL8] DBSCAN practical: parameter selection and HDBSCAN [STORY-UL4] [DIRECT-UL4] [FEAT-UL1] [FEAT-UL2] [FEAT-UL4]
+  [TASK-UL17] Recommender systems theory: collaborative filtering and matrix factorization [STORY-UL9] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL18] Recommender systems practical: Surprise, Implicit, and PyTorch [STORY-UL9] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL33] Create lesson feature cards (one per active story) [DIRECT-UL1] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL9] GMM theory: EM algorithm derivation and covariance types [STORY-UL5] [DIRECT-UL5] [FEAT-UL1] [FEAT-UL2] [FEAT-UL5]
+  [TASK-UL10] GMM practical: BIC and AIC model selection with image segmentation [STORY-UL5] [DIRECT-UL5] [FEAT-UL1] [FEAT-UL2] [FEAT-UL5]
+  [TASK-UL11] PCA theory: eigendecomposition and SVD from scratch [STORY-UL6] [DIRECT-UL6] [FEAT-UL1] [FEAT-UL2] [FEAT-UL6]
+  [TASK-UL12] PCA practical: kernel PCA and Eigenfaces recognition [STORY-UL6] [DIRECT-UL6] [FEAT-UL1] [FEAT-UL2] [FEAT-UL6]
+  [TASK-UL13] Manifold learning theory: t-SNE and UMAP foundations [STORY-UL7] [DIRECT-UL7] [FEAT-UL1] [FEAT-UL2] [FEAT-UL7]
+  [TASK-UL14] Manifold learning practical: tuning t-SNE and UMAP visualisations [STORY-UL7] [DIRECT-UL7] [FEAT-UL1] [FEAT-UL2] [FEAT-UL7]
+  [TASK-UL15] Anomaly detection theory: Isolation Forest, LOF, one-class SVM [STORY-UL8] [DIRECT-UL8] [FEAT-UL1] [FEAT-UL2] [FEAT-UL8]
+  [TASK-UL16] Anomaly detection practical: PyTorch autoencoder fraud detection [STORY-UL8] [DIRECT-UL8] [FEAT-UL1] [FEAT-UL2] [FEAT-UL8]
+  [TASK-UL19] Association rules theory: support, confidence, lift, and Apriori [STORY-UL10] [DIRECT-UL9] [FEAT-UL1] [FEAT-UL2] [FEAT-UL9]
+  [TASK-UL20] Association rules practical: mlxtend market-basket mining [STORY-UL10] [DIRECT-UL9] [FEAT-UL1] [FEAT-UL2] [FEAT-UL9]
+  [TASK-UL21] Topic modeling theory: Latent Dirichlet Allocation and Gibbs sampling [STORY-UL11] [DIRECT-UL10] [FEAT-UL1] [FEAT-UL2] [FEAT-UL10]
+  [TASK-UL22] Topic modeling practical: Gensim, scikit-learn, and pyLDAvis [STORY-UL11] [DIRECT-UL10] [FEAT-UL1] [FEAT-UL2] [FEAT-UL10]
+  [TASK-UL036] Sync README progress after Lessons 7, 9, 10 [DIRECT-UL1] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL23] Self-organizing maps theory: competitive learning and neighborhoods [STORY-UL12] [DIRECT-UL11] [FEAT-UL1] [FEAT-UL2] [FEAT-UL11]
+  [TASK-UL037] Session-hygiene commits lack task traceability [DIRECT-UL1] [FEAT-UL1] [FEAT-UL2]
+  [TASK-UL24] Self-organizing maps practical: MiniSom and U-Matrix visualisation [STORY-UL12] [DIRECT-UL11] [FEAT-UL1] [FEAT-UL2] [FEAT-UL11]
+  [TASK-UL25] Autoencoders theory: vanilla, VAE, ELBO, and reparameterization [STORY-UL13] [DIRECT-UL12] [FEAT-UL1] [FEAT-UL2] [FEAT-UL12]
+  [TASK-UL26] Autoencoders practical: convolutional denoising in PyTorch [STORY-UL13] [DIRECT-UL12] [FEAT-UL1] [FEAT-UL2] [FEAT-UL12]
+  [TASK-UL27] Clustering comparison: choosing algorithms and complexity trade-offs [STORY-UL14] [DIRECT-UL13] [FEAT-UL1] [FEAT-UL2] [FEAT-UL13]
+  [TASK-UL28] Dimensionality reduction pipeline: feature selection versus extraction [STORY-UL14] [DIRECT-UL13] [FEAT-UL1] [FEAT-UL2] [FEAT-UL13]
+  [TASK-UL29] Unsupervised preprocessing: scaling, encoding, distance metrics [STORY-UL14] [DIRECT-UL13] [FEAT-UL1] [FEAT-UL2] [FEAT-UL13]
+  [TASK-UL30] Semi-supervised learning: label propagation, self-training, co-training [STORY-UL14] [DIRECT-UL13] [FEAT-UL1] [FEAT-UL2] [FEAT-UL13]
+  [TASK-UL034] Fix FEAT-UL2 ID collision across active and backlog indices
+  [TASK-UL042] Remove duplicated inline advisor discipline
+
+TASKS.BACKLOG:
+  [TASK-UL031] [p3] Consciousness loop re-activation stall after STATUS: complete
+  [TASK-UL032] [p3] Goal hook re-activation stall on consciousness session end
+  [TASK-UL038] [p4] Extend Lesson 15 preprocessing depth [DIRECT-UL13] [FEAT-UL1,FEAT-UL2] [TASK-UL29]
+  [TASK-UL039] [p4] Active learning strategies addendum to Lesson 16 [DIRECT-UL13] [FEAT-UL1,FEAT-UL2] [TASK-UL30]
+  [TASK-UL043] [p4] Extend Lesson 12 practical: latent interpolation, reconstruction-based anomaly detection, VAE-vs-GAN note [DIRECT-UL12] [FEAT-UL1,FEAT-UL2,FEAT-UL12]
+
+TODO:
+  [No todos - TODO.md missing - create at ~/projects/auxiliary/unsupervised-learning/TODO.md]
+
+FEATURES.ACTIVE:
+  [FEAT-UL1] [in_progress] [p2] [performance] Every lesson notebook runs end-to-end in Google Colab with one click and no local setup [33/35 tasks] [untested] [STORY-UL1] [STORY-UL2] [STORY-UL3] [STORY-UL4] [STORY-UL5] [STORY-UL6] [STORY-UL7] [STORY-UL8] [STORY-UL9] [STORY-UL10] [STORY-UL11] [STORY-UL12] [STORY-UL13] [STORY-UL14] [TASK-UL1] [TASK-UL2] [TASK-UL3] [TASK-UL4] [TASK-UL5] [TASK-UL6] [TASK-UL7] [TASK-UL8] [TASK-UL9] [TASK-UL10] [TASK-UL11] [TASK-UL12] [TASK-UL13] [TASK-UL14] [TASK-UL15] [TASK-UL16] [TASK-UL17] [TASK-UL18] [TASK-UL19] [TASK-UL20] [TASK-UL21] [TASK-UL22] [TASK-UL23] [TASK-UL24] [TASK-UL25] [TASK-UL26] [TASK-UL27] [TASK-UL28] [TASK-UL29] [TASK-UL30] [TASK-UL038] [TASK-UL039] [TASK-UL33] [TASK-UL036] [TASK-UL037] (unknown)
+  [FEAT-UL2] [in_progress] [p1] [must-have] Each lesson pairs a from-scratch NumPy derivation with a production Scikit-learn or PyTorch implementation [33/35 tasks] [untested] [STORY-UL1] [STORY-UL2] [STORY-UL3] [STORY-UL4] [STORY-UL5] [STORY-UL6] [STORY-UL7] [STORY-UL8] [STORY-UL9] [STORY-UL10] [STORY-UL11] [STORY-UL12] [STORY-UL13] [STORY-UL14] [TASK-UL1] [TASK-UL2] [TASK-UL3] [TASK-UL4] [TASK-UL5] [TASK-UL6] [TASK-UL7] [TASK-UL8] [TASK-UL9] [TASK-UL10] [TASK-UL11] [TASK-UL12] [TASK-UL13] [TASK-UL14] [TASK-UL15] [TASK-UL16] [TASK-UL17] [TASK-UL18] [TASK-UL19] [TASK-UL20] [TASK-UL21] [TASK-UL22] [TASK-UL23] [TASK-UL24] [TASK-UL25] [TASK-UL26] [TASK-UL27] [TASK-UL28] [TASK-UL29] [TASK-UL30] [TASK-UL038] [TASK-UL039] [TASK-UL33] [TASK-UL036] [TASK-UL037] (unknown)
+
+FEATURES.MAINTAINED:
+  [Empty FEATURE-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/features/FEATURE-MAINTAINED-DONE-INDEX.md]
+
+FEATURES.DONE:
+  [Empty FEATURE-MAINTAINED-DONE-INDEX.md - valid - ~/projects/auxiliary/unsupervised-learning/CONSCIOUSNESS/features/FEATURE-MAINTAINED-DONE-INDEX.md]
+
+FEATURES.BACKLOG:
+  [FEAT-UL14] [p2] [performance] K-Means Clustering Lesson [STORY-UL2] [TASK-UL3] [TASK-UL4]
+  [FEAT-UL3] [p2] [performance] Hierarchical Clustering Lesson [STORY-UL3] [TASK-UL5] [TASK-UL6]
+  [FEAT-UL4] [p2] [performance] Density-Based Clustering (DBSCAN/HDBSCAN) Lesson [STORY-UL4] [TASK-UL7] [TASK-UL8]
+  [FEAT-UL5] [p2] [performance] Gaussian Mixture Models Lesson [STORY-UL5] [TASK-UL9] [TASK-UL10]
+  [FEAT-UL6] [p2] [performance] PCA Dimensionality Reduction Lesson [STORY-UL6] [TASK-UL11] [TASK-UL12]
+  [FEAT-UL7] [p3] [performance] Manifold Learning (t-SNE/UMAP) Lesson [STORY-UL7] [TASK-UL13] [TASK-UL14]
+  [FEAT-UL8] [p3] [performance] Anomaly Detection Lesson [STORY-UL8] [TASK-UL15] [TASK-UL16]
+  [FEAT-UL9] [p3] [performance] Association Rules Lesson [STORY-UL10] [TASK-UL19] [TASK-UL20]
+  [FEAT-UL10] [p3] [performance] Topic Modeling (LDA) Lesson [STORY-UL11] [TASK-UL21] [TASK-UL22]
+  [FEAT-UL12] [p3] [performance] Autoencoders and Deep Unsupervised Learning Lesson [STORY-UL13] [TASK-UL25] [TASK-UL26]
+  [FEAT-UL11] [p4] [performance] Self-Organizing Maps Lesson [STORY-UL12] [TASK-UL23] [TASK-UL24]
+  [FEAT-UL13] [p4] [performance] Professional Practice Lesson [STORY-UL14] [TASK-UL27] [TASK-UL28] [TASK-UL29] [TASK-UL30]
+
+GIT:
+  branch:main changes:22 authored (+18 plugin, +13 generated) ahead:0 behind:0 @8280286
+
+UNIVERSE:
+  ul-cc-5521042d-%25 [idle]
+
+FRESHNESS:
+  never verified:
+  [FEAT-UL1] [untested]
+  [FEAT-UL2] [untested]
+
+REVIEWS:
+  [pending] TASK-UL041 — Resolve stale per-lesson features sitting in backlog: bypass-approved (ul-5521042d)
+  [pending] FEAT-UL13: agent-approved (ul-5521042d)
+  [pending] FEAT-UL12: agent-rejected (ul-5521042d)
+  [pending] FEAT-UL11: agent-approved (ul-5521042d)
+  [pending] FEAT-UL10: agent-approved (ul-5521042d)
+  [pending] FEAT-UL9: agent-approved (ul-5521042d)
+  [pending] FEAT-UL8: agent-approved (ul-5521042d)
+  [pending] FEAT-UL7: agent-approved (ul-5521042d)
+  … 73 earlier verdict(s) in reviews/REVIEW-INDEX.md
+CURRENT:
+  [no active task]
+
+ PGPS SCRIPT OUTPUT END: 2026-09-04 22:07:49.163, SESSION ID: ul-5521042d, Duration: 104ms

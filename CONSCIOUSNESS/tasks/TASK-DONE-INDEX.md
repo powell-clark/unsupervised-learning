@@ -43,3 +43,4 @@ TASK-UL045|Lesson 17a theory: Spectral Clustering and Graph Laplacians|STORY-UL1
 TASK-UL046|Lesson 17b practical: Spectral Clustering and Graph Laplacians|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL046.md|2h|3
 TASK-UL047|Verify lesson 17: independent review and close FEAT-UL15|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL047.md|1h|2
 TASK-UL081|Re-verify FEAT-UL15 AC-11 and close lesson 17|STORY-UL15|DIRECT-UL14|FEAT-UL1,FEAT-UL2,FEAT-UL15|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL081.md|1h|2
+TASK-UL048|Lesson 18a theory: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL048.md|2h|3
