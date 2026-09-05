@@ -9,20 +9,20 @@ The identity-vision-mission promises clustering, dimensionality reduction, **den
 
 | # | Lesson | Notebooks | Directive / Story / Feature | Tasks (a, b, verify) | Status |
 |---|---|---|---|---|---|
-| 17 | Spectral Clustering and Graph Laplacians | 17a_spectral_clustering_theory.ipynb, 17b_spectral_clustering_practical.ipynb | DIRECT-UL14 / STORY-UL15 / FEAT-UL15 | TASK-UL045, TASK-UL046, TASK-UL047 | planned |
-| 18 | Kernel Density Estimation and Nonparametric Density | 18a_kernel_density_estimation_theory.ipynb, 18b_kernel_density_estimation_practical.ipynb | DIRECT-UL15 / STORY-UL16 / FEAT-UL16 | TASK-UL048, TASK-UL049, TASK-UL050 | planned |
-| 19 | Normalizing Flows and Modern Density Models | 19a_normalizing_flows_theory.ipynb, 19b_normalizing_flows_practical.ipynb | DIRECT-UL16 / STORY-UL17 / FEAT-UL17 | TASK-UL051, TASK-UL052, TASK-UL053 | planned |
-| 20 | Matrix Factorisation Family: NMF and ICA | 20a_nmf_ica_theory.ipynb, 20b_nmf_ica_practical.ipynb | DIRECT-UL17 / STORY-UL18 / FEAT-UL18 | TASK-UL054, TASK-UL055, TASK-UL056 | planned |
-| 21 | Expectation-Maximisation and Variational Inference | 21a_em_variational_inference_theory.ipynb, 21b_em_variational_inference_practical.ipynb | DIRECT-UL18 / STORY-UL19 / FEAT-UL19 | TASK-UL057, TASK-UL058, TASK-UL059 | planned |
-| 22 | Bayesian Nonparametric Clustering: Dirichlet Process Mixtures | 22a_dirichlet_process_mixtures_theory.ipynb, 22b_dirichlet_process_mixtures_practical.ipynb | DIRECT-UL19 / STORY-UL20 / FEAT-UL20 | TASK-UL060, TASK-UL061, TASK-UL062 | planned |
-| 23 | Hidden Markov Models and Unsupervised Sequence Learning | 23a_hidden_markov_models_theory.ipynb, 23b_hidden_markov_models_practical.ipynb | DIRECT-UL20 / STORY-UL21 / FEAT-UL21 | TASK-UL063, TASK-UL064, TASK-UL065 | planned |
-| 24 | Time-Series Clustering and Dynamic Time Warping | 24a_time_series_clustering_theory.ipynb, 24b_time_series_clustering_practical.ipynb | DIRECT-UL21 / STORY-UL22 / FEAT-UL22 | TASK-UL066, TASK-UL067, TASK-UL068 | planned |
-| 25 | Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling | 25a_word_embeddings_theory.ipynb, 25b_word_embeddings_practical.ipynb | DIRECT-UL22 / STORY-UL23 / FEAT-UL23 | TASK-UL069, TASK-UL070, TASK-UL071 | planned |
-| 26 | Self-Supervised Contrastive Representation Learning | 26a_contrastive_learning_theory.ipynb, 26b_contrastive_learning_practical.ipynb | DIRECT-UL23 / STORY-UL24 / FEAT-UL24 | TASK-UL072, TASK-UL073, TASK-UL074 | planned |
-| 27 | Clustering Stability, Consensus and Choosing K Honestly | 27a_clustering_stability_theory.ipynb, 27b_clustering_stability_practical.ipynb | DIRECT-UL24 / STORY-UL25 / FEAT-UL25 | TASK-UL075, TASK-UL076, TASK-UL077 | planned |
-| 28 | Capstone: An End-to-End Unsupervised Analysis | 28_capstone_pipeline.ipynb | DIRECT-UL25 / STORY-UL26 / FEAT-UL26 | TASK-UL078, TASK-UL079 | planned |
+| 17 | Spectral Clustering and Graph Laplacians | 17a_spectral_clustering_theory.ipynb, 17b_spectral_clustering_practical.ipynb | DIRECT-UL14 / STORY-UL15 / FEAT-UL15 | TASK-UL045, TASK-UL046, TASK-UL047 | done |
+| 18 | Kernel Density Estimation and Nonparametric Density | 18a_kernel_density_estimation_theory.ipynb, 18b_kernel_density_estimation_practical.ipynb | DIRECT-UL15 / STORY-UL16 / FEAT-UL16 | TASK-UL048, TASK-UL049, TASK-UL050 | done |
+| 19 | Normalizing Flows and Modern Density Models | 19a_normalizing_flows_theory.ipynb, 19b_normalizing_flows_practical.ipynb | DIRECT-UL16 / STORY-UL17 / FEAT-UL17 | TASK-UL051, TASK-UL052, TASK-UL053 | done |
+| 20 | Matrix Factorisation Family: NMF and ICA | 20a_nmf_ica_theory.ipynb, 20b_nmf_ica_practical.ipynb | DIRECT-UL17 / STORY-UL18 / FEAT-UL18 | TASK-UL054, TASK-UL055, TASK-UL056 | done |
+| 21 | Expectation-Maximisation and Variational Inference | 21a_em_variational_inference_theory.ipynb, 21b_em_variational_inference_practical.ipynb | DIRECT-UL18 / STORY-UL19 / FEAT-UL19 | TASK-UL057, TASK-UL058, TASK-UL059 | done |
+| 22 | Bayesian Nonparametric Clustering: Dirichlet Process Mixtures | 22a_dirichlet_process_mixtures_theory.ipynb, 22b_dirichlet_process_mixtures_practical.ipynb | DIRECT-UL19 / STORY-UL20 / FEAT-UL20 | TASK-UL060, TASK-UL061, TASK-UL062 | done |
+| 23 | Hidden Markov Models and Unsupervised Sequence Learning | 23a_hidden_markov_models_theory.ipynb, 23b_hidden_markov_models_practical.ipynb | DIRECT-UL20 / STORY-UL21 / FEAT-UL21 | TASK-UL063, TASK-UL064, TASK-UL065 | done |
+| 24 | Time-Series Clustering and Dynamic Time Warping | 24a_time_series_clustering_theory.ipynb, 24b_time_series_clustering_practical.ipynb | DIRECT-UL21 / STORY-UL22 / FEAT-UL22 | TASK-UL066, TASK-UL067, TASK-UL068 | done |
+| 25 | Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling | 25a_word_embeddings_theory.ipynb, 25b_word_embeddings_practical.ipynb | DIRECT-UL22 / STORY-UL23 / FEAT-UL23 | TASK-UL069, TASK-UL070, TASK-UL071 (+TASK-UL085 fix) | done |
+| 26 | Self-Supervised Contrastive Representation Learning | 26a_contrastive_learning_theory.ipynb, 26b_contrastive_learning_practical.ipynb | DIRECT-UL23 / STORY-UL24 / FEAT-UL24 | TASK-UL072, TASK-UL073, TASK-UL074 | done |
+| 27 | Clustering Stability, Consensus and Choosing K Honestly | 27a_clustering_stability_theory.ipynb, 27b_clustering_stability_practical.ipynb | DIRECT-UL24 / STORY-UL25 / FEAT-UL25 | TASK-UL075, TASK-UL076, TASK-UL077 | done |
+| 28 | Capstone: An End-to-End Unsupervised Analysis | 28_capstone_pipeline.ipynb | DIRECT-UL25 / STORY-UL26 / FEAT-UL26 | TASK-UL078, TASK-UL079 (+TASK-UL086 fix) | done |
 
-Environment task: TASK-UL044. Corpus close-out (after all verifications): TASK-UL080.
+Environment task: TASK-UL044 (done). Corpus close-out (after all verifications): TASK-UL080 (done, 2026-09-05) — all 12 lessons done, every directive/story/feature above closed, full 53-notebook sweep clean, requirements.txt import smoke test passed.
 
 ## How it runs
 - Every lesson is three tasks: build theory (a), build practical (b, blocked by a), verify (blocked by both). Lesson 28 is one build plus verify.
