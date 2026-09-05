@@ -14,11 +14,11 @@ Part II, lesson 26, practical notebook `notebooks/26b_contrastive_learning_pract
 **Data:** cached MNIST — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present with working code and at least one figure or table per section
-- [ ] The production library result is compared against the lesson's from-scratch implementation at least once
-- [ ] All practical-notebook criteria on FEAT-UL24 are satisfiable from this notebook's content
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no network downloads (a bundled/cached dataset or an in-notebook generator only)
+- [x] Every section above present with working code and at least one figure or table per section — 16 cells (7 code, 9 markdown), all five planned sections present, each with at least one table/print and one plot
+- [x] The production library result is compared against the lesson's from-scratch implementation at least once — sklearn's `PCA`/`LogisticRegression`/`TSNE`/`KNeighborsClassifier` compared directly against the from-scratch SimCLR encoder under one identical linear-probe protocol
+- [x] All practical-notebook criteria on FEAT-UL24 are satisfiable from this notebook's content — AC-6 through AC-10 covered with cell-level evidence; AC-11's remaining cross-lesson references (5, 6, 16) integrated substantively
+- [x] `jupyter execute` passes: every code cell executed, zero errors, outputs committed — 7/7 code cells, zero errors (after fixing a NameError, a nested-quote syntax error, and leaked markdown placeholders found during my own review pass; ablation scope was also reduced after two execution timeouts under heavy, transient machine contention — each individual training cell stays within the build rule's ~3-minute guideline)
+- [x] Colab-runnable: no network downloads (a bundled/cached dataset or an in-notebook generator only) — MNIST loaded from the repo's cached `notebooks/data/MNIST`, matching 26A's corpus exactly
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
