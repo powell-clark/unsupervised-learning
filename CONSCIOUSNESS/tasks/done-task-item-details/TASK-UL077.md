@@ -42,11 +42,16 @@ Verification task for Part II lesson 27 (Clustering Stability, Consensus and Cho
    review-gates auto-close path (tasks are auto-approve).
 
 ## Acceptance Criteria
-- [ ] Execution evidence confirmed for every notebook of this lesson (all code cells executed, zero errors, outputs committed)
-- [ ] Independent review performed by a fresh-context opus subagent against every criterion on FEAT-UL25, with per-criterion evidence recorded on the card
-- [ ] Verdict fragment appended (agent-approved or agent-rejected) with the evidence summary
-- [ ] On approval: FEAT-UL25 moved to maintained, STORY-UL25 to fulfilled, DIRECT-UL24 to done — indexes and cards both moved
-- [ ] On rejection: one fix task filed with the exact unmet criteria; feature left in backlog with gaps documented
+- [x] Execution evidence confirmed for every notebook of this lesson (all code cells executed, zero errors, outputs committed) — 27a 7/7, 27b 6/6, confirmed independently by both this session and the reviewer from clean copies
+- [x] Independent review performed by a fresh-context opus subagent against every criterion on FEAT-UL25, with per-criterion evidence recorded on the card — verify-lesson-27 (REVIEW-UL106), all 11 criteria met, 18 findings (2 HIGH, 7 medium, 9 low) found and fixed
+- [x] Verdict fragment appended (agent-approved or agent-rejected) with the evidence summary — REVIEW-UL106 (feature, agent-approved)
+- [x] On approval: FEAT-UL25 moved to maintained, STORY-UL25 to fulfilled, DIRECT-UL24 to done — indexes and cards both moved
+- [x] On rejection: one fix task filed with the exact unmet criteria; feature left in backlog with gaps documented — N/A, approved on first review
+
+## Outcome
+
+REVIEW-UL107 (bypass-approved). Closed via commits 7f4251c (notebook fixes),
+4b2d351 (FEAT/STORY/DIRECT closure).
 
 ## Execution
 - Reviewer model: opus (fresh-context subagent). Do not review your own build in the same context — the point is independence.
