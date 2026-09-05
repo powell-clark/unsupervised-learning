@@ -2,6 +2,16 @@
 
 A comprehensive, hands-on curriculum for learning unsupervised machine learning from first principles using Python. This repository teaches clustering, dimensionality reduction, anomaly detection, and advanced unsupervised methods through theory and practical implementation.
 
+## The series
+
+Four repositories, one curriculum. The first three are *how* a model learns; the fourth is *what*
+it is built from, and cuts across all three.
+
+- [Supervised learning](https://github.com/powell-clark/supervised-learning) — learning from labelled examples
+- **[Unsupervised learning](https://github.com/powell-clark/unsupervised-learning) — finding structure with no labels (you are here)**
+- [Reinforcement learning](https://github.com/powell-clark/reinforcement-learning) — learning from reward
+- [Deep learning & transformers](https://github.com/powell-clark/deep-learning) — the architecture the other three can each be built on
+
 ## Overview
 
 This curriculum follows a rigorous pedagogical approach:
@@ -13,7 +23,7 @@ This curriculum follows a rigorous pedagogical approach:
 
 ## Curriculum Progress
 
-**Status**: 100% complete (17 of 17 lessons, 31 notebooks)
+**Status:** 17 of 17 lessons complete (31 notebooks)
 
 ### Completed Lessons
 
@@ -166,6 +176,6 @@ Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status**: 100% complete (17 of 17 lessons, 31 notebooks)
+**Status:** 17 of 17 lessons complete (31 notebooks)
 **Last Updated**: 2026-07-13
 **Author**: Powell-Clark Limited
