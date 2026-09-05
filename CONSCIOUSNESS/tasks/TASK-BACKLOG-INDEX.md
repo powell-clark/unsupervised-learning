@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL072|p3|Lesson 26a theory: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL072.md|||||aUsbW|2h|3
 TASK-UL073|p3|Lesson 26b practical: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL073.md|TASK-UL072||||aVmFF|2h|3
 TASK-UL074|p3|Verify lesson 26: independent review and close FEAT-UL24|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL074.md|TASK-UL072,TASK-UL073||||aWFFa|1h|2
 TASK-UL075|p3|Lesson 27a theory: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL075.md|||||aXkIl|2h|3
