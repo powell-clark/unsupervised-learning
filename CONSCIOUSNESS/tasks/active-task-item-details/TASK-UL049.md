@@ -14,11 +14,20 @@ Part II, lesson 18, practical notebook `notebooks/18b_kernel_density_estimation_
 **Data:** sklearn load_digits, load_iris; synthetic — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present with working code and at least one figure or table per section
-- [ ] The production library result is compared against the lesson's from-scratch implementation at least once
-- [ ] All practical-notebook criteria on FEAT-UL16 are satisfiable from this notebook's content
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no network downloads (a bundled/cached dataset or an in-notebook generator only)
+- [x] Every section above present with working code and at least one figure or table per section — all five, each with a figure and a printed table
+- [x] The production library result is compared against the lesson's from-scratch implementation at least once — Section 3 compares 18A's `kde_scratch` with `KernelDensity` (6.23e-16) and `gaussian_kde` (4.86e-17), and additionally shows what the unconverted `bw_method` mistake costs (0.0088 against a density peaking at 0.0101)
+- [x] All practical-notebook criteria on FEAT-UL16 are satisfiable from this notebook's content — AC-6 (Section 3), AC-7 (Section 4), AC-8 (Section 5), AC-9 (Section 7, Experiment 2), AC-10 (clean execution)
+- [x] `jupyter execute` passes: 6 of 6 code cells with sequential execution counts, zero error outputs, run without `--allow-errors`, outputs committed
+- [x] Colab-runnable: `load_digits` and `load_iris` only; no downloads, no files outside the repo
+
+## Build notes
+Three results contradicted what I had written before running, and each was fixed by changing the experiment or the claim rather than the wording:
+
+1. **The dimension sweep showed the opposite of the curse.** Sweeping PCA components, KDE PR-AUC *rose* from 0.039 (d=2) to 0.222 (d=30) — because each added component brings dimension *and* information, and information won at n≈1,400. The section now reports that failed experiment explicitly, names the confound, and adds a controlled Experiment 2 (10 informative components fixed, pure noise appended) which produces the failure cleanly: KDE 0.1251 → 0.0403, at or below chance, LOF likewise, with the cross-validated bandwidth more than doubling as the mechanism.
+2. **Isolation Forest scored below a random baseline** (0.0367 vs 0.0606). Verified this is not a sign error — `score_samples` is higher-is-normal for both KDE and IF, and both are negated identically for `average_precision_score`. It is a genuine mismatch: IF finds points that are easy to isolate, i.e. edge points, while digit 9 sits inside the cloud. Written up as the lesson's point about matching the scoring rule to the anomaly's shape.
+3. **The random baseline was a single noisy draw** that outscored Isolation Forest by luck. Now averaged over 60 draws, and the prose corrected — a random ranker's average precision has expectation slightly *above* prevalence when positives are few (measured 0.0606 vs prevalence 0.0503), so the measured baseline is the honest bar.
+
+Also replaced a 1797×1797×64 pairwise distance tensor (~1.6 GB, against 6 GB free) with `NearestNeighbors` before first execution.
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
