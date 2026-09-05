@@ -72,3 +72,4 @@ TASK-UL085|Fix FEAT-UL23 AC-11 wording: lesson 8 generator unreusable|STORY-UL23
 TASK-UL072|Lesson 26a theory: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL072.md|2h|3
 TASK-UL073|Lesson 26b practical: Self-Supervised Contrastive Representation Learning|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL073.md|2h|3
 TASK-UL074|Verify lesson 26: independent review and close FEAT-UL24|STORY-UL24|DIRECT-UL23|FEAT-UL1,FEAT-UL2,FEAT-UL24|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL074.md|1h|2
+TASK-UL075|Lesson 27a theory: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL075.md|2h|3

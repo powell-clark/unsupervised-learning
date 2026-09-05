@@ -15,11 +15,11 @@ Part II, lesson 27, theory notebook `notebooks/27a_clustering_stability_theory.i
 **Data:** make_blobs with varying separation, load_iris, load_wine — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present as a titled section with working code where the plan names an implementation
-- [ ] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library)
-- [ ] All theory-notebook criteria on FEAT-UL25 are satisfiable from this notebook's content (read the card before writing)
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no local files outside the repo, no network downloads
+- [x] Every section above present as a titled section with working code where the plan names an implementation — 17 cells (7 code, 10 markdown), all six planned sections present
+- [x] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library) — gap statistic, stability curve, prediction strength and consensus-CDF area all validated against a known true K=4 on synthetic blobs; BIC uses sklearn's `GaussianMixture.bic()` directly (Lesson 4B's own tool) after a hand-rolled approximation gave an uninformative monotone curve
+- [x] All theory-notebook criteria on FEAT-UL25 are satisfiable from this notebook's content — AC-1 through AC-5 covered with cell-level evidence
+- [x] `jupyter execute` passes: every code cell executed, zero errors, outputs committed — 7/7 code cells, zero errors
+- [x] Colab-runnable: no local files outside the repo, no network downloads — make_blobs and in-notebook uniform noise only; `load_iris`/`load_wine` deliberately deferred to 27B's real-data application (disclosed in this notebook's own Next Steps), since 27A's job is validating each method against a KNOWN synthetic true K first
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
