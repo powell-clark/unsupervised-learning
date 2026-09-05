@@ -6,22 +6,23 @@ TASK-UL079's independent review (REJECT verdict, agent-rejected on FEAT-UL26) fo
 
 ## Acceptance criteria
 
-- [ ] **D1 (HIGH)** — cell 11: make the code and the printed rationale agree. Either make `K_CHOSEN` always follow `gap_k` (matching the existing text "gap statistic used as the deciding tool"), or change the text to honestly state that the stability tie's lowest member was taken instead, and say why (tie-break rule, D7)
-- [ ] **D2 (MEDIUM)** — cell 16: restrict the "the same near-empty anomaly-isolating cluster showed up at every K tested, on every representation compared" claim — cell 9's own guarded output shows this is true for every K (2-6) only on the autoencoder representation; raw and PCA only show it from K=3 upward, not at K=2
-- [ ] **D3 (MEDIUM)** — cell 11/15: disclose that the delivered K-selection (gap+stability, unguarded) can still land on a K whose smallest cluster falls below the same MIN_CLUSTER_FRAC floor applied in cell 9 to representation choice (the delivered K=3 partition's smallest cluster is 14 of 600, below the 30-point/5% floor) — the guard does not currently extend past representation choice
-- [ ] **D4 (MEDIUM)** — cell 11: correct the `gap_statistic`/`stability_curve` docstrings — they claim "Reused from 27A" but the code is actually adapted with reduced budgets (e.g. `B`, `n_init`, `n_resamples`); state the actual parameter differences honestly, matching the standard 27B set
-- [ ] **D5 (MEDIUM)** — cell 13/15: drop or qualify the "never used to tune the thresholds above" claim — `IsolationForest(contamination=0.03)` and the KDE 0.03 density quantile are both set to match the known synthetic anomaly rate exactly, so the reported recall numbers are partly circular; state this honestly
-- [ ] **D6 (MEDIUM)** — cell 15: report the delivered K_CHOSEN partition's own silhouette (computed directly from `km_final`), not `rep_results[best_rep][0]` (which is the representation-choice stage's own guarded-K silhouette, from a different K)
-- [ ] **D7 (MEDIUM)** — cell 11: document the tie-break rationale when the stability curve reports multiple tied K's (why the lowest tied K is taken)
-- [ ] **D8 (LOW)** — cell 9: the naive and guarded searches can report the same rounded silhouette at two different K's when the true values are nearly tied (observed: PCA naive K=3 0.425639 vs guarded K=2 0.425574, differ by 6.5e-5, both display as 0.4256); apply a stated tie tolerance or note the near-tie explicitly
-- [ ] Re-run TASK-UL079's verification procedure (fresh-context opus subagent, independent) and, on approval, perform FEAT-UL26's close step (feature to maintained, story to fulfilled, directive to done)
+- [x] **D1 (HIGH)** — cell 11: `K_CHOSEN = gap_k` now unconditional (removed the fallback to `stab_pick[0]`), matching the existing rationale text exactly; disagreement between gap and stability is now reported as a LOWER-CONFIDENCE caveat rather than a silent override. Result: K_CHOSEN is now 5 (was 3), ARI-vs-true improved 0.226 -> 0.311 as a direct consequence
+- [x] **D2 (MEDIUM)** — cell 16 Key Takeaway 6 restricted: "every K tested on the autoencoder representation, and from K=3 upward on raw and PCA", re-verified against cell 9's actual per-K guarded output (raw/PCA both non-degenerate at K=2, degenerate from K=3; autoencoder degenerate at every K 2-6)
+- [x] **D3 (MEDIUM)** — cell 11: added a CAVEAT print after `km_final` computing the delivered partition's own smallest-cluster size against `MIN_CLUSTER_FRAC`; confirmed it fires (delivered K=5 partition's smallest cluster is 14 of 600, below the 30-point floor) and explains why the Section-4 guard doesn't extend to gap/stability K-selection
+- [x] **D4 (MEDIUM)** — cell 11: `gap_statistic`/`stability_curve` docstrings rewritten to state the actual lineage: gap_statistic matches 27B's B/n_init reduction from 27A's originals (20->15, 10/5->5/3); stability_curve keeps 27A's n_resamples=15 but adopts 27B's n_init=3 and mean-only return
+- [x] **D5 (MEDIUM)** — cell 13: dropped "never used to tune the thresholds above"; now states plainly that contamination=0.03 and the KDE quantile were both set to match the known synthetic injection rate, and that this is a demonstration simplification not available in real deployment (cross-referenced to the report's own not-done list)
+- [x] **D6 (MEDIUM)** — cell 11 now computes `km_final_silhouette = silhouette_score(X_chosen, km_final.labels_)` directly; cell 15's report cites this (0.3832) for "the delivered partition's own silhouette", separately from the representation-choice-stage silhouette (0.426, a different K) which is now clearly labelled as such
+- [x] **D7 (MEDIUM)** — resolved as a consequence of D1: since `K_CHOSEN` no longer ever falls back to a stability tie-break, there is no undocumented tie-break left to document; the code path D7 was about no longer exists
+- [x] **D8 (LOW)** — cell 9: fixed a loop bug that skipped `best_rep` (exactly the case with the near-tie) when checking naive-vs-guarded silhouette near-ties; now prints "'PCA (3-d)' naive K=3 and guarded K=2 silhouettes differ by only 6.5e-05 ... no stated tie tolerance was applied here since it does not change which REPRESENTATION wins"
+- [x] Re-executed via `jupyter nbconvert --execute`: 7/7 code cells, zero errors, zero null execution_count, zero `np.int64`/`np.float64`/`np.str_` repr leaks anywhere in the notebook; grepped the whole notebook for stale `K=3`/`K=4` references and fixed one found in cell 16 (a leftover "Section 5's K=3 pick" reference, corrected to K=5)
+- [ ] Re-run TASK-UL079's verification procedure (fresh-context opus subagent, independent) and, on approval, perform FEAT-UL26's close step (feature to maintained, story to fulfilled, directive to done) — NOT YET DONE, next step
 
-## Optional polish (not blocking approval, address if convenient)
+## Optional polish (addressed in the same pass)
 
-- D9 (LOW) cell 15: the alt-representations comparison prints a raw Python list-of-tuples repr into stakeholder-facing report text; render it as prose instead
-- D10 (LOW) cell 13: report per-method anomaly precision (measured: both 100.0%, either 81.8%) alongside recall, since the flagged counts (18/18) are largely restating the input contamination/quantile parameters rather than a finding
-- D11/D12 (LOW) cell 7: `idx_holdout` is assigned but never evaluated against anything; either use it for a genuine holdout check or soften the "fit/holdout split" framing so it does not imply a validation role that does not exist
-- D13 (LOW) cell 9: `min_cluster_frac=0.0` is treated as "no guard" via Python falsiness rather than an explicit `is None` check — harmless today, a trap on future edits
+- [x] D9 (LOW) cell 15: alt-representations comparison now renders as prose ("raw 0.324; autoencoder (3-d) excluded (no non-degenerate K)") instead of a raw Python list-of-tuples repr
+- [x] D10 (LOW) cell 13/15: precision now reported alongside recall (100.0% both-flagged, 81.8% either-flagged) in both cells
+- [x] D11/D12 (LOW) cell 7: decision-log choice text changed from "80/20 internal fit/holdout split" to "80/20 internal fit/transform split", rationale now states plainly that `idx_holdout` is never separately evaluated against
+- [x] D13 (LOW) cell 9: `min_cluster_frac=0.0` falsiness trap fixed — `if min_cluster_frac else 0` -> `if min_cluster_frac is not None else 0`
 
 ## Dependencies
 
