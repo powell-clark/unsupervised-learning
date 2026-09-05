@@ -51,3 +51,4 @@ TASK-UL052|Lesson 19b practical: Normalizing Flows and Modern Density Models|STO
 TASK-UL053|Verify lesson 19: independent review and close FEAT-UL17|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL053.md|1h|2
 TASK-UL054|Lesson 20a theory: Matrix Factorisation Family: NMF and ICA|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL054.md|2h|3
 TASK-UL055|Lesson 20b practical: Matrix Factorisation Family: NMF and ICA|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL055.md|2h|3
+TASK-UL056|Verify lesson 20: independent review and close FEAT-UL18|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL056.md|1h|2
