@@ -63,3 +63,4 @@ TASK-UL064|Lesson 23b practical: Hidden Markov Models and Unsupervised Sequence 
 TASK-UL065|Verify lesson 23: independent review and close FEAT-UL21|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL065.md|1h|2
 TASK-UL084|README series-block parity and GitHub repo metadata||||CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL084.md||
 TASK-UL066|Lesson 24a theory: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL066.md|2h|3
+TASK-UL067|Lesson 24b practical: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL067.md|2h|3
