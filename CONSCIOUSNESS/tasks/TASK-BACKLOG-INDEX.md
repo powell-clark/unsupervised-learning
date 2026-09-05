@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL056|p2|Verify lesson 20: independent review and close FEAT-UL18|STORY-UL18|DIRECT-UL17|FEAT-UL1,FEAT-UL2,FEAT-UL18|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL056.md|||||aEbBM|1h|2
 TASK-UL057|p2|Lesson 21a theory: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL057.md|||||aFRKN|2h|3
 TASK-UL058|p2|Lesson 21b practical: Expectation-Maximisation and Variational Inference|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL058.md|TASK-UL057||||aGceg|2h|3
 TASK-UL059|p2|Verify lesson 21: independent review and close FEAT-UL19|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL059.md|TASK-UL057,TASK-UL058||||aHjfe|1h|2
