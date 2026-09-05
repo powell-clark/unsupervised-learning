@@ -6,7 +6,9 @@ verify-lesson-25 (REVIEW-UL096) rejected FEAT-UL23 at 10 of 11: AC-11 as literal
 
 ## Acceptance criteria
 
-- [ ] _(to be filled in)_
+- [ ] FEAT-UL23's AC-11 revised to accurately scope the cross-lesson-reuse requirement to lessons 9 and 10 only, with the lesson-8 exclusion documented and cited to REVIEW-UL096
+- [ ] Verification procedure re-run: dispatch a fresh independent fresh-context opus reviewer against the revised acceptance-criteria list (all 11, not just AC-11)
+- [ ] On approval: FEAT-UL23 moved to maintained, STORY-UL23 to fulfilled, DIRECT-UL22 to done — indexes and cards both moved, matching the established close_lesson.py pattern
 
 ## Dependencies
 
@@ -18,8 +20,9 @@ verify-lesson-25 (REVIEW-UL096) rejected FEAT-UL23 at 10 of 11: AC-11 as literal
 
 ### Failure modes
 
-- _(to be filled in)_
+- Loosening AC-11 too far (e.g. dropping it entirely) rather than accurately re-scoping it risks silently lowering the bar for future lessons' cross-lesson-reuse criteria.
+- A fresh reviewer re-running the FULL procedure (not just AC-11) could surface drift in the notebooks between now and whenever this task runs — re-verify all 11, not just re-check the wording.
 
 ### Weak assumptions
 
-- _(to be filled in)_
+- Assumes lesson 8's data genuinely cannot be reused without a network download or reusing structureless data; re-confirm against 8a/8b directly rather than trusting this task card's restated claim.
