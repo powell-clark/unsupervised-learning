@@ -1,3 +1,2 @@
 id|priority|title|directive_id|task_ids|feature_ids|doc
-STORY-UL25|p3|As a learner I want a clustering-stability lesson so that I can report how confident a clustering is instead of a single K chosen by one heuristic|DIRECT-UL24|TASK-UL075,TASK-UL076,TASK-UL077|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/stories/backlog-story-item-details/STORY-UL25.md
 STORY-UL26|p3|As a learner I want a capstone that runs a complete unsupervised analysis end to end so that I can see every tool from both parts of the course chosen, combined and reported on one problem|DIRECT-UL25|TASK-UL078,TASK-UL079|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/stories/backlog-story-item-details/STORY-UL26.md
