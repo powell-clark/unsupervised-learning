@@ -48,3 +48,4 @@ TASK-UL049|Lesson 18b practical: Kernel Density Estimation and Nonparametric Den
 TASK-UL050|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL050.md|1h|2
 TASK-UL051|Lesson 19a theory: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL051.md|2h|3
 TASK-UL052|Lesson 19b practical: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL052.md|2h|3
+TASK-UL053|Verify lesson 19: independent review and close FEAT-UL17|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL053.md|1h|2
