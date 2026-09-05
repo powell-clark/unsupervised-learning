@@ -14,11 +14,11 @@ Part II, lesson 27, practical notebook `notebooks/27b_clustering_stability_pract
 **Data:** sklearn bundled datasets — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present with working code and at least one figure or table per section
-- [ ] The production library result is compared against the lesson's from-scratch implementation at least once
-- [ ] All practical-notebook criteria on FEAT-UL25 are satisfiable from this notebook's content
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no network downloads (a bundled/cached dataset or an in-notebook generator only)
+- [x] Every section above present with working code and at least one figure or table per section — 15 cells (6 code, 9 markdown), all five planned sections present, each with a table/print and/or a plot
+- [x] The production library result is compared against the lesson's from-scratch implementation at least once — 27A's from-scratch `gap_statistic`, `stability_curve` and `consensus_matrix`/co-association machinery reused unchanged, applied alongside sklearn's `SpectralClustering`, `HDBSCAN` and `GaussianMixture.bic()` in the same ensemble
+- [x] All practical-notebook criteria on FEAT-UL25 are satisfiable from this notebook's content — AC-6 through AC-10 covered with cell-level evidence; AC-11's Lesson 17 (spectral) reference integrated substantively into the ensemble itself, not a footnote
+- [x] `jupyter execute` passes: every code cell executed, zero errors, outputs committed — 6/6 code cells, zero errors
+- [x] Colab-runnable: no network downloads (a bundled/cached dataset or an in-notebook generator only) — `load_wine` and a 300-point `load_digits` subsample, both sklearn-bundled
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
