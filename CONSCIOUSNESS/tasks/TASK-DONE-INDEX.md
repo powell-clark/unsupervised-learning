@@ -46,3 +46,4 @@ TASK-UL081|Re-verify FEAT-UL15 AC-11 and close lesson 17|STORY-UL15|DIRECT-UL14|
 TASK-UL048|Lesson 18a theory: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL048.md|2h|3
 TASK-UL049|Lesson 18b practical: Kernel Density Estimation and Nonparametric Density|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL049.md|2h|3
 TASK-UL050|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL050.md|1h|2
+TASK-UL051|Lesson 19a theory: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL051.md|2h|3
