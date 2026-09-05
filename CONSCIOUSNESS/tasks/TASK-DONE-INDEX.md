@@ -57,3 +57,4 @@ TASK-UL058|Lesson 21b practical: Expectation-Maximisation and Variational Infere
 TASK-UL059|Verify lesson 21: independent review and close FEAT-UL19|STORY-UL19|DIRECT-UL18|FEAT-UL1,FEAT-UL2,FEAT-UL19|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL059.md|1h|2
 TASK-UL060|Lesson 22a theory: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL060.md|2h|3
 TASK-UL061|Lesson 22b practical: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL061.md|2h|3
+TASK-UL062|Verify lesson 22: independent review and close FEAT-UL20|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL062.md|1h|2
