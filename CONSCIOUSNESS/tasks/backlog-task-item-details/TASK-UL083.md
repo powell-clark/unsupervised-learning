@@ -6,7 +6,11 @@ Two soft flags from REVIEW-UL067 (verify-lesson-18, fresh context), raised as no
 
 ## Acceptance criteria
 
-- [ ] _(to be filled in)_
+- [ ] Sampling-distance claim (1): either lead with the min-distance pair (12.36 vs 5.29, the stronger evidence) instead of the median (18.68 vs 16.12, only a 16% gap), or drop the "FARTHER" all-caps emphasis and state the actual percentage gap plainly
+- [ ] Anomaly-explanation claim (2): either compute a per-class statistic (e.g. mean distance from each digit-9 test point to its nearest 4/7/8 neighbour vs its nearest same-class neighbour) to support "digit 9 sits INSIDE the cloud among 4s, 7s and 8s", or rewrite the sentence to mark it explicitly as an interpretation consistent with the plotted score distributions, not a measured finding
+- [ ] 18b re-executed in place (`jupyter nbconvert --execute`), zero errors, outputs committed
+- [ ] Every number in the notebook's prose re-checked against its own printed/computed output after the edit (the same discipline this lesson's own build applied to itself, per REVIEW-UL067)
+- [ ] Commit and push
 
 ## Dependencies
 
@@ -18,8 +22,9 @@ Two soft flags from REVIEW-UL067 (verify-lesson-18, fresh context), raised as no
 
 ### Failure modes
 
-- _(to be filled in)_
+- Computing the per-class nearest-neighbour statistic for claim (2) could contradict the notebook's existing narrative (e.g. digit 9 might not actually sit closer to 4/7/8 than to other 9s) — if so, rewrite the explanation to match the measured result rather than keeping the plausible-but-unverified original framing
+- Fixing claim (1)'s emphasis without re-deriving the actual printed distances first risks introducing a second unmeasured claim in the same cell
 
 ### Weak assumptions
 
-- _(to be filled in)_
+- Assumes REVIEW-UL067's quoted numbers (18.68/16.12 median, 12.36/5.29 min) are still exactly what the committed notebook prints — re-derive from the notebook's own output rather than trusting the review card's transcription
