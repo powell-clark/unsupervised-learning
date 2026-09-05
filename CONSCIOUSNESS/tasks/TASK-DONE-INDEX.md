@@ -59,3 +59,4 @@ TASK-UL060|Lesson 22a theory: Bayesian Nonparametric Clustering: Dirichlet Proce
 TASK-UL061|Lesson 22b practical: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL061.md|2h|3
 TASK-UL062|Verify lesson 22: independent review and close FEAT-UL20|STORY-UL20|DIRECT-UL19|FEAT-UL1,FEAT-UL2,FEAT-UL20|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL062.md|1h|2
 TASK-UL063|Lesson 23a theory: Hidden Markov Models and Unsupervised Sequence Learning|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL063.md|2h|3
+TASK-UL064|Lesson 23b practical: Hidden Markov Models and Unsupervised Sequence Learning|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL064.md|2h|3
