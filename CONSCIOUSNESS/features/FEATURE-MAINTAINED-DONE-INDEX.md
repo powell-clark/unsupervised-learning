@@ -6,3 +6,4 @@ FEAT-UL18|performance|maintained|Matrix Factorisation Family: NMF and ICA Lesson
 FEAT-UL19|performance|maintained|Expectation-Maximisation and Variational Inference Lesson|STORY-UL19|TASK-UL057,TASK-UL058,TASK-UL059|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL19.md|2026-09-05
 FEAT-UL20|performance|maintained|Bayesian Nonparametric Clustering: Dirichlet Process Mixtures Lesson|STORY-UL20|TASK-UL060,TASK-UL061,TASK-UL062|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL20.md|2026-09-05
 FEAT-UL21|performance|maintained|Hidden Markov Models and Unsupervised Sequence Learning Lesson|STORY-UL21|TASK-UL063,TASK-UL064,TASK-UL065|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL21.md|2026-09-05
+FEAT-UL22|performance|maintained|Time-Series Clustering and Dynamic Time Warping Lesson|STORY-UL22|TASK-UL066,TASK-UL067,TASK-UL068|CONSCIOUSNESS/features/maintained-done-feature-item-details/FEAT-UL22.md|2026-09-05

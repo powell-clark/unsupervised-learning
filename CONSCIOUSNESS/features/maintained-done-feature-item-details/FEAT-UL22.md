@@ -1,0 +1,31 @@
+# FEAT-UL22: Time-Series Clustering and Dynamic Time Warping Lesson
+
+**Status:** maintained | **Kano:** performance | **Priority:** p2
+
+## Description
+Lesson 24 of Unsupervised Learning Part II. Delivers a time-series clustering lesson; the learner can group sequences by shape when Euclidean distance on raw samples is the wrong metric. Notebooks: 24a_time_series_clustering_theory.ipynb, 24b_time_series_clustering_practical.ipynb. Same house pattern as Part I: derivation first, from-scratch implementation, then the production library, all Colab-runnable with committed execution outputs.
+
+## Acceptance Criteria
+All eleven verified by REVIEW-UL092 — an independent fresh-context opus review that read every code cell's source and printed output from the raw `.ipynb` JSON, independently re-executed both notebooks from clean copies (jupyter execute exit 0 each, every substantive number bit-identical), and independently re-derived all 8 quantitative claims under stricter tests than the notebooks apply to themselves (a true full path enumerator with no memoisation, an exhaustive search over all 2024 medoid triples, and an independent DBA implementation).
+
+- [x] **AC-1** — Theory notebook: Euclidean-vs-shape failure demonstration — 24a c5, same phase-shifted sine pair scores Euclidean distance `4.291` (large) despite being the identical shape
+- [x] **AC-2** — Theory notebook: DTW derived and implemented with path backtracking — 24a c6-c7, cumulative-cost recurrence plus backtracked warping path (65 steps vs. a straight diagonal's 61, the extra steps ARE the realignment), validated against a true (unmemoised) recursive path enumeration on random 6x7 series (`diff = 0.00e+00`)
+- [x] **AC-3** — Theory notebook: Sakoe-Chiba constraint implemented with a runtime/quality comparison — 24a c9, the 1.2-rad shift's raw index footprint (19.1 samples) undershoots the measured smallest exact-match band (23); band=40 reproduces the unbanded distance exactly while running faster, tighter bands (10, then 2) measurably degrade it (`3.53` → `6.37` → `10.35`)
+- [x] **AC-4** — Theory notebook: DBA explained and implemented — 24a c11, DBA cuts total DTW distance to 4 phase-shifted copies of one shape from `3.879` (naive mean) to `1.192` (69.3% reduction), recovering peak height `0.896` against the naive mean's blurred `0.503` (true peak ~1.0)
+- [x] **AC-5** — Theory notebook: from-scratch DTW k-medoids — 24a c13, DTW k-medoids recovers the 3 true shape classes exactly (ARI `1.0000`) vs. Euclidean k-medoids on identical data (ARI `0.4193`) — same algorithm, same k, only the distance changed
+- [x] **AC-6** — Practical notebook: tslearn TimeSeriesKMeans across three metrics with barycenters — 24b c5+c7, `tslearn.metrics.dtw` cross-checked exactly against 24A's from-scratch DTW (`diff = 0.00e+00`) before trusting it on Trace data; Euclidean/DTW/Soft-DTW-Means fitted and their barycenters plotted
+- [x] **AC-7** — Practical notebook: ARI against known classes and DTW-silhouette K selection — 24b c5/c7 (DTW ARI `0.5404` beats Euclidean `0.4353`; Soft-DTW `0.3482` does NOT beat DTW, an honest unforced result) + c9 (DTW-silhouette favours K=3 over the true K=4 — a genuine limitation surfaced by measurement, not assumed away)
+- [x] **AC-8** — Practical notebook: runtime scaling comparison — 24b c11, Euclidean stays sub-millisecond throughout; the banded-vs-unconstrained DTW gap widens with series length (close at L=50, `20.7ms` vs `54.7ms` at the full L=275), matching 24A's O(n·w) vs O(n·m) argument
+- [x] **AC-9** — Practical notebook: feature-based clustering alternative compared — 24b c13, 7-feature K-Means (ARI `0.5455`) vs. DTW-Means (ARI `0.5404`) tested honestly — the `+0.0051` gap is smaller than the `0.0060` seed-to-seed ARI spread measured directly (5 seeds), so the two are reported as essentially tied, not one beating the other
+- [x] **AC-10** — Both notebooks run end-to-end in Google Colab (jupyter execute, zero errors) — 24a 7/7, 24b 6/6 code cells, zero errors, byte-identical to the reviewer's independent re-execution
+- [x] **AC-11** — Cross-lesson link: k-medoids/K-Means (lesson 1) and silhouette (lesson 0b) reused under a new metric — 24a c12 (k-medoids framed explicitly as lesson 1's centroid model with the centroid constrained to an observation) + 24b c8 (lesson 0b's `silhouette_score(..., metric='precomputed')` reused unmodified, with an added caveat that DTW is not a true metric) / c12 (lesson 1's ordinary K-Means reused on extracted features)
+
+## Review history
+1. **REVIEW-UL092** (agent, `verify-lesson-24-b`, opus, fresh context, 2026-09-05) — **agent-approved**. All 11 criteria MET on first pass. 14 secondary findings surfaced, all fixed and re-verified: a wrong-direction section reference (24a c6), a band-footprint claim disproved by measurement (24a c9, corrected from a hardcoded "roughly 40" to the measured footprint 19.1 / smallest exact band 23), "coordinate ascent" mislabelling a minimisation (24a c10, now "descent"), a hardcoded "20x+" PAA speedup overclaim a clean re-run measured at 15.9x (24a c16, now references the printed ratio without a fixed number), a "brute-force" validator that was actually memoised DP rather than true enumeration (24a c6-c7, now genuinely unmemoised, diff still `0.00e+00`), a dead module-level `rng` plus a stale comment referencing it (24b c3/c5), an unjustified "measurably ahead" claim for a feature-vs-DTW gap smaller than measured seed noise (24b c13, now backed by a live 5-seed spread check, correctly reporting "essentially tied"; conclusion cell 14 updated to match), "was measured" language for a run never executed in this notebook (24b c4/c14, now "found in development"), a JIT warm-up at a different length than the first timed row (24b c11, now warms at L=50), unused variables (24a c7/c13), an uncaveated silhouette-on-non-metric-DTW claim (24b c8, now notes DTW's lack of triangle inequality), and an ambiguous section cross-reference (24a c10, 24b c13). Both notebooks re-executed clean (24a 7/7, 24b 6/6 code cells, zero errors) after fixes.
+
+## Linked Entities
+- Story: STORY-UL22
+- Directive: DIRECT-UL21
+- Tasks: TASK-UL066, TASK-UL067, TASK-UL068
+- Feature set: FEAT-UL1 (Colab-runnable), FEAT-UL2 (NumPy-production)
+- Syllabus: CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md
