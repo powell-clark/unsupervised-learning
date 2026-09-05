@@ -15,11 +15,16 @@ Part II, lesson 18, theory notebook `notebooks/18a_kernel_density_estimation_the
 **Data:** synthetic bimodal mixtures, load_iris / load_digits features — no downloads
 
 ## Acceptance Criteria
-- [ ] Every section above present as a titled section with working code where the plan names an implementation
-- [ ] The from-scratch implementation is validated numerically inside the notebook (against ground truth or the production library)
-- [ ] All theory-notebook criteria on FEAT-UL16 are satisfiable from this notebook's content (read the card before writing)
-- [ ] `jupyter execute` passes: every code cell executed, zero errors, outputs committed
-- [ ] Colab-runnable: no local files outside the repo, no network downloads
+- [x] Every section above present as a titled section with working code where the plan names an implementation — all six, plus an added Section 9 (GMM vs KDE) covering FEAT-UL16 AC-11
+- [x] The from-scratch implementation is validated numerically inside the notebook — `kde_1d` agrees with sklearn `KernelDensity` to 1.28e-15 and scipy `gaussian_kde` to 3.33e-16 (gaussian), 4.44e-16 / 3.89e-16 for epanechnikov / tophat, and `kde_nd` with sklearn to 9.71e-16 on 2-D iris; the estimate integrates to 1.000000
+- [x] All theory-notebook criteria on FEAT-UL16 are satisfiable from this notebook's content — AC-1 (Section 3), AC-2 (Section 6, all three rules implemented), AC-3 (Section 7), AC-4 (Section 8), AC-5 (Section 10, 1-D and 2-D), AC-11 (Section 9)
+- [x] `jupyter execute` passes: 9 of 9 code cells executed with sequential counts, zero error outputs, outputs committed (run without `--allow-errors`)
+- [x] Colab-runnable: synthetic generators plus `load_iris`; no network downloads, no files outside the repo
+
+## Build notes
+Two self-checks changed the content rather than the wording, both caught by reading the executed output against the prose:
+- The `h ∝ n^(-1/5)` "verification" was originally a fit to `h_amise(n)`, which IS that formula — arithmetic presented as evidence. Replaced with a grid search for the ISE-minimising bandwidth at each n; the searched slope comes out -0.247 against theory -0.200, and the MISE slope -0.729 against -0.800, with the grid resolution named as the source of the gap.
+- The kernel-comparison table has tophat beating the AMISE-optimal Epanechnikov at a common h. That is not an error — it is the lesson's own point about efficiency differences sitting under sampling noise — so the notebook now says so explicitly instead of leaving an apparent contradiction on the page.
 
 ## Build rules (house pattern — read two Part I notebooks first, e.g. 5a/5b or 12a/12b)
 - Open with a story-driven motivation, then a Table of Contents with anchor links, then a Required Libraries cell.
