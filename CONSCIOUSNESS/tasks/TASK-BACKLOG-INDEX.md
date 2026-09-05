@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL050|p2|Verify lesson 18: independent review and close FEAT-UL16|STORY-UL16|DIRECT-UL15|FEAT-UL1,FEAT-UL2,FEAT-UL16|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL050.md|||||a8wkx|1h|2
 TASK-UL051|p2|Lesson 19a theory: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL051.md|||||a9er2|2h|3
 TASK-UL052|p2|Lesson 19b practical: Normalizing Flows and Modern Density Models|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL052.md|TASK-UL051||||aAYgS|2h|3
 TASK-UL053|p2|Verify lesson 19: independent review and close FEAT-UL17|STORY-UL17|DIRECT-UL16|FEAT-UL1,FEAT-UL2,FEAT-UL17|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL053.md|TASK-UL051,TASK-UL052||||aBwa9|1h|2
