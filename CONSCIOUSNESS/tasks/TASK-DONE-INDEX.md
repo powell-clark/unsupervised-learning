@@ -76,3 +76,4 @@ TASK-UL075|Lesson 27a theory: Clustering Stability, Consensus and Choosing K Hon
 TASK-UL076|Lesson 27b practical: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL076.md|2h|3
 TASK-UL077|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL077.md|1h|2
 TASK-UL078|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL078.md|3h|3
+TASK-UL079|Verify lesson 28: independent review and close FEAT-UL26|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL079.md|1h|2
