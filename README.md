@@ -94,9 +94,62 @@ This curriculum follows a rigorous pedagogical approach:
 - **Lesson 16**: Semi-Supervised Learning (label propagation, co-training)
   - `16_semi_supervised_learning.ipynb` — Label spreading, self-training, from-scratch co-training with the naive-collapse vs balanced-fix contrast
 
-## Part II — Advanced Topics (in progress, built autonomously)
+## Part II — Advanced Topics
 
-Lessons 17-28 extend the course into density estimation, flows and diffusion, NMF/ICA, general EM and variational inference, Dirichlet-process clustering, HMMs, time-series clustering, embeddings, contrastive learning, clustering stability, and a capstone. The syllabus, per-lesson plans and live status are in `CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md`; this section is replaced with the finished lesson list when the corpus close-out task runs.
+**Status:** 12 of 12 lessons complete (23 notebooks)
+
+Lessons 17-28 extend the course into density estimation, flows, matrix factorization, general EM and variational inference, Dirichlet-process clustering, HMMs, time-series clustering, embeddings, contrastive learning, clustering stability, and a capstone. Built and independently reviewed autonomously (fresh-context opus review per lesson, agent-approved before closing) — see `CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md` for the per-lesson plan and review history.
+
+#### Density Estimation and Modern Generative Models
+- **Lesson 17**: Spectral Clustering and Graph Laplacians
+  - `17a_spectral_clustering_theory.ipynb` — Graph Laplacians, eigengap heuristic, normalized cuts from scratch
+  - `17b_spectral_clustering_practical.ipynb` — Non-convex cluster shapes, affinity construction, scalability
+
+- **Lesson 18**: Kernel Density Estimation and Nonparametric Density
+  - `18a_kernel_density_estimation_theory.ipynb` — KDE derivation, bandwidth selection, curse of dimensionality
+  - `18b_kernel_density_estimation_practical.ipynb` — Bandwidth cross-validation, multivariate KDE, anomaly scoring
+
+- **Lesson 19**: Normalizing Flows and Modern Density Models
+  - `19a_normalizing_flows_theory.ipynb` — Change-of-variables, coupling layers, exact-likelihood flows from scratch
+  - `19b_normalizing_flows_practical.ipynb` — Flow-based density estimation trained and evaluated on real data
+
+#### Factorization and Inference
+- **Lesson 20**: Matrix Factorisation Family: NMF and ICA
+  - `20a_nmf_ica_theory.ipynb` — Non-negative matrix factorization and independent component analysis derivations
+  - `20b_nmf_ica_practical.ipynb` — Topic extraction via NMF, blind source separation via ICA
+
+- **Lesson 21**: Expectation-Maximisation and Variational Inference
+  - `21a_em_variational_inference_theory.ipynb` — General EM derivation, ELBO, mean-field variational inference
+  - `21b_em_variational_inference_practical.ipynb` — EM for mixture models and variational inference in practice
+
+- **Lesson 22**: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures
+  - `22a_dirichlet_process_mixtures_theory.ipynb` — Stick-breaking construction, Chinese restaurant process, infinite mixtures from scratch
+  - `22b_dirichlet_process_mixtures_practical.ipynb` — DP-mixture clustering without choosing K in advance
+
+#### Sequences and Representations
+- **Lesson 23**: Hidden Markov Models and Unsupervised Sequence Learning
+  - `23a_hidden_markov_models_theory.ipynb` — Forward-backward, Viterbi, Baum-Welch EM from scratch
+  - `23b_hidden_markov_models_practical.ipynb` — hmmlearn regime detection on simulated sequences
+
+- **Lesson 24**: Time-Series Clustering and Dynamic Time Warping
+  - `24a_time_series_clustering_theory.ipynb` — DTW derivation, time-series K-means from scratch
+  - `24b_time_series_clustering_practical.ipynb` — tslearn DTW-based clustering on real time-series data
+
+- **Lesson 25**: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling
+  - `25a_word_embeddings_theory.ipynb` — Skip-gram objective and negative-sampling derivation from scratch
+  - `25b_word_embeddings_practical.ipynb` — gensim word2vec, embedding-space analogies and similarity
+
+- **Lesson 26**: Self-Supervised Contrastive Representation Learning
+  - `26a_contrastive_learning_theory.ipynb` — InfoNCE/NT-Xent derivation, collapse and its avoidance from scratch
+  - `26b_contrastive_learning_practical.ipynb` — SimCLR-style contrastive pretraining measured against PCA/autoencoder features with a linear probe
+
+#### Validation and Synthesis
+- **Lesson 27**: Clustering Stability, Consensus and Choosing K Honestly
+  - `27a_clustering_stability_theory.ipynb` — Gap statistic, resampling stability, prediction strength, consensus clustering
+  - `27b_clustering_stability_practical.ipynb` — Multi-algorithm consensus ensembles with per-point uncertainty flagging
+
+- **Lesson 28**: Capstone: An End-to-End Unsupervised Analysis
+  - `28_capstone_pipeline.ipynb` — A complete pipeline: leakage-safe preprocessing, evidence-based representation choice, honest gap-statistic/stability K-selection, dual anomaly detection, and a written stakeholder report
 
 ## Technical Stack
 
@@ -104,11 +157,13 @@ Lessons 17-28 extend the course into density estimation, flows and diffusion, NM
 - **Deep Learning**: PyTorch
 - **Visualization**: Matplotlib, Seaborn, Plotly
 - **Specialized**:
-  - Gensim (topic modeling)
+  - Gensim (topic modeling, word2vec)
   - mlxtend (association rules)
   - MiniSom (self-organizing maps)
   - UMAP-learn (dimensionality reduction)
   - pyLDAvis (topic model visualization)
+  - hmmlearn (hidden Markov models)
+  - tslearn (time-series clustering, dynamic time warping)
 
 ## Datasets
 
@@ -147,6 +202,7 @@ All notebooks are Google Colab compatible. Click the "Open in Colab" badge in an
 4. **Explore Specialized Methods** (Lessons 7-9): Anomaly detection, matrix factorization, association rules
 5. **Advance to Modern Techniques** (Lessons 10-12): Topic modeling, self-organizing maps, deep unsupervised learning
 6. **Apply Professional Skills** (Lessons 13-16): Production-ready pipelines and practical frameworks, synthesizing every prior lesson into decision frameworks for real projects
+7. **Extend into Part II** (Lessons 17-28): Density estimation and modern generative models, the factorization/inference family beyond PCA and GMM, sequences and representation learning, and a capstone that combines every tool from both parts on one end-to-end analysis
 
 ## Architecture
 
@@ -159,7 +215,7 @@ This curriculum uses the consciousness system for task management and feature-dr
 
 This is part of a comprehensive machine learning curriculum:
 - **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
-- **unsupervised-learning** — This repository (100% complete)
+- **unsupervised-learning** — This repository (100% complete, Parts I and II)
 - **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
 
 ## License
@@ -176,6 +232,6 @@ Questions or suggestions? Open an issue on GitHub or reach out!
 
 ---
 
-**Status:** 17 of 17 lessons complete (31 notebooks)
-**Last Updated**: 2026-07-13
+**Status:** 29 of 29 lessons complete (54 notebooks)
+**Last Updated**: 2026-09-05
 **Author**: Powell-Clark Limited
