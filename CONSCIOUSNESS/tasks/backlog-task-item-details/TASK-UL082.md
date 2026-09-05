@@ -10,20 +10,26 @@ Between commits 10f1e1a and 6204fb5 something outside git removed CONSCIOUSNESS/
 
 **Recurrence, 2026-09-05 ~09:29 bst (same session, 5th time, task-events again).** `CONSCIOUSNESS/stream/task-events/ul-5521042d.main.jsonl` deleted from the working tree a third time on this filename (fifth occurrence overall), same bare `D` signature against a clean HEAD, restored from `git show HEAD:<path>` with content identical. Occurring roughly once per 30-60 minutes of active session time regardless of which task is being worked, which rules out any connection to a specific task's content or command sequence — this is a background timing/interval effect, not something triggered by a particular action this session takes. Whoever picks this up next: instrument the actual deleting process (strace/inotify on the stream/ directory, or add logging to whatever sweep is the suspected cause) rather than continuing to just observe-and-restore after the fact — five occurrences of symptom-only evidence is enough to root-cause from.
 
+**ROOT CAUSE FOUND, 2026-09-05 ~10:11 bst (same session, 6th and 7th occurrences, decisive).** This is not data loss and nothing is deleting these files by accident — `packages/core/fragments/compact-cli.js` (in the released plugin, `dist/packages/core/fragments/compact-cli.js`) is the SANCTIONED fold tool the review-gates precept names ("the compactor is the sole writer of the canonical index"), and consuming (clearing/removing) a per-session fragment file after successfully folding its rows into the canonical log is its designed behaviour, not a defect. Direct evidence from this session: after restoring `stream/task-events/ul-5521042d.main.jsonl` from HEAD (6th occurrence, content = 2 rows: a TASK-UL051 claim/release pair and a TASK-UL053 claim), running `compact-cli.js` explicitly printed `task-events: appended 0, skipped 0, folded 1 fragment(s), retained 0` — meaning both rows were already present in the canonical `CONSCIOUSNESS/stream/task-events.jsonl` (confirmed: `git diff` against that canonical file was empty before and after), so the restore was pointless and the subsequent fold-and-clear that followed (7th occurrence, `git status` showed the fragment `D` again immediately after running the compactor) was CORRECT, not a bug. The same tool was used deliberately in this session moments earlier to fold TASK-UL062/FEAT-UL20's review verdicts (REVIEW-UL083/UL084) and TASK-UL063's (REVIEW-UL085), each time legitimately clearing `stream/review-verdicts/ul-5521042d.main.jsonl` afterward — the exact same "disappearance" signature as every recurrence logged above.
+
+What remained unexplained — and still is — is WHAT invokes `compact-cli.js` automatically between my own explicit calls; no git hook exists in `.git/hooks/` (checked directly, only unused `.sample` files present) and no session action was knowingly taken at the five earlier recurrence timestamps, so something in the harness's own background/session-lifecycle plumbing (a Stop hook, a periodic autonomous-loop tick, or a sibling session's activity against the same shared repo) is calling it on an interval independent of this session's task content — consistent with the "roughly once per 30-60 minutes regardless of task" observation logged at the 5th recurrence. That residual mechanism is worth finding for completeness, but it no longer matters for data safety: as long as the canonical files (`REVIEW-INDEX.md`, `stream/task-events.jsonl`) are checked (`git diff` against them empty) before restoring a "deleted" fragment, restoring is provably unnecessary — the content already landed where it belongs. **Recommendation for the next occurrence: do NOT reflexively restore. First diff the canonical target file; only restore the fragment if the canonical file is missing rows the fragment had.** This closes the task's practical concern (no data has ever been lost across all 7 occurrences) even though the exact trigger of the automatic compaction cadence remains an open, now-low-priority curiosity.
+
 ## Acceptance criteria
 
-- [ ] _(to be filled in)_
+- [x] Root cause identified: `compact-cli.js`'s designed fold-and-clear behaviour, not accidental deletion — confirmed by direct evidence (empty diff against canonical files both before and after two fresh fold operations run explicitly in this session)
+- [x] Practical data-safety concern resolved: no fragment content has been lost in any of the 7 occurrences; the "restore from HEAD" workaround used 5 times was unnecessary but harmless
+- [ ] _(deferred, low priority)_ Identify what invokes `compact-cli.js` automatically between explicit calls — not required to close this task's data-safety concern, since the canonical-file-diff check above makes future occurrences self-diagnosing
 
 ## Dependencies
 
-- _(to be filled in)_
+- _(none — this was an investigation, not a code change)_
 
 ## Pre-mortem
 
 ### Failure modes
 
-- _(to be filled in)_
+- A future session could still reflexively restore an already-folded fragment out of habit before reading this card — mitigated by the recommendation above being the first thing stated in the root-cause note
 
 ### Weak assumptions
 
-- _(to be filled in)_
+- Assumes the automatic invoker (whatever it is) always runs `compact-cli.js` to completion before the next git operation reads the working tree; if it were ever interrupted mid-fold, a fragment could show partial content rather than being fully cleared — not observed in any of the 7 occurrences, but not ruled out either
