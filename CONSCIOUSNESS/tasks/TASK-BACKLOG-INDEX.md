@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL064|p2|Lesson 23b practical: Hidden Markov Models and Unsupervised Sequence Learning|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL064.md|||||aMGG6|2h|3
 TASK-UL065|p2|Verify lesson 23: independent review and close FEAT-UL21|STORY-UL21|DIRECT-UL20|FEAT-UL1,FEAT-UL2,FEAT-UL21|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL065.md|TASK-UL064||||aN7Pm|1h|2
 TASK-UL066|p2|Lesson 24a theory: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL066.md|TASK-UL044||||aOwgn|2h|3
 TASK-UL067|p2|Lesson 24b practical: Time-Series Clustering and Dynamic Time Warping|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL067.md|TASK-UL066||||aPmQs|2h|3
