@@ -3,7 +3,7 @@
 As a learner I want a contrastive learning lesson so that I can measure with a linear probe whether self-supervised image features beat PCA and autoencoder features on the same unlabelled data.
 
 ## Fulfilment
-Fulfilled when FEAT-UL24 reaches `maintained` (review-gates: a story fulfils through its owning feature's gate, not a separate step). The verification task for lesson 26 performs that move.
+Fulfilled: FEAT-UL24 reached `maintained` on REVIEW-UL102 (agent-approved, 11 of 11 acceptance criteria met).
 
 ## Linked Entities
 - Directive: DIRECT-UL23
