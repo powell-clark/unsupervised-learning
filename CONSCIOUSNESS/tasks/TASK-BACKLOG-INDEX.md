@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL075|p3|Lesson 27a theory: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL075.md|||||aXkIl|2h|3
 TASK-UL076|p3|Lesson 27b practical: Clustering Stability, Consensus and Choosing K Honestly|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL076.md|TASK-UL075||||aY0Vu|2h|3
 TASK-UL077|p3|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL25|DIRECT-UL24|FEAT-UL1,FEAT-UL2,FEAT-UL25|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL077.md|TASK-UL075,TASK-UL076||||aZcld|1h|2
 TASK-UL078|p3|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL078.md|||||aawiz|3h|3
