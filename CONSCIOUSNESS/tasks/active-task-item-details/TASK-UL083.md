@@ -6,11 +6,11 @@ Two soft flags from REVIEW-UL067 (verify-lesson-18, fresh context), raised as no
 
 ## Acceptance criteria
 
-- [ ] Sampling-distance claim (1): either lead with the min-distance pair (12.36 vs 5.29, the stronger evidence) instead of the median (18.68 vs 16.12, only a 16% gap), or drop the "FARTHER" all-caps emphasis and state the actual percentage gap plainly
-- [ ] Anomaly-explanation claim (2): either compute a per-class statistic (e.g. mean distance from each digit-9 test point to its nearest 4/7/8 neighbour vs its nearest same-class neighbour) to support "digit 9 sits INSIDE the cloud among 4s, 7s and 8s", or rewrite the sentence to mark it explicitly as an interpretation consistent with the plotted score distributions, not a measured finding
-- [ ] 18b re-executed in place (`jupyter nbconvert --execute`), zero errors, outputs committed
-- [ ] Every number in the notebook's prose re-checked against its own printed/computed output after the edit (the same discipline this lesson's own build applied to itself, per REVIEW-UL067)
-- [ ] Commit and push
+- [x] Sampling-distance claim (1): dropped the all-caps "FARTHER" emphasis; cell 7 now states the actual percentage gap plainly (16%, 18.68 vs 16.12) and additionally cites the min-distance pair as the stronger corroborating evidence (12.36 vs 5.29, a 2.3x gap), computed dynamically from the notebook's own variables rather than hardcoded
+- [x] Anomaly-explanation claim (2): computed the per-class nearest-neighbour statistic directly (`nn_ratio` helper) — digit 9's nearest same-class median is 17.5 vs nearest-4/7/8 median 30.6 (1.74x gap), contrasted against digit 0 (a visually distinctive digit): 14.2 vs 35.9 (2.52x gap) — digit 9 is measurably closer to its confusable neighbours, relative to its own within-class scatter, than a well-separated digit is; the sentence now states this measured comparison and explicitly flags the interior-region explanation as "consistent with, though not direct proof of" rather than an assumed fact
+- [x] 18b re-executed in place (`jupyter nbconvert --execute`), zero errors, outputs committed — 6/6 code cells, zero errors, zero execution_count nulls, zero numpy-repr leaks
+- [x] Every number in the notebook's prose re-checked against its own printed/computed output after the edit — verified by direct inspection of the re-executed cell outputs (18.68/16.12/12.36/5.29 for claim 1; 17.5/30.6/1.74x and 14.2/35.9/2.52x for claim 2), and independently cross-checked against a standalone script computing the same nearest-neighbour statistics from scratch before writing the fix (results matched to within rounding)
+- [x] Commit and push
 
 ## Dependencies
 
