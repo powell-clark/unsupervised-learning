@@ -3,7 +3,6 @@ TASK-UL038|p4|Extend Lesson 15 preprocessing depth||DIRECT-UL13|FEAT-UL1,FEAT-UL
 TASK-UL039|p4|Active learning strategies addendum to Lesson 16||DIRECT-UL13|FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL039.md|TASK-UL30|||||2h|1
 TASK-UL031|p3|Consciousness loop re-activation stall after STATUS: complete||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL031.md|||human||a0||
 TASK-UL032|p3|Goal hook re-activation stall on consciousness session end||||CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL032.md|||human||a1||
-TASK-UL068|p2|Verify lesson 24: independent review and close FEAT-UL22|STORY-UL22|DIRECT-UL21|FEAT-UL1,FEAT-UL2,FEAT-UL22|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL068.md|||||aQ9u9|1h|2
 TASK-UL069|p3|Lesson 25a theory: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL069.md|||||aR4HO|2h|3
 TASK-UL070|p3|Lesson 25b practical: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL070.md|TASK-UL069||||aSGFT|2h|3
 TASK-UL071|p3|Verify lesson 25: independent review and close FEAT-UL23|STORY-UL23|DIRECT-UL22|FEAT-UL1,FEAT-UL2,FEAT-UL23|CONSCIOUSNESS/tasks/backlog-task-item-details/TASK-UL071.md|TASK-UL069,TASK-UL070||||aTy6D|1h|2
