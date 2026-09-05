@@ -78,3 +78,4 @@ TASK-UL077|Verify lesson 27: independent review and close FEAT-UL25|STORY-UL25|D
 TASK-UL078|Lesson 28 capstone notebook: Capstone: An End-to-End Unsupervised Analysis|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL078.md|3h|3
 TASK-UL079|Verify lesson 28: independent review and close FEAT-UL26|STORY-UL26|DIRECT-UL25|FEAT-UL1,FEAT-UL2,FEAT-UL26|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL079.md|1h|2
 TASK-UL086|Fix lesson 28 capstone: honest K-selection rationale and report|STORY-UL26|DIRECT-UL25|FEAT-UL26|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL086.md||
+TASK-UL080|Part II corpus close-out: README, full sweep, syllabus status|||FEAT-UL1,FEAT-UL2|CONSCIOUSNESS/tasks/done-task-item-details/TASK-UL080.md|2h|3
