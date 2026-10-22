@@ -1,6 +1,10 @@
 # Unsupervised Machine Learning
 
-A comprehensive, hands-on curriculum for learning unsupervised machine learning from first principles using Python. This repository teaches clustering, dimensionality reduction, anomaly detection, and advanced unsupervised methods through theory and practical implementation.
+A university-grade curriculum for unsupervised machine learning — clustering, dimensionality
+reduction, anomaly detection, density estimation, latent-variable models and representation
+learning. Every method is derived from first principles, implemented from scratch in NumPy, then
+reproduced with scikit-learn, PyTorch or a specialist library. All notebooks run in Google Colab
+with no local setup.
 
 ## The series
 
@@ -8,230 +12,163 @@ Four repositories, one curriculum. The first three are *how* a model learns; the
 it is built from, and cuts across all three.
 
 - [Supervised learning](https://github.com/powell-clark/supervised-learning) — learning from labelled examples
-- **[Unsupervised learning](https://github.com/powell-clark/unsupervised-learning) — finding structure with no labels (you are here)**
+- **[Unsupervised learning](https://github.com/powell-clark/unsupervised-learning)** — finding structure with no labels (you are here)
 - [Reinforcement learning](https://github.com/powell-clark/reinforcement-learning) — learning from reward
 - [Deep learning & transformers](https://github.com/powell-clark/deep-learning) — the architecture the other three can each be built on
 
+**Status:** 29 of 29 lessons complete (53 notebooks)
+
 ## Overview
 
-This curriculum follows a rigorous pedagogical approach:
-- **From First Principles**: Mathematical derivations from foundational concepts
-- **Dual Structure**: Theory (a) + Practical (b) notebooks for each lesson
-- **Story-Driven**: Real-world motivations before diving into mathematics
-- **Complete Implementations**: From-scratch NumPy code + production Scikit-learn/PyTorch
-- **Google Colab Compatible**: Run everything in your browser, no setup required
+- **From First Principles**: every algorithm derived from foundations, not quoted
+- **Dual Structure**: theory (a) + practical (b) notebooks for each lesson
+- **Story-Driven**: a real-world motivation before the mathematics
+- **Complete Implementations**: from-scratch NumPy, then production libraries
+- **Google Colab Compatible**: runs in the browser, no local setup
+- **Two Parts**: Part I (Lessons 0–16) covers the core methods and professional practice;
+  Part II (Lessons 17–28) extends into density estimation, inference, sequences, representation
+  learning and a capstone
 
-## Curriculum Progress
+## Lesson catalog
 
-**Status:** 17 of 17 lessons complete (31 notebooks)
+#### Foundations
 
-### Completed Lessons
+- **Lesson 0**: Clustering Foundations and Evaluation
+  - [`0a_clustering_foundations_theory.ipynb`](notebooks/0a_clustering_foundations_theory.ipynb) — what a cluster is, distance and similarity, and how to choose the number of clusters [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/0a_clustering_foundations_theory.ipynb)
+  - [`0b_cluster_evaluation.ipynb`](notebooks/0b_cluster_evaluation.ipynb) — internal and external evaluation metrics, with silhouette analysis [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/0b_cluster_evaluation.ipynb)
 
-#### Foundation
-- **Lesson 0**: Clustering Introduction & Evaluation
-  - `0a_clustering_foundations.ipynb` — Cluster structure, k selection basics
-  - `0b_cluster_evaluation.ipynb` — Internal/external metrics, silhouette analysis
+#### Core Clustering Algorithms
 
-#### Core Algorithms
 - **Lesson 1**: K-Means Clustering
-  - `1a_kmeans_theory.ipynb` — Lloyd's algorithm, initialization, convergence
-  - `1b_kmeans_practical.ipynb` — RFM segmentation, image compression, scalability
-  
+  - [`1a_kmeans_theory.ipynb`](notebooks/1a_kmeans_theory.ipynb) — Lloyd's algorithm, initialisation and convergence, derived and implemented from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/1a_kmeans_theory.ipynb)
+  - [`1b_kmeans_practical.ipynb`](notebooks/1b_kmeans_practical.ipynb) — RFM customer segmentation, image compression and scalability [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/1b_kmeans_practical.ipynb)
 - **Lesson 2**: Hierarchical Clustering
-  - `2a_hierarchical_theory.ipynb` — Agglomerative algorithm, linkage methods
-  - `2b_hierarchical_practical.ipynb` — Dendrogram cutting, scalability analysis
-  
-- **Lesson 3**: DBSCAN (Density-Based Clustering)
-  - `3a_dbscan_theory.ipynb` — Epsilon-neighborhoods, core/border/noise classification
-  - `3b_dbscan_practical.ipynb` — K-distance graphs, HDBSCAN introduction
-  
-- **Lesson 4**: Gaussian Mixture Models (GMM)
-  - `4a_gmm_theory.ipynb` — EM algorithm, responsibilities, covariance types
-  - `4b_gmm_practical.ipynb` — BIC/AIC selection, image segmentation
+  - [`2a_hierarchical_theory.ipynb`](notebooks/2a_hierarchical_theory.ipynb) — the agglomerative algorithm and linkage methods [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/2a_hierarchical_theory.ipynb)
+  - [`2b_hierarchical_practical.ipynb`](notebooks/2b_hierarchical_practical.ipynb) — dendrogram cutting and scalability analysis [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/2b_hierarchical_practical.ipynb)
+- **Lesson 3**: DBSCAN
+  - [`3a_dbscan_theory.ipynb`](notebooks/3a_dbscan_theory.ipynb) — epsilon-neighbourhoods and core, border and noise points [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/3a_dbscan_theory.ipynb)
+  - [`3b_dbscan_practical.ipynb`](notebooks/3b_dbscan_practical.ipynb) — k-distance graphs for choosing epsilon, and an introduction to HDBSCAN [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/3b_dbscan_practical.ipynb)
+- **Lesson 4**: Gaussian Mixture Models
+  - [`4a_gmm_theory.ipynb`](notebooks/4a_gmm_theory.ipynb) — the EM algorithm, responsibilities and covariance types [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/4a_gmm_theory.ipynb)
+  - [`4b_gmm_practical.ipynb`](notebooks/4b_gmm_practical.ipynb) — BIC/AIC model selection and image segmentation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/4b_gmm_practical.ipynb)
 
 #### Dimensionality Reduction
-- **Lesson 5**: Principal Component Analysis (PCA)
-  - `5a_pca_theory.ipynb` — Eigendecomposition, SVD, numerical stability
-  - `5b_pca_practical.ipynb` — Eigenfaces, kernel PCA, preprocessing benefits
-  
-- **Lesson 6**: Manifold Learning (t-SNE, UMAP)
-  - `6a_manifold_learning_theory.ipynb` — t-SNE derivation, UMAP, visualization artifacts
-  - `6b_manifold_learning_practical.ipynb` — Perplexity tuning, UMAP parameters, artifact detection
 
-#### Specialized Methods
-- **Lesson 7**: Anomaly Detection (Isolation Forest, LOF, one-class SVM)
-  - `7a_anomaly_detection_theory.ipynb` — Isolation-based, density-based, and boundary-based paradigms from scratch
-  - `7b_anomaly_detection_practical.ipynb` — Fraud-style imbalance, PyTorch autoencoder, PR-AUC comparison
+- **Lesson 5**: Principal Component Analysis
+  - [`5a_pca_theory.ipynb`](notebooks/5a_pca_theory.ipynb) — eigendecomposition, the SVD and numerical stability [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/5a_pca_theory.ipynb)
+  - [`5b_pca_practical.ipynb`](notebooks/5b_pca_practical.ipynb) — eigenfaces, kernel PCA and PCA as preprocessing [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/5b_pca_practical.ipynb)
+- **Lesson 6**: Manifold Learning: t-SNE and UMAP
+  - [`6a_manifold_learning_theory.ipynb`](notebooks/6a_manifold_learning_theory.ipynb) — t-SNE derived, UMAP, and the artefacts both can create [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/6a_manifold_learning_theory.ipynb)
+  - [`6b_manifold_learning_practical.ipynb`](notebooks/6b_manifold_learning_practical.ipynb) — perplexity and UMAP parameter tuning, and detecting artefacts [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/6b_manifold_learning_practical.ipynb)
 
-- **Lesson 8**: Matrix Factorization & Recommender Systems
-  - `8a_recommender_systems_theory.ipynb` — Collaborative filtering and matrix factorization
-  - `8b_recommender_systems_practical.ipynb` — Surprise, Implicit, and PyTorch implementations
+#### Specialised Methods
 
-- **Lesson 9**: Association Rule Learning (Apriori, market-basket mining)
-  - `9a_association_rules_theory.ipynb` — Support/confidence/lift, Apriori downward closure, from-scratch mining
-  - `9b_association_rules_practical.ipynb` — mlxtend Apriori vs FP-Growth, threshold trade-offs, ranked rules
+- **Lesson 7**: Anomaly Detection
+  - [`7a_anomaly_detection_theory.ipynb`](notebooks/7a_anomaly_detection_theory.ipynb) — isolation-based, density-based and boundary-based methods from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/7a_anomaly_detection_theory.ipynb)
+  - [`7b_anomaly_detection_practical.ipynb`](notebooks/7b_anomaly_detection_practical.ipynb) — fraud-style class imbalance, a PyTorch autoencoder and a PR-AUC comparison [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/7b_anomaly_detection_practical.ipynb)
+- **Lesson 8**: Matrix Factorisation and Recommender Systems
+  - [`8a_recommender_systems_theory.ipynb`](notebooks/8a_recommender_systems_theory.ipynb) — collaborative filtering and matrix factorisation [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/8a_recommender_systems_theory.ipynb)
+  - [`8b_recommender_systems_practical.ipynb`](notebooks/8b_recommender_systems_practical.ipynb) — Surprise, Implicit and PyTorch implementations [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/8b_recommender_systems_practical.ipynb)
+- **Lesson 9**: Association Rule Learning
+  - [`9a_association_rules_theory.ipynb`](notebooks/9a_association_rules_theory.ipynb) — support, confidence and lift, and Apriori from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/9a_association_rules_theory.ipynb)
+  - [`9b_association_rules_practical.ipynb`](notebooks/9b_association_rules_practical.ipynb) — mlxtend Apriori against FP-Growth, threshold trade-offs and ranked rules [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/9b_association_rules_practical.ipynb)
 
 #### Advanced Topics
-- **Lesson 10**: Topic Modeling (LDA, Gibbs sampling)
-  - `10a_topic_modeling_theory.ipynb` — LDA generative model, collapsed Gibbs sampling from scratch
-  - `10b_topic_modeling_practical.ipynb` — Gensim, scikit-learn, coherence-based K selection, pyLDAvis
 
-- **Lesson 11**: Self-Organizing Maps (competitive learning)
-  - `11a_self_organizing_maps_theory.ipynb` — BMU, neighborhood decay, grid unfolding from scratch
-  - `11b_self_organizing_maps_practical.ipynb` — MiniSom, U-Matrix, component planes on the Wine dataset
-
-- **Lesson 12**: Deep Unsupervised Learning (Autoencoders, VAE)
-  - `12a_deep_unsupervised_theory.ipynb` — Autoencoder-PCA connection, VAE, ELBO, reparameterization trick
-  - `12b_deep_unsupervised_practical.ipynb` — Convolutional and denoising autoencoders in PyTorch
+- **Lesson 10**: Topic Modelling
+  - [`10a_topic_modeling_theory.ipynb`](notebooks/10a_topic_modeling_theory.ipynb) — the LDA generative model and collapsed Gibbs sampling from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/10a_topic_modeling_theory.ipynb)
+  - [`10b_topic_modeling_practical.ipynb`](notebooks/10b_topic_modeling_practical.ipynb) — Gensim and scikit-learn, coherence-based choice of K, and pyLDAvis [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/10b_topic_modeling_practical.ipynb)
+- **Lesson 11**: Self-Organising Maps
+  - [`11a_self_organizing_maps_theory.ipynb`](notebooks/11a_self_organizing_maps_theory.ipynb) — best-matching units, neighbourhood decay and grid unfolding from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/11a_self_organizing_maps_theory.ipynb)
+  - [`11b_self_organizing_maps_practical.ipynb`](notebooks/11b_self_organizing_maps_practical.ipynb) — MiniSom, the U-Matrix and component planes on the Wine dataset [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/11b_self_organizing_maps_practical.ipynb)
+- **Lesson 12**: Deep Unsupervised Learning
+  - [`12a_deep_unsupervised_theory.ipynb`](notebooks/12a_deep_unsupervised_theory.ipynb) — the autoencoder-PCA connection, the VAE, the ELBO and the reparameterisation trick [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/12a_deep_unsupervised_theory.ipynb)
+  - [`12b_deep_unsupervised_practical.ipynb`](notebooks/12b_deep_unsupervised_practical.ipynb) — convolutional and denoising autoencoders in PyTorch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/12b_deep_unsupervised_practical.ipynb)
 
 #### Professional Practice
+
 - **Lesson 13**: Clustering Comparison Framework
-  - `13_clustering_comparison.ipynb` — Runtime/quality benchmarks across K-Means, Hierarchical, DBSCAN, GMM; K/eps sensitivity sweeps
+  - [`13_clustering_comparison.ipynb`](notebooks/13_clustering_comparison.ipynb) — runtime and quality benchmarks across K-Means, hierarchical, DBSCAN and GMM, with sensitivity sweeps [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/13_clustering_comparison.ipynb)
 - **Lesson 14**: Dimensionality Reduction Pipeline
-  - `14_dimensionality_reduction_pipeline.ipynb` — Feature selection vs PCA extraction, leakage-safe pipelines
-- **Lesson 15**: Unsupervised Preprocessing (scaling, encoding, metrics)
-  - `15_unsupervised_preprocessing.ipynb` — Scaling, categorical encoding, distance metrics, imputation, each measured by downstream clustering quality
-- **Lesson 16**: Semi-Supervised Learning (label propagation, co-training)
-  - `16_semi_supervised_learning.ipynb` — Label spreading, self-training, from-scratch co-training with the naive-collapse vs balanced-fix contrast
+  - [`14_dimensionality_reduction_pipeline.ipynb`](notebooks/14_dimensionality_reduction_pipeline.ipynb) — feature selection against PCA extraction, in leakage-safe pipelines [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/14_dimensionality_reduction_pipeline.ipynb)
+- **Lesson 15**: Unsupervised Preprocessing
+  - [`15_unsupervised_preprocessing.ipynb`](notebooks/15_unsupervised_preprocessing.ipynb) — scaling, encoding, distance metrics and imputation, each measured by downstream clustering quality [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/15_unsupervised_preprocessing.ipynb)
+- **Lesson 16**: Semi-Supervised Learning
+  - [`16_semi_supervised_learning.ipynb`](notebooks/16_semi_supervised_learning.ipynb) — label spreading, self-training and co-training from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/16_semi_supervised_learning.ipynb)
 
-## Part II — Advanced Topics
+#### Part II: Density Estimation and Generative Models
 
-**Status:** 12 of 12 lessons complete (23 notebooks)
-
-Lessons 17-28 extend the course into density estimation, flows, matrix factorization, general EM and variational inference, Dirichlet-process clustering, HMMs, time-series clustering, embeddings, contrastive learning, clustering stability, and a capstone. Built and independently reviewed autonomously (fresh-context opus review per lesson, agent-approved before closing) — see `CONSCIOUSNESS/artifacts/ul-part-ii-syllabus.md` for the per-lesson plan and review history.
-
-#### Density Estimation and Modern Generative Models
 - **Lesson 17**: Spectral Clustering and Graph Laplacians
-  - `17a_spectral_clustering_theory.ipynb` — Graph Laplacians, eigengap heuristic, normalized cuts from scratch
-  - `17b_spectral_clustering_practical.ipynb` — Non-convex cluster shapes, affinity construction, scalability
+  - [`17a_spectral_clustering_theory.ipynb`](notebooks/17a_spectral_clustering_theory.ipynb) — graph Laplacians, the eigengap heuristic and normalised cuts from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/17a_spectral_clustering_theory.ipynb)
+  - [`17b_spectral_clustering_practical.ipynb`](notebooks/17b_spectral_clustering_practical.ipynb) — non-convex cluster shapes, affinity construction and scalability [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/17b_spectral_clustering_practical.ipynb)
+- **Lesson 18**: Kernel Density Estimation
+  - [`18a_kernel_density_estimation_theory.ipynb`](notebooks/18a_kernel_density_estimation_theory.ipynb) — KDE derived, bandwidth selection and the curse of dimensionality [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/18a_kernel_density_estimation_theory.ipynb)
+  - [`18b_kernel_density_estimation_practical.ipynb`](notebooks/18b_kernel_density_estimation_practical.ipynb) — bandwidth cross-validation, multivariate KDE and anomaly scoring [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/18b_kernel_density_estimation_practical.ipynb)
+- **Lesson 19**: Normalising Flows
+  - [`19a_normalizing_flows_theory.ipynb`](notebooks/19a_normalizing_flows_theory.ipynb) — the change of variables, coupling layers and exact-likelihood flows from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/19a_normalizing_flows_theory.ipynb)
+  - [`19b_normalizing_flows_practical.ipynb`](notebooks/19b_normalizing_flows_practical.ipynb) — flow-based density estimation trained and evaluated on real data [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/19b_normalizing_flows_practical.ipynb)
 
-- **Lesson 18**: Kernel Density Estimation and Nonparametric Density
-  - `18a_kernel_density_estimation_theory.ipynb` — KDE derivation, bandwidth selection, curse of dimensionality
-  - `18b_kernel_density_estimation_practical.ipynb` — Bandwidth cross-validation, multivariate KDE, anomaly scoring
+#### Part II: Factorisation and Inference
 
-- **Lesson 19**: Normalizing Flows and Modern Density Models
-  - `19a_normalizing_flows_theory.ipynb` — Change-of-variables, coupling layers, exact-likelihood flows from scratch
-  - `19b_normalizing_flows_practical.ipynb` — Flow-based density estimation trained and evaluated on real data
-
-#### Factorization and Inference
-- **Lesson 20**: Matrix Factorisation Family: NMF and ICA
-  - `20a_nmf_ica_theory.ipynb` — Non-negative matrix factorization and independent component analysis derivations
-  - `20b_nmf_ica_practical.ipynb` — Topic extraction via NMF, blind source separation via ICA
-
+- **Lesson 20**: Matrix Factorisation: NMF and ICA
+  - [`20a_nmf_ica_theory.ipynb`](notebooks/20a_nmf_ica_theory.ipynb) — non-negative matrix factorisation and independent component analysis, derived [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/20a_nmf_ica_theory.ipynb)
+  - [`20b_nmf_ica_practical.ipynb`](notebooks/20b_nmf_ica_practical.ipynb) — topic extraction with NMF and blind source separation with ICA [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/20b_nmf_ica_practical.ipynb)
 - **Lesson 21**: Expectation-Maximisation and Variational Inference
-  - `21a_em_variational_inference_theory.ipynb` — General EM derivation, ELBO, mean-field variational inference
-  - `21b_em_variational_inference_practical.ipynb` — EM for mixture models and variational inference in practice
+  - [`21a_em_variational_inference_theory.ipynb`](notebooks/21a_em_variational_inference_theory.ipynb) — general EM, the ELBO and mean-field variational inference [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/21a_em_variational_inference_theory.ipynb)
+  - [`21b_em_variational_inference_practical.ipynb`](notebooks/21b_em_variational_inference_practical.ipynb) — EM for mixture models and variational inference in practice [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/21b_em_variational_inference_practical.ipynb)
+- **Lesson 22**: Dirichlet Process Mixtures
+  - [`22a_dirichlet_process_mixtures_theory.ipynb`](notebooks/22a_dirichlet_process_mixtures_theory.ipynb) — stick-breaking, the Chinese restaurant process and infinite mixtures from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/22a_dirichlet_process_mixtures_theory.ipynb)
+  - [`22b_dirichlet_process_mixtures_practical.ipynb`](notebooks/22b_dirichlet_process_mixtures_practical.ipynb) — clustering without choosing K in advance [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/22b_dirichlet_process_mixtures_practical.ipynb)
 
-- **Lesson 22**: Bayesian Nonparametric Clustering: Dirichlet Process Mixtures
-  - `22a_dirichlet_process_mixtures_theory.ipynb` — Stick-breaking construction, Chinese restaurant process, infinite mixtures from scratch
-  - `22b_dirichlet_process_mixtures_practical.ipynb` — DP-mixture clustering without choosing K in advance
+#### Part II: Sequences and Representations
 
-#### Sequences and Representations
-- **Lesson 23**: Hidden Markov Models and Unsupervised Sequence Learning
-  - `23a_hidden_markov_models_theory.ipynb` — Forward-backward, Viterbi, Baum-Welch EM from scratch
-  - `23b_hidden_markov_models_practical.ipynb` — hmmlearn regime detection on simulated sequences
-
+- **Lesson 23**: Hidden Markov Models
+  - [`23a_hidden_markov_models_theory.ipynb`](notebooks/23a_hidden_markov_models_theory.ipynb) — forward-backward, Viterbi and Baum-Welch from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/23a_hidden_markov_models_theory.ipynb)
+  - [`23b_hidden_markov_models_practical.ipynb`](notebooks/23b_hidden_markov_models_practical.ipynb) — regime detection with hmmlearn [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/23b_hidden_markov_models_practical.ipynb)
 - **Lesson 24**: Time-Series Clustering and Dynamic Time Warping
-  - `24a_time_series_clustering_theory.ipynb` — DTW derivation, time-series K-means from scratch
-  - `24b_time_series_clustering_practical.ipynb` — tslearn DTW-based clustering on real time-series data
+  - [`24a_time_series_clustering_theory.ipynb`](notebooks/24a_time_series_clustering_theory.ipynb) — DTW derived, and time-series K-means from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/24a_time_series_clustering_theory.ipynb)
+  - [`24b_time_series_clustering_practical.ipynb`](notebooks/24b_time_series_clustering_practical.ipynb) — DTW-based clustering with tslearn on real time series [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/24b_time_series_clustering_practical.ipynb)
+- **Lesson 25**: Word Embeddings
+  - [`25a_word_embeddings_theory.ipynb`](notebooks/25a_word_embeddings_theory.ipynb) — the skip-gram objective and negative sampling, derived from scratch [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/25a_word_embeddings_theory.ipynb)
+  - [`25b_word_embeddings_practical.ipynb`](notebooks/25b_word_embeddings_practical.ipynb) — gensim word2vec, analogies and similarity in embedding space [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/25b_word_embeddings_practical.ipynb)
+- **Lesson 26**: Contrastive Representation Learning
+  - [`26a_contrastive_learning_theory.ipynb`](notebooks/26a_contrastive_learning_theory.ipynb) — InfoNCE / NT-Xent derived, and representational collapse [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/26a_contrastive_learning_theory.ipynb)
+  - [`26b_contrastive_learning_practical.ipynb`](notebooks/26b_contrastive_learning_practical.ipynb) — SimCLR-style pretraining against PCA and autoencoder features, with a linear probe [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/26b_contrastive_learning_practical.ipynb)
 
-- **Lesson 25**: Word and Item Embeddings: word2vec and Skip-Gram with Negative Sampling
-  - `25a_word_embeddings_theory.ipynb` — Skip-gram objective and negative-sampling derivation from scratch
-  - `25b_word_embeddings_practical.ipynb` — gensim word2vec, embedding-space analogies and similarity
+#### Part II: Validation and Synthesis
 
-- **Lesson 26**: Self-Supervised Contrastive Representation Learning
-  - `26a_contrastive_learning_theory.ipynb` — InfoNCE/NT-Xent derivation, collapse and its avoidance from scratch
-  - `26b_contrastive_learning_practical.ipynb` — SimCLR-style contrastive pretraining measured against PCA/autoencoder features with a linear probe
-
-#### Validation and Synthesis
-- **Lesson 27**: Clustering Stability, Consensus and Choosing K Honestly
-  - `27a_clustering_stability_theory.ipynb` — Gap statistic, resampling stability, prediction strength, consensus clustering
-  - `27b_clustering_stability_practical.ipynb` — Multi-algorithm consensus ensembles with per-point uncertainty flagging
-
+- **Lesson 27**: Clustering Stability and Choosing K
+  - [`27a_clustering_stability_theory.ipynb`](notebooks/27a_clustering_stability_theory.ipynb) — the gap statistic, resampling stability, prediction strength and consensus clustering [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/27a_clustering_stability_theory.ipynb)
+  - [`27b_clustering_stability_practical.ipynb`](notebooks/27b_clustering_stability_practical.ipynb) — multi-algorithm consensus with per-point uncertainty [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/27b_clustering_stability_practical.ipynb)
 - **Lesson 28**: Capstone: An End-to-End Unsupervised Analysis
-  - `28_capstone_pipeline.ipynb` — A complete pipeline: leakage-safe preprocessing, evidence-based representation choice, honest gap-statistic/stability K-selection, dual anomaly detection, and a written stakeholder report
+  - [`28_capstone_pipeline.ipynb`](notebooks/28_capstone_pipeline.ipynb) — preprocessing, representation choice, K selection, anomaly detection and a written report, end to end [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/powell-clark/unsupervised-learning/blob/main/notebooks/28_capstone_pipeline.ipynb)
 
-## Technical Stack
+## Technical stack
 
-- **Core**: NumPy, Pandas, Scikit-learn
-- **Deep Learning**: PyTorch
-- **Visualization**: Matplotlib, Seaborn, Plotly
-- **Specialized**:
-  - Gensim (topic modeling, word2vec)
-  - mlxtend (association rules)
-  - MiniSom (self-organizing maps)
-  - UMAP-learn (dimensionality reduction)
-  - pyLDAvis (topic model visualization)
-  - hmmlearn (hidden Markov models)
-  - tslearn (time-series clustering, dynamic time warping)
+- **Core**: NumPy, pandas, scikit-learn
+- **Deep learning**: PyTorch
+- **Visualisation**: Matplotlib, Seaborn, Plotly
+- **Specialist libraries**: Gensim, mlxtend, MiniSom, UMAP, pyLDAvis, hmmlearn, tslearn
 
-## Datasets
-
-Datasets included and used:
-- Iris (unlabeled for clustering examples)
-- Synthetic data (demonstrations)
-- Customer segmentation (RFM analysis)
-- MNIST samples (dimensionality reduction)
-- Face images (eigenfaces)
-- Gene expression data (advanced examples)
-
-Additional datasets will be integrated for later lessons.
-
-## Getting Started
-
-### Prerequisites
-No formal prerequisites, but familiarity with Python, NumPy, and basic machine learning concepts is helpful.
-
-### Installation
+## Local use
 
 ```bash
 git clone https://github.com/powell-clark/unsupervised-learning.git
 cd unsupervised-learning
-pip install -r requirements.txt
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/jupyter notebook notebooks/
 ```
 
-### Running Notebooks
+## How this repository is built
 
-All notebooks are Google Colab compatible. Click the "Open in Colab" badge in any notebook to run it immediately in your browser (no local setup required).
-
-## Learning Path
-
-1. **Start with Foundation** (Lesson 0): Core clustering concepts and evaluation
-2. **Master Core Algorithms** (Lessons 1-4): Essential clustering methods (K-Means, Hierarchical, DBSCAN, GMM)
-3. **Learn Dimensionality Reduction** (Lessons 5-6): PCA and manifold learning for high-dimensional data
-4. **Explore Specialized Methods** (Lessons 7-9): Anomaly detection, matrix factorization, association rules
-5. **Advance to Modern Techniques** (Lessons 10-12): Topic modeling, self-organizing maps, deep unsupervised learning
-6. **Apply Professional Skills** (Lessons 13-16): Production-ready pipelines and practical frameworks, synthesizing every prior lesson into decision frameworks for real projects
-7. **Extend into Part II** (Lessons 17-28): Density estimation and modern generative models, the factorization/inference family beyond PCA and GMM, sequences and representation learning, and a capstone that combines every tool from both parts on one end-to-end analysis
-
-## Architecture
-
-This curriculum uses the consciousness system for task management and feature-driven development:
-- **PGPS**: Roadmap tracking with feature cards and task specifications
-- **Review System**: Verdicts recorded for all completed work
-- **Autonomous Loop**: Continuous work cycle with status tracking
-
-## Related Repositories
-
-This is part of a comprehensive machine learning curriculum:
-- **[supervised-learning](https://github.com/powell-clark/supervised-learning)** — Foundational supervised methods (reference)
-- **unsupervised-learning** — This repository (100% complete, Parts I and II)
-- **[reinforcement-learning](https://github.com/powell-clark/reinforcement-learning)** — Sequential decision-making (planned)
-
-## License
-
-Apache License 2.0 — See LICENSE.md file for details
+The curriculum was developed with Claude Code: lessons were drafted by autonomous sessions against
+a written syllabus, executed top to bottom and reviewed before they were accepted. The agents'
+working state is kept out of this repository.
 
 ## Contributing
 
-Contributions welcome! Please read CONTRIBUTING.md for guidelines.
+Spotted a typo, an unclear explanation or a bug? Open an issue or a pull request.
 
-## Contact
+## Licence
 
-Questions or suggestions? Open an issue on GitHub or reach out!
-
----
-
-**Status:** 29 of 29 lessons complete (54 notebooks)
-**Last Updated**: 2026-09-05
-**Author**: Powell-Clark Limited
+Licensed under the Apache License, Version 2.0; see [LICENSE.md](LICENSE.md).
