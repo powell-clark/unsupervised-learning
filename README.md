@@ -1,5 +1,9 @@
 # Unsupervised Machine Learning
 
+## Status
+
+These lessons are a living textbook in progress. They were drafted with AI assistance and are being worked through, checked and rewritten by the author as he studies them. An independent academic review on 2026-10-22 produced the findings in [ERRATA.md](ERRATA.md); the open ones are not yet fixed. Treat every lesson as a draft until its errata are closed.
+
 A university-grade curriculum for unsupervised machine learning — clustering, dimensionality
 reduction, anomaly detection, density estimation, latent-variable models and representation
 learning. Every method is derived from first principles, implemented from scratch in NumPy, then
